@@ -1,0 +1,22 @@
+[0.029s] Invoking command in '/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/build/path2pos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/build/path2pos -- -j4 -l4
+[0.137s] [100%] Built target pos_writer
+[0.158s] Invoked command in '/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/build/path2pos' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/build/path2pos -- -j4 -l4
+[0.225s] Invoking command in '/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/build/path2pos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/build/path2pos
+[0.239s] -- Install configuration: ""
+[0.239s] -- Up-to-date: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/lib/path2pos/pos_writer
+[0.240s] -- Up-to-date: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/share/ament_index/resource_index/package_run_dependencies/path2pos
+[0.240s] -- Up-to-date: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/share/ament_index/resource_index/parent_prefix_path/path2pos
+[0.240s] -- Up-to-date: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/share/path2pos/environment/ament_prefix_path.sh
+[0.241s] -- Up-to-date: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/share/path2pos/environment/ament_prefix_path.dsv
+[0.241s] -- Up-to-date: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/share/path2pos/environment/path.sh
+[0.241s] -- Up-to-date: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/share/path2pos/environment/path.dsv
+[0.242s] -- Up-to-date: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/share/path2pos/local_setup.bash
+[0.242s] -- Up-to-date: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/share/path2pos/local_setup.sh
+[0.242s] -- Up-to-date: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/share/path2pos/local_setup.zsh
+[0.242s] -- Up-to-date: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/share/path2pos/local_setup.dsv
+[0.242s] -- Installing: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/share/path2pos/package.dsv
+[0.243s] -- Up-to-date: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/share/ament_index/resource_index/packages/path2pos
+[0.243s] -- Up-to-date: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/share/path2pos/cmake/path2posConfig.cmake
+[0.243s] -- Up-to-date: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/share/path2pos/cmake/path2posConfig-version.cmake
+[0.244s] -- Up-to-date: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/share/path2pos/package.xml
+[0.246s] Invoked command in '/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/build/path2pos' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/build/path2pos

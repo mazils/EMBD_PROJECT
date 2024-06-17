@@ -1,0 +1,106 @@
+[4.390s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[4.392s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff8ed72520>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff8ed72520>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff8ec14e80>)
+[5.923s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[5.925s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[5.925s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[5.925s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[5.926s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[5.926s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[5.927s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mp4d/fpga_interface/fpga_interface'
+[5.927s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[5.928s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[5.929s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[5.929s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[5.929s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[5.930s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[5.930s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[5.930s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[5.931s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[6.061s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'fpga_interface'
+[6.062s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[6.062s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[6.063s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[6.063s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[6.063s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[6.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[6.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[6.222s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/mp4d/fpga_interface/fpga_interface/install
+[6.232s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 258 installed packages in /opt/ros/foxy
+[6.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[6.919s] Level 5:colcon.colcon_core.verb:set package 'fpga_interface' build argument 'cmake_args' from command line to 'None'
+[6.920s] Level 5:colcon.colcon_core.verb:set package 'fpga_interface' build argument 'cmake_target' from command line to 'None'
+[6.920s] Level 5:colcon.colcon_core.verb:set package 'fpga_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.920s] Level 5:colcon.colcon_core.verb:set package 'fpga_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[6.921s] Level 5:colcon.colcon_core.verb:set package 'fpga_interface' build argument 'cmake_clean_first' from command line to 'False'
+[6.921s] Level 5:colcon.colcon_core.verb:set package 'fpga_interface' build argument 'cmake_force_configure' from command line to 'False'
+[6.921s] Level 5:colcon.colcon_core.verb:set package 'fpga_interface' build argument 'ament_cmake_args' from command line to 'None'
+[6.921s] Level 5:colcon.colcon_core.verb:set package 'fpga_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[6.921s] Level 5:colcon.colcon_core.verb:set package 'fpga_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.922s] DEBUG:colcon.colcon_core.verb:Building package 'fpga_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mp4d/fpga_interface/fpga_interface/build/fpga_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mp4d/fpga_interface/fpga_interface/install/fpga_interface', 'merge_install': False, 'path': '/home/mp4d/fpga_interface/fpga_interface', 'symlink_install': False, 'test_result_base': None}
+[6.923s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[6.930s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[6.932s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mp4d/fpga_interface/fpga_interface' with build type 'ament_cmake'
+[6.933s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mp4d/fpga_interface/fpga_interface'
+[6.949s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[6.951s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.952s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.026s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mp4d/fpga_interface/fpga_interface/build/fpga_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mp4d/fpga_interface/fpga_interface/build/fpga_interface -- -j4 -l4
+[60.819s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mp4d/fpga_interface/fpga_interface/build/fpga_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mp4d/fpga_interface/fpga_interface/build/fpga_interface -- -j4 -l4
+[61.035s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mp4d/fpga_interface/fpga_interface/build/fpga_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/mp4d/fpga_interface/fpga_interface/build/fpga_interface
+[61.125s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fpga_interface)
+[61.130s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mp4d/fpga_interface/fpga_interface/build/fpga_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/mp4d/fpga_interface/fpga_interface/build/fpga_interface
+[61.145s] Level 1:colcon.colcon_core.environment:checking '/home/mp4d/fpga_interface/fpga_interface/install/fpga_interface' for CMake module files
+[61.149s] Level 1:colcon.colcon_core.environment:checking '/home/mp4d/fpga_interface/fpga_interface/install/fpga_interface' for CMake config files
+[61.152s] Level 1:colcon.colcon_core.shell:create_environment_hook('fpga_interface', 'cmake_prefix_path')
+[61.154s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mp4d/fpga_interface/fpga_interface/install/fpga_interface/share/fpga_interface/hook/cmake_prefix_path.ps1'
+[61.160s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mp4d/fpga_interface/fpga_interface/install/fpga_interface/share/fpga_interface/hook/cmake_prefix_path.dsv'
+[61.163s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mp4d/fpga_interface/fpga_interface/install/fpga_interface/share/fpga_interface/hook/cmake_prefix_path.sh'
+[61.172s] Level 1:colcon.colcon_core.environment:checking '/home/mp4d/fpga_interface/fpga_interface/install/fpga_interface/lib'
+[61.173s] Level 1:colcon.colcon_core.environment:checking '/home/mp4d/fpga_interface/fpga_interface/install/fpga_interface/bin'
+[61.174s] Level 1:colcon.colcon_core.environment:checking '/home/mp4d/fpga_interface/fpga_interface/install/fpga_interface/lib/pkgconfig/fpga_interface.pc'
+[61.176s] Level 1:colcon.colcon_core.environment:checking '/home/mp4d/fpga_interface/fpga_interface/install/fpga_interface/lib/python3.8/site-packages'
+[61.177s] Level 1:colcon.colcon_core.environment:checking '/home/mp4d/fpga_interface/fpga_interface/install/fpga_interface/bin'
+[61.180s] INFO:colcon.colcon_core.shell:Creating package script '/home/mp4d/fpga_interface/fpga_interface/install/fpga_interface/share/fpga_interface/package.ps1'
+[61.188s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mp4d/fpga_interface/fpga_interface/install/fpga_interface/share/fpga_interface/package.dsv'
+[61.193s] INFO:colcon.colcon_core.shell:Creating package script '/home/mp4d/fpga_interface/fpga_interface/install/fpga_interface/share/fpga_interface/package.sh'
+[61.199s] INFO:colcon.colcon_core.shell:Creating package script '/home/mp4d/fpga_interface/fpga_interface/install/fpga_interface/share/fpga_interface/package.bash'
+[61.205s] INFO:colcon.colcon_core.shell:Creating package script '/home/mp4d/fpga_interface/fpga_interface/install/fpga_interface/share/fpga_interface/package.zsh'
+[61.211s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mp4d/fpga_interface/fpga_interface/install/fpga_interface/share/colcon-core/packages/fpga_interface)
+[61.347s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fpga_interface)
+[61.350s] Level 1:colcon.colcon_core.environment:checking '/home/mp4d/fpga_interface/fpga_interface/install/fpga_interface' for CMake module files
+[61.354s] Level 1:colcon.colcon_core.environment:checking '/home/mp4d/fpga_interface/fpga_interface/install/fpga_interface' for CMake config files
+[61.356s] Level 1:colcon.colcon_core.shell:create_environment_hook('fpga_interface', 'cmake_prefix_path')
+[61.359s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mp4d/fpga_interface/fpga_interface/install/fpga_interface/share/fpga_interface/hook/cmake_prefix_path.ps1'
+[61.363s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mp4d/fpga_interface/fpga_interface/install/fpga_interface/share/fpga_interface/hook/cmake_prefix_path.dsv'
+[61.366s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mp4d/fpga_interface/fpga_interface/install/fpga_interface/share/fpga_interface/hook/cmake_prefix_path.sh'
+[61.370s] Level 1:colcon.colcon_core.environment:checking '/home/mp4d/fpga_interface/fpga_interface/install/fpga_interface/lib'
+[61.371s] Level 1:colcon.colcon_core.environment:checking '/home/mp4d/fpga_interface/fpga_interface/install/fpga_interface/bin'
+[61.371s] Level 1:colcon.colcon_core.environment:checking '/home/mp4d/fpga_interface/fpga_interface/install/fpga_interface/lib/pkgconfig/fpga_interface.pc'
+[61.373s] Level 1:colcon.colcon_core.environment:checking '/home/mp4d/fpga_interface/fpga_interface/install/fpga_interface/lib/python3.8/site-packages'
+[61.374s] Level 1:colcon.colcon_core.environment:checking '/home/mp4d/fpga_interface/fpga_interface/install/fpga_interface/bin'
+[61.377s] INFO:colcon.colcon_core.shell:Creating package script '/home/mp4d/fpga_interface/fpga_interface/install/fpga_interface/share/fpga_interface/package.ps1'
+[61.383s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mp4d/fpga_interface/fpga_interface/install/fpga_interface/share/fpga_interface/package.dsv'
+[61.388s] INFO:colcon.colcon_core.shell:Creating package script '/home/mp4d/fpga_interface/fpga_interface/install/fpga_interface/share/fpga_interface/package.sh'
+[61.393s] INFO:colcon.colcon_core.shell:Creating package script '/home/mp4d/fpga_interface/fpga_interface/install/fpga_interface/share/fpga_interface/package.bash'
+[61.397s] INFO:colcon.colcon_core.shell:Creating package script '/home/mp4d/fpga_interface/fpga_interface/install/fpga_interface/share/fpga_interface/package.zsh'
+[61.400s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mp4d/fpga_interface/fpga_interface/install/fpga_interface/share/colcon-core/packages/fpga_interface)
+[61.403s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[61.404s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[61.405s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[61.406s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[61.447s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[61.448s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[61.449s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[61.449s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[61.454s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[61.455s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[61.457s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mp4d/fpga_interface/fpga_interface/install/local_setup.ps1'
+[61.465s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mp4d/fpga_interface/fpga_interface/install/_local_setup_util_ps1.py'
+[61.478s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mp4d/fpga_interface/fpga_interface/install/setup.ps1'
+[61.488s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mp4d/fpga_interface/fpga_interface/install/local_setup.sh'
+[61.493s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mp4d/fpga_interface/fpga_interface/install/_local_setup_util_sh.py'
+[61.498s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mp4d/fpga_interface/fpga_interface/install/setup.sh'
+[61.508s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mp4d/fpga_interface/fpga_interface/install/local_setup.bash'
+[61.512s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mp4d/fpga_interface/fpga_interface/install/setup.bash'
+[61.521s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mp4d/fpga_interface/fpga_interface/install/local_setup.zsh'
+[61.525s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mp4d/fpga_interface/fpga_interface/install/setup.zsh'

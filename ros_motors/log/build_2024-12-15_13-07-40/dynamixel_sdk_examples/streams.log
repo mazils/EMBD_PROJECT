@@ -1,0 +1,57 @@
+[0.126s] Invoking command in '/home/mp4d/ros_motors/build/dynamixel_sdk_examples': AMENT_PREFIX_PATH=/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces:/home/mp4d/ros_motors/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces:/home/mp4d/ros_motors/install/dynamixel_sdk:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk_examples:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk_custom_interfaces:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk:/opt/ros/foxy:/home/mp4d/ros_camera/install/usb_cam:/home/mp4d/ros_camera/install/cam_sub LD_LIBRARY_PATH=/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/lib:/home/mp4d/ros_motors/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/mp4d/ros_motors/DynamixelSDK/dynamixel_sdk_examples -DCMAKE_INSTALL_PREFIX=/home/mp4d/ros_motors/install/dynamixel_sdk_examples
+[0.681s] -- The C compiler identification is GNU 9.4.0
+[1.226s] -- The CXX compiler identification is GNU 9.4.0
+[1.260s] -- Check for working C compiler: /usr/bin/cc
+[1.862s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.868s] -- Detecting C compiler ABI info
+[2.474s] -- Detecting C compiler ABI info - done
+[2.567s] -- Detecting C compile features
+[2.569s] -- Detecting C compile features - done
+[2.591s] -- Check for working CXX compiler: /usr/bin/c++
+[3.288s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.311s] -- Detecting CXX compiler ABI info
+[4.025s] -- Detecting CXX compiler ABI info - done
+[4.119s] -- Detecting CXX compile features
+[4.122s] -- Detecting CXX compile features - done
+[4.136s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[4.368s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[4.369s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.118s] -- Found dynamixel_sdk: 3.7.40 (/home/mp4d/ros_motors/install/dynamixel_sdk/share/dynamixel_sdk/cmake)
+[6.130s] -- Found dynamixel_sdk_custom_interfaces: 3.7.40 (/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake)
+[6.304s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.348s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[6.843s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[7.032s] -- Found FastRTPS: /opt/ros/foxy/include  
+[7.553s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.936s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[8.264s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[8.278s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.285s] -- Looking for pthread.h
+[8.969s] -- Looking for pthread.h - found
+[8.971s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.607s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[9.609s] -- Looking for pthread_create in pthreads
+[10.041s] -- Looking for pthread_create in pthreads - not found
+[10.043s] -- Looking for pthread_create in pthread
+[10.688s] -- Looking for pthread_create in pthread - found
+[10.695s] -- Found Threads: TRUE  
+[11.968s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[12.730s] -- Added test 'copyright' to check source files copyright and LICENSE
+[12.739s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[12.743s] -- Configured cppcheck include dirs: /home/mp4d/ros_motors/DynamixelSDK/dynamixel_sdk_examples/include
+[12.745s] -- Configured cppcheck exclude dirs and/or files: 
+[12.747s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[12.749s] -- Configured cpplint exclude dirs and/or files: 
+[12.755s] -- Added test 'lint_cmake' to check CMake code style
+[12.766s] -- Added test 'uncrustify' to check C / C++ code style
+[12.768s] -- Configured uncrustify additional arguments: 
+[12.770s] -- Added test 'xmllint' to check XML markup files
+[12.789s] -- Configuring done
+[12.856s] -- Generating done
+[12.869s] -- Build files have been written to: /home/mp4d/ros_motors/build/dynamixel_sdk_examples
+[12.975s] Invoked command in '/home/mp4d/ros_motors/build/dynamixel_sdk_examples' returned '0': AMENT_PREFIX_PATH=/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces:/home/mp4d/ros_motors/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces:/home/mp4d/ros_motors/install/dynamixel_sdk:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk_examples:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk_custom_interfaces:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk:/opt/ros/foxy:/home/mp4d/ros_camera/install/usb_cam:/home/mp4d/ros_camera/install/cam_sub LD_LIBRARY_PATH=/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/lib:/home/mp4d/ros_motors/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/mp4d/ros_motors/DynamixelSDK/dynamixel_sdk_examples -DCMAKE_INSTALL_PREFIX=/home/mp4d/ros_motors/install/dynamixel_sdk_examples
+[13.001s] Invoking command in '/home/mp4d/ros_motors/build/dynamixel_sdk_examples': AMENT_PREFIX_PATH=/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces:/home/mp4d/ros_motors/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces:/home/mp4d/ros_motors/install/dynamixel_sdk:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk_examples:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk_custom_interfaces:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk:/opt/ros/foxy:/home/mp4d/ros_camera/install/usb_cam:/home/mp4d/ros_camera/install/cam_sub LD_LIBRARY_PATH=/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/lib:/home/mp4d/ros_motors/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mp4d/ros_motors/build/dynamixel_sdk_examples -- -j4 -l4
+[13.304s] [35m[1mScanning dependencies of target read_write_node[0m
+[13.572s] [ 50%] [32mBuilding CXX object CMakeFiles/read_write_node.dir/src/read_write_node.cpp.o[0m
+[61.564s] [100%] [32m[1mLinking CXX executable read_write_node[0m
+[65.822s] [100%] Built target read_write_node

@@ -1,0 +1,4 @@
+[01m[K/home/vincent/Embedded-System/ros_interface_node/fpga_interface/src/interface_node.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::get_image_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/vincent/Embedded-System/ros_interface_node/fpga_interface/src/interface_node.cpp:34:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   34 |     void get_image_callback([01;35m[Kconst sensor_msgs::msg::Image::SharedPtr msg[m[K)
+      |                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K

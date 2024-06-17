@@ -1,0 +1,260 @@
+[0.000000] (-) TimerEvent: {}
+[0.004430] (fpga_interface) JobQueued: {'identifier': 'fpga_interface', 'dependencies': OrderedDict()}
+[0.024168] (fpga_interface) JobStarted: {'identifier': 'fpga_interface'}
+[0.098707] (-) TimerEvent: {}
+[0.208456] (-) TimerEvent: {}
+[0.238892] (fpga_interface) JobProgress: {'identifier': 'fpga_interface', 'progress': 'cmake'}
+[0.257371] (fpga_interface) JobProgress: {'identifier': 'fpga_interface', 'progress': 'build'}
+[0.275866] (fpga_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mp4d/fpga_interface/fpga_interface/build/fpga_interface', '--', '-j4', '-l4'], 'cwd': '/home/mp4d/fpga_interface/fpga_interface/build/fpga_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mp4d'), ('SSH_CLIENT', '10.42.0.1 58308 22'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/mp4d/.vscode-server/cli/servers/Stable-138f619c86f1199955d53b4166bef66ef252935c/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/mp4d/.vscode-server/cli/servers/Stable-138f619c86f1199955d53b4166bef66ef252935c/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/mp4d'), ('OLDPWD', '/home/mp4d/fpga_interface'), ('TERM_PROGRAM_VERSION', '1.96.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-7362df16-cd44-4e35-86ef-8ebc6c526b08.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/mp4d/.vscode-server/cli/servers/Stable-138f619c86f1199955d53b4166bef66ef252935c/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'de_DE.UTF-8'), ('XILINX_XRT', '/usr'), ('VSCODE_GIT_ASKPASS_NODE', '/home/mp4d/.vscode-server/cli/servers/Stable-138f619c86f1199955d53b4166bef66ef252935c/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/mp4d/fpga_interface/fpga_interface/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'mp4d'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/mp4d/.vscode-server/cli/servers/Stable-138f619c86f1199955d53b4166bef66ef252935c/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-21e5264b4c.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/mp4d/fpga_interface/fpga_interface/install/fpga_interface:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/mp4d/fpga_interface/fpga_interface/build/fpga_interface'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.42.0.1 58308 10.42.0.93 22'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/mp4d/fpga_interface/fpga_interface/install/fpga_interface:/opt/ros/foxy')]), 'shell': False}
+[0.323284] (-) TimerEvent: {}
+[0.442140] (-) TimerEvent: {}
+[0.548560] (-) TimerEvent: {}
+[0.652013] (-) TimerEvent: {}
+[0.755485] (-) TimerEvent: {}
+[0.783789] (fpga_interface) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.856351] (-) TimerEvent: {}
+[0.959408] (-) TimerEvent: {}
+[1.070869] (-) TimerEvent: {}
+[1.175059] (-) TimerEvent: {}
+[1.278482] (-) TimerEvent: {}
+[1.343278] (fpga_interface) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.379735] (-) TimerEvent: {}
+[1.482760] (-) TimerEvent: {}
+[1.585020] (-) TimerEvent: {}
+[1.687324] (-) TimerEvent: {}
+[1.789298] (-) TimerEvent: {}
+[1.891678] (-) TimerEvent: {}
+[1.994176] (-) TimerEvent: {}
+[2.098968] (-) TimerEvent: {}
+[2.201797] (-) TimerEvent: {}
+[2.305712] (-) TimerEvent: {}
+[2.409431] (-) TimerEvent: {}
+[2.515340] (-) TimerEvent: {}
+[2.621065] (-) TimerEvent: {}
+[2.723507] (-) TimerEvent: {}
+[2.825938] (-) TimerEvent: {}
+[2.927984] (-) TimerEvent: {}
+[3.030674] (-) TimerEvent: {}
+[3.132717] (-) TimerEvent: {}
+[3.234852] (-) TimerEvent: {}
+[3.337499] (-) TimerEvent: {}
+[3.440633] (-) TimerEvent: {}
+[3.543952] (-) TimerEvent: {}
+[3.647557] (-) TimerEvent: {}
+[3.750235] (-) TimerEvent: {}
+[3.852358] (-) TimerEvent: {}
+[3.955361] (-) TimerEvent: {}
+[4.058004] (-) TimerEvent: {}
+[4.161332] (-) TimerEvent: {}
+[4.266768] (-) TimerEvent: {}
+[4.369825] (-) TimerEvent: {}
+[4.472971] (-) TimerEvent: {}
+[4.584606] (-) TimerEvent: {}
+[4.687410] (-) TimerEvent: {}
+[4.797463] (-) TimerEvent: {}
+[4.902139] (-) TimerEvent: {}
+[5.005004] (-) TimerEvent: {}
+[5.108874] (-) TimerEvent: {}
+[5.212995] (-) TimerEvent: {}
+[5.315339] (-) TimerEvent: {}
+[5.418454] (-) TimerEvent: {}
+[5.521287] (-) TimerEvent: {}
+[5.623909] (-) TimerEvent: {}
+[5.731618] (-) TimerEvent: {}
+[5.837033] (-) TimerEvent: {}
+[5.939577] (-) TimerEvent: {}
+[6.043392] (-) TimerEvent: {}
+[6.126062] (fpga_interface) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[6.143783] (-) TimerEvent: {}
+[6.246401] (-) TimerEvent: {}
+[6.348886] (-) TimerEvent: {}
+[6.451402] (-) TimerEvent: {}
+[6.553625] (-) TimerEvent: {}
+[6.662909] (-) TimerEvent: {}
+[6.775534] (-) TimerEvent: {}
+[6.883507] (-) TimerEvent: {}
+[6.989830] (-) TimerEvent: {}
+[7.076485] (fpga_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.090438] (-) TimerEvent: {}
+[7.169410] (fpga_interface) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[7.191047] (-) TimerEvent: {}
+[7.293791] (-) TimerEvent: {}
+[7.396304] (-) TimerEvent: {}
+[7.499353] (-) TimerEvent: {}
+[7.601650] (-) TimerEvent: {}
+[7.704064] (-) TimerEvent: {}
+[7.807123] (-) TimerEvent: {}
+[7.909801] (-) TimerEvent: {}
+[8.012186] (-) TimerEvent: {}
+[8.115194] (-) TimerEvent: {}
+[8.218579] (-) TimerEvent: {}
+[8.321796] (-) TimerEvent: {}
+[8.424372] (-) TimerEvent: {}
+[8.527159] (-) TimerEvent: {}
+[8.629381] (-) TimerEvent: {}
+[8.731760] (-) TimerEvent: {}
+[8.834887] (-) TimerEvent: {}
+[8.937644] (-) TimerEvent: {}
+[9.039822] (-) TimerEvent: {}
+[9.085470] (fpga_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[9.140616] (-) TimerEvent: {}
+[9.243765] (-) TimerEvent: {}
+[9.346536] (-) TimerEvent: {}
+[9.449762] (-) TimerEvent: {}
+[9.552001] (-) TimerEvent: {}
+[9.654823] (-) TimerEvent: {}
+[9.758349] (-) TimerEvent: {}
+[9.861442] (-) TimerEvent: {}
+[9.964022] (-) TimerEvent: {}
+[10.066224] (-) TimerEvent: {}
+[10.168234] (-) TimerEvent: {}
+[10.270712] (-) TimerEvent: {}
+[10.281398] (fpga_interface) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[10.327914] (fpga_interface) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[10.371456] (-) TimerEvent: {}
+[10.473667] (-) TimerEvent: {}
+[10.582876] (-) TimerEvent: {}
+[10.685723] (-) TimerEvent: {}
+[10.788575] (-) TimerEvent: {}
+[10.894561] (-) TimerEvent: {}
+[10.996710] (-) TimerEvent: {}
+[11.099427] (-) TimerEvent: {}
+[11.202146] (-) TimerEvent: {}
+[11.304745] (-) TimerEvent: {}
+[11.407517] (-) TimerEvent: {}
+[11.509476] (-) TimerEvent: {}
+[11.611678] (-) TimerEvent: {}
+[11.714389] (-) TimerEvent: {}
+[11.817149] (-) TimerEvent: {}
+[11.923692] (-) TimerEvent: {}
+[12.026175] (-) TimerEvent: {}
+[12.128835] (-) TimerEvent: {}
+[12.230797] (-) TimerEvent: {}
+[12.332780] (-) TimerEvent: {}
+[12.435100] (-) TimerEvent: {}
+[12.536813] (-) TimerEvent: {}
+[12.639272] (-) TimerEvent: {}
+[12.742768] (-) TimerEvent: {}
+[12.849892] (-) TimerEvent: {}
+[12.952774] (-) TimerEvent: {}
+[13.055471] (-) TimerEvent: {}
+[13.157329] (-) TimerEvent: {}
+[13.259868] (-) TimerEvent: {}
+[13.362342] (-) TimerEvent: {}
+[13.465230] (-) TimerEvent: {}
+[13.570358] (-) TimerEvent: {}
+[13.672909] (-) TimerEvent: {}
+[13.730704] (fpga_interface) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[13.773356] (-) TimerEvent: {}
+[13.875267] (-) TimerEvent: {}
+[13.977099] (-) TimerEvent: {}
+[14.079799] (-) TimerEvent: {}
+[14.182568] (-) TimerEvent: {}
+[14.284409] (-) TimerEvent: {}
+[14.386544] (-) TimerEvent: {}
+[14.489065] (-) TimerEvent: {}
+[14.591297] (-) TimerEvent: {}
+[14.693408] (-) TimerEvent: {}
+[14.796705] (-) TimerEvent: {}
+[14.899392] (-) TimerEvent: {}
+[15.001205] (-) TimerEvent: {}
+[15.103103] (-) TimerEvent: {}
+[15.204906] (-) TimerEvent: {}
+[15.306715] (-) TimerEvent: {}
+[15.408938] (-) TimerEvent: {}
+[15.511911] (-) TimerEvent: {}
+[15.614663] (-) TimerEvent: {}
+[15.691835] (fpga_interface) StdoutLine: {'line': b'-- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)\n'}
+[15.715132] (-) TimerEvent: {}
+[15.817534] (-) TimerEvent: {}
+[15.920799] (-) TimerEvent: {}
+[16.024126] (-) TimerEvent: {}
+[16.052923] (fpga_interface) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[16.124581] (-) TimerEvent: {}
+[16.226828] (-) TimerEvent: {}
+[16.329789] (-) TimerEvent: {}
+[16.434101] (-) TimerEvent: {}
+[16.536574] (-) TimerEvent: {}
+[16.639081] (-) TimerEvent: {}
+[16.741532] (-) TimerEvent: {}
+[16.843943] (-) TimerEvent: {}
+[16.948011] (-) TimerEvent: {}
+[17.051084] (-) TimerEvent: {}
+[17.154588] (-) TimerEvent: {}
+[17.257097] (-) TimerEvent: {}
+[17.359387] (-) TimerEvent: {}
+[17.461723] (-) TimerEvent: {}
+[17.565993] (-) TimerEvent: {}
+[17.633023] (fpga_interface) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[17.668256] (-) TimerEvent: {}
+[17.771114] (-) TimerEvent: {}
+[17.789005] (fpga_interface) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[17.793097] (fpga_interface) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/mp4d/fpga_interface/fpga_interface/lib;$<BUILD_INTERFACE:/home/mp4d/fpga_interface/fpga_interface/include>\n'}
+[17.794654] (fpga_interface) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[17.871522] (-) TimerEvent: {}
+[17.946392] (fpga_interface) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[17.949047] (fpga_interface) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[17.967756] (fpga_interface) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[17.971677] (-) TimerEvent: {}
+[18.001578] (fpga_interface) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[18.039864] (fpga_interface) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[18.079944] (-) TimerEvent: {}
+[18.181499] (fpga_interface) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[18.184319] (-) TimerEvent: {}
+[18.186714] (fpga_interface) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[18.209129] (fpga_interface) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[18.252081] (fpga_interface) StdoutLine: {'line': b'-- Configuring done\n'}
+[18.285626] (-) TimerEvent: {}
+[18.388282] (-) TimerEvent: {}
+[18.491297] (-) TimerEvent: {}
+[18.594019] (-) TimerEvent: {}
+[18.643441] (fpga_interface) StdoutLine: {'line': b'-- Generating done\n'}
+[18.690864] (fpga_interface) StdoutLine: {'line': b'-- Build files have been written to: /home/mp4d/fpga_interface/fpga_interface/build/fpga_interface\n'}
+[18.697270] (-) TimerEvent: {}
+[18.802973] (-) TimerEvent: {}
+[18.905439] (-) TimerEvent: {}
+[19.008064] (-) TimerEvent: {}
+[19.110626] (-) TimerEvent: {}
+[19.213300] (-) TimerEvent: {}
+[19.315639] (-) TimerEvent: {}
+[19.418172] (-) TimerEvent: {}
+[19.482982] (fpga_interface) StdoutLine: {'line': b'[100%] Built target interface_node\n'}
+[19.518765] (-) TimerEvent: {}
+[19.620974] (-) TimerEvent: {}
+[19.632350] (fpga_interface) CommandEnded: {'returncode': 0}
+[19.721657] (-) TimerEvent: {}
+[19.824436] (-) TimerEvent: {}
+[19.927982] (-) TimerEvent: {}
+[20.013240] (fpga_interface) JobProgress: {'identifier': 'fpga_interface', 'progress': 'install'}
+[20.029055] (-) TimerEvent: {}
+[20.133125] (-) TimerEvent: {}
+[20.141457] (fpga_interface) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mp4d/fpga_interface/fpga_interface/build/fpga_interface'], 'cwd': '/home/mp4d/fpga_interface/fpga_interface/build/fpga_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mp4d'), ('SSH_CLIENT', '10.42.0.1 58308 22'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/mp4d/.vscode-server/cli/servers/Stable-138f619c86f1199955d53b4166bef66ef252935c/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/mp4d/.vscode-server/cli/servers/Stable-138f619c86f1199955d53b4166bef66ef252935c/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/mp4d'), ('OLDPWD', '/home/mp4d/fpga_interface'), ('TERM_PROGRAM_VERSION', '1.96.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-7362df16-cd44-4e35-86ef-8ebc6c526b08.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/mp4d/.vscode-server/cli/servers/Stable-138f619c86f1199955d53b4166bef66ef252935c/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'de_DE.UTF-8'), ('XILINX_XRT', '/usr'), ('VSCODE_GIT_ASKPASS_NODE', '/home/mp4d/.vscode-server/cli/servers/Stable-138f619c86f1199955d53b4166bef66ef252935c/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/mp4d/fpga_interface/fpga_interface/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'mp4d'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/mp4d/.vscode-server/cli/servers/Stable-138f619c86f1199955d53b4166bef66ef252935c/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-21e5264b4c.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/mp4d/fpga_interface/fpga_interface/install/fpga_interface:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/mp4d/fpga_interface/fpga_interface/build/fpga_interface'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.42.0.1 58308 10.42.0.93 22'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/mp4d/fpga_interface/fpga_interface/install/fpga_interface:/opt/ros/foxy')]), 'shell': False}
+[20.248098] (-) TimerEvent: {}
+[20.305052] (fpga_interface) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[20.313736] (fpga_interface) StdoutLine: {'line': b'-- Up-to-date: /home/mp4d/fpga_interface/fpga_interface/install/fpga_interface/lib/fpga_interface/interface_node\n'}
+[20.322234] (fpga_interface) StdoutLine: {'line': b'-- Up-to-date: /home/mp4d/fpga_interface/fpga_interface/install/fpga_interface/share/ament_index/resource_index/package_run_dependencies/fpga_interface\n'}
+[20.328492] (fpga_interface) StdoutLine: {'line': b'-- Installing: /home/mp4d/fpga_interface/fpga_interface/install/fpga_interface/share/ament_index/resource_index/parent_prefix_path/fpga_interface\n'}
+[20.330464] (fpga_interface) StdoutLine: {'line': b'-- Installing: /home/mp4d/fpga_interface/fpga_interface/install/fpga_interface/share/fpga_interface/environment/ament_prefix_path.sh\n'}
+[20.333984] (fpga_interface) StdoutLine: {'line': b'-- Installing: /home/mp4d/fpga_interface/fpga_interface/install/fpga_interface/share/fpga_interface/environment/ament_prefix_path.dsv\n'}
+[20.336428] (fpga_interface) StdoutLine: {'line': b'-- Installing: /home/mp4d/fpga_interface/fpga_interface/install/fpga_interface/share/fpga_interface/environment/path.sh\n'}
+[20.337954] (fpga_interface) StdoutLine: {'line': b'-- Installing: /home/mp4d/fpga_interface/fpga_interface/install/fpga_interface/share/fpga_interface/environment/path.dsv\n'}
+[20.339393] (fpga_interface) StdoutLine: {'line': b'-- Up-to-date: /home/mp4d/fpga_interface/fpga_interface/install/fpga_interface/share/fpga_interface/local_setup.bash\n'}
+[20.340812] (fpga_interface) StdoutLine: {'line': b'-- Up-to-date: /home/mp4d/fpga_interface/fpga_interface/install/fpga_interface/share/fpga_interface/local_setup.sh\n'}
+[20.342214] (fpga_interface) StdoutLine: {'line': b'-- Up-to-date: /home/mp4d/fpga_interface/fpga_interface/install/fpga_interface/share/fpga_interface/local_setup.zsh\n'}
+[20.344123] (fpga_interface) StdoutLine: {'line': b'-- Installing: /home/mp4d/fpga_interface/fpga_interface/install/fpga_interface/share/fpga_interface/local_setup.dsv\n'}
+[20.345406] (fpga_interface) StdoutLine: {'line': b'-- Installing: /home/mp4d/fpga_interface/fpga_interface/install/fpga_interface/share/fpga_interface/package.dsv\n'}
+[20.347315] (fpga_interface) StdoutLine: {'line': b'-- Up-to-date: /home/mp4d/fpga_interface/fpga_interface/install/fpga_interface/share/ament_index/resource_index/packages/fpga_interface\n'}
+[20.348910] (-) TimerEvent: {}
+[20.350406] (fpga_interface) StdoutLine: {'line': b'-- Up-to-date: /home/mp4d/fpga_interface/fpga_interface/install/fpga_interface/share/fpga_interface/cmake/fpga_interfaceConfig.cmake\n'}
+[20.351941] (fpga_interface) StdoutLine: {'line': b'-- Up-to-date: /home/mp4d/fpga_interface/fpga_interface/install/fpga_interface/share/fpga_interface/cmake/fpga_interfaceConfig-version.cmake\n'}
+[20.353087] (fpga_interface) StdoutLine: {'line': b'-- Up-to-date: /home/mp4d/fpga_interface/fpga_interface/install/fpga_interface/share/fpga_interface/package.xml\n'}
+[20.382033] (fpga_interface) CommandEnded: {'returncode': 0}
+[20.449232] (-) TimerEvent: {}
+[20.556370] (-) TimerEvent: {}
+[20.658689] (-) TimerEvent: {}
+[20.760700] (-) TimerEvent: {}
+[20.863739] (-) TimerEvent: {}
+[20.972027] (-) TimerEvent: {}
+[21.086787] (-) TimerEvent: {}
+[21.158848] (fpga_interface) JobEnded: {'identifier': 'fpga_interface', 'rc': 0}
+[21.170009] (-) EventReactorShutdown: {}

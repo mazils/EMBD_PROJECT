@@ -1,0 +1,46 @@
+[0.024s] Invoking command in '/home/vincent/Embedded-System/ros_interface_node/fpga_interface/build/fpga_interface': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/vincent/Embedded-System/ros_interface_node/fpga_interface -DCMAKE_INSTALL_PREFIX=/home/vincent/Embedded-System/ros_interface_node/fpga_interface/install/fpga_interface
+[0.170s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.265s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.265s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.756s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.946s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.966s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.967s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/vincent/Embedded-System/ros_interface_node/fpga_interface/include>
+[0.967s] -- Configured cppcheck exclude dirs and/or files: 
+[0.978s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.978s] -- Configured cpplint exclude dirs and/or files: 
+[0.981s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.986s] -- Added test 'lint_cmake' to check CMake code style
+[0.991s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.001s] -- Added test 'uncrustify' to check C / C++ code style
+[1.001s] -- Configured uncrustify additional arguments: 
+[1.003s] -- Added test 'xmllint' to check XML markup files
+[1.010s] -- Configuring done
+[1.018s] -- Generating done
+[1.020s] -- Build files have been written to: /home/vincent/Embedded-System/ros_interface_node/fpga_interface/build/fpga_interface
+[1.031s] Invoked command in '/home/vincent/Embedded-System/ros_interface_node/fpga_interface/build/fpga_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/vincent/Embedded-System/ros_interface_node/fpga_interface -DCMAKE_INSTALL_PREFIX=/home/vincent/Embedded-System/ros_interface_node/fpga_interface/install/fpga_interface
+[1.032s] Invoking command in '/home/vincent/Embedded-System/ros_interface_node/fpga_interface/build/fpga_interface': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/vincent/Embedded-System/ros_interface_node/fpga_interface/build/fpga_interface -- -j4 -l4
+[1.097s] [35m[1mScanning dependencies of target interface_node[0m
+[1.124s] [ 50%] [32mBuilding CXX object CMakeFiles/interface_node.dir/src/interface_node.cpp.o[0m
+[1.253s] [100%] [32m[1mLinking CXX executable interface_node[0m
+[1.325s] [100%] Built target interface_node
+[1.342s] Invoked command in '/home/vincent/Embedded-System/ros_interface_node/fpga_interface/build/fpga_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/vincent/Embedded-System/ros_interface_node/fpga_interface/build/fpga_interface -- -j4 -l4
+[1.400s] Invoking command in '/home/vincent/Embedded-System/ros_interface_node/fpga_interface/build/fpga_interface': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/vincent/Embedded-System/ros_interface_node/fpga_interface/build/fpga_interface
+[1.417s] -- Install configuration: ""
+[1.417s] -- Installing: /home/vincent/Embedded-System/ros_interface_node/fpga_interface/install/fpga_interface/lib/fpga_interface/interface_node
+[1.418s] -- Installing: /home/vincent/Embedded-System/ros_interface_node/fpga_interface/install/fpga_interface/share/ament_index/resource_index/package_run_dependencies/fpga_interface
+[1.418s] -- Installing: /home/vincent/Embedded-System/ros_interface_node/fpga_interface/install/fpga_interface/share/ament_index/resource_index/parent_prefix_path/fpga_interface
+[1.418s] -- Installing: /home/vincent/Embedded-System/ros_interface_node/fpga_interface/install/fpga_interface/share/fpga_interface/environment/ament_prefix_path.sh
+[1.419s] -- Installing: /home/vincent/Embedded-System/ros_interface_node/fpga_interface/install/fpga_interface/share/fpga_interface/environment/ament_prefix_path.dsv
+[1.419s] -- Installing: /home/vincent/Embedded-System/ros_interface_node/fpga_interface/install/fpga_interface/share/fpga_interface/environment/path.sh
+[1.419s] -- Installing: /home/vincent/Embedded-System/ros_interface_node/fpga_interface/install/fpga_interface/share/fpga_interface/environment/path.dsv
+[1.420s] -- Installing: /home/vincent/Embedded-System/ros_interface_node/fpga_interface/install/fpga_interface/share/fpga_interface/local_setup.bash
+[1.420s] -- Installing: /home/vincent/Embedded-System/ros_interface_node/fpga_interface/install/fpga_interface/share/fpga_interface/local_setup.sh
+[1.420s] -- Installing: /home/vincent/Embedded-System/ros_interface_node/fpga_interface/install/fpga_interface/share/fpga_interface/local_setup.zsh
+[1.421s] -- Installing: /home/vincent/Embedded-System/ros_interface_node/fpga_interface/install/fpga_interface/share/fpga_interface/local_setup.dsv
+[1.421s] -- Installing: /home/vincent/Embedded-System/ros_interface_node/fpga_interface/install/fpga_interface/share/fpga_interface/package.dsv
+[1.421s] -- Installing: /home/vincent/Embedded-System/ros_interface_node/fpga_interface/install/fpga_interface/share/ament_index/resource_index/packages/fpga_interface
+[1.422s] -- Installing: /home/vincent/Embedded-System/ros_interface_node/fpga_interface/install/fpga_interface/share/fpga_interface/cmake/fpga_interfaceConfig.cmake
+[1.422s] -- Installing: /home/vincent/Embedded-System/ros_interface_node/fpga_interface/install/fpga_interface/share/fpga_interface/cmake/fpga_interfaceConfig-version.cmake
+[1.422s] -- Installing: /home/vincent/Embedded-System/ros_interface_node/fpga_interface/install/fpga_interface/share/fpga_interface/package.xml
+[1.426s] Invoked command in '/home/vincent/Embedded-System/ros_interface_node/fpga_interface/build/fpga_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/vincent/Embedded-System/ros_interface_node/fpga_interface/build/fpga_interface

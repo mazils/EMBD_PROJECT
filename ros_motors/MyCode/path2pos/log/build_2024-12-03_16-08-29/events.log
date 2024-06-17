@@ -1,0 +1,134 @@
+[0.000000] (-) TimerEvent: {}
+[0.000345] (path2pos) JobQueued: {'identifier': 'path2pos', 'dependencies': OrderedDict()}
+[0.001461] (path2pos) JobStarted: {'identifier': 'path2pos'}
+[0.020519] (path2pos) JobProgress: {'identifier': 'path2pos', 'progress': 'cmake'}
+[0.024492] (path2pos) JobProgress: {'identifier': 'path2pos', 'progress': 'build'}
+[0.024846] (path2pos) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/build/path2pos', '--', '-j4', '-l4'], 'cwd': '/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/build/path2pos', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'vincent'), ('LC_TIME', 'de_DE.UTF-8'), ('GIO_MODULE_DIR', '/home/vincent/snap/code/common/.cache/gio-modules'), ('SSH_AGENT_PID', '1339'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/176/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('HOME', '/home/vincent'), ('CHROME_DESKTOP', 'code.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.95.3'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/176/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/vincent/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/176/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'de_DE.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/176/usr/share/code/code'), ('MANAGERPID', '1200'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2258'), ('IM_CONFIG_PHASE', '1'), ('LOGNAME', 'vincent'), ('JOURNAL_STREAM', '8:38989'), ('_', '/usr/bin/colcon'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'vincent'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/vincent-ThinkPad-T430:@/tmp/.ICE-unix/1376,unix/vincent-ThinkPad-T430:/tmp/.ICE-unix/1376'), ('GTK_EXE_PREFIX', '/snap/code/176/usr'), ('INVOCATION_ID', '567a7e8bd6254461845977c6c5ee1573'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/176/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XDG_DATA_HOME', '/home/vincent/snap/code/176/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-c3580fd1f9.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/vincent/snap/code/176/.local/share/glib-2.0/schemas'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/build/path2pos'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/vincent/snap/code/176/.local/share:/home/vincent/snap/code/176:/snap/code/176/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1')]), 'shell': False}
+[0.099674] (-) TimerEvent: {}
+[0.103344] (path2pos) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target pos_writer\x1b[0m\n'}
+[0.161852] (path2pos) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pos_writer.dir/src/pos_writer.cpp.o\x1b[0m\n'}
+[0.199788] (-) TimerEvent: {}
+[0.300249] (-) TimerEvent: {}
+[0.400693] (-) TimerEvent: {}
+[0.501120] (-) TimerEvent: {}
+[0.601597] (-) TimerEvent: {}
+[0.701996] (-) TimerEvent: {}
+[0.802395] (-) TimerEvent: {}
+[0.902909] (-) TimerEvent: {}
+[1.003568] (-) TimerEvent: {}
+[1.104054] (-) TimerEvent: {}
+[1.204510] (-) TimerEvent: {}
+[1.304941] (-) TimerEvent: {}
+[1.405365] (-) TimerEvent: {}
+[1.505794] (-) TimerEvent: {}
+[1.606279] (-) TimerEvent: {}
+[1.706855] (-) TimerEvent: {}
+[1.807416] (-) TimerEvent: {}
+[1.907936] (-) TimerEvent: {}
+[2.008401] (-) TimerEvent: {}
+[2.108786] (-) TimerEvent: {}
+[2.209184] (-) TimerEvent: {}
+[2.309583] (-) TimerEvent: {}
+[2.410013] (-) TimerEvent: {}
+[2.510435] (-) TimerEvent: {}
+[2.610856] (-) TimerEvent: {}
+[2.711281] (-) TimerEvent: {}
+[2.811658] (-) TimerEvent: {}
+[2.912053] (-) TimerEvent: {}
+[3.012418] (-) TimerEvent: {}
+[3.112810] (-) TimerEvent: {}
+[3.213215] (-) TimerEvent: {}
+[3.313632] (-) TimerEvent: {}
+[3.414068] (-) TimerEvent: {}
+[3.514539] (-) TimerEvent: {}
+[3.615052] (-) TimerEvent: {}
+[3.715856] (-) TimerEvent: {}
+[3.816424] (-) TimerEvent: {}
+[3.916943] (-) TimerEvent: {}
+[4.017395] (-) TimerEvent: {}
+[4.117909] (-) TimerEvent: {}
+[4.218398] (-) TimerEvent: {}
+[4.318902] (-) TimerEvent: {}
+[4.419524] (-) TimerEvent: {}
+[4.520020] (-) TimerEvent: {}
+[4.620553] (-) TimerEvent: {}
+[4.721052] (-) TimerEvent: {}
+[4.821551] (-) TimerEvent: {}
+[4.922107] (-) TimerEvent: {}
+[5.022732] (-) TimerEvent: {}
+[5.123248] (-) TimerEvent: {}
+[5.223734] (-) TimerEvent: {}
+[5.324179] (-) TimerEvent: {}
+[5.424617] (-) TimerEvent: {}
+[5.525082] (-) TimerEvent: {}
+[5.625526] (-) TimerEvent: {}
+[5.726135] (-) TimerEvent: {}
+[5.827077] (-) TimerEvent: {}
+[5.927458] (-) TimerEvent: {}
+[6.027855] (-) TimerEvent: {}
+[6.128277] (-) TimerEvent: {}
+[6.228704] (-) TimerEvent: {}
+[6.329129] (-) TimerEvent: {}
+[6.429553] (-) TimerEvent: {}
+[6.529981] (-) TimerEvent: {}
+[6.630362] (-) TimerEvent: {}
+[6.730936] (-) TimerEvent: {}
+[6.831723] (-) TimerEvent: {}
+[6.932588] (-) TimerEvent: {}
+[7.033256] (-) TimerEvent: {}
+[7.133750] (-) TimerEvent: {}
+[7.234421] (-) TimerEvent: {}
+[7.334853] (-) TimerEvent: {}
+[7.435272] (-) TimerEvent: {}
+[7.535684] (-) TimerEvent: {}
+[7.636129] (-) TimerEvent: {}
+[7.736656] (-) TimerEvent: {}
+[7.837067] (-) TimerEvent: {}
+[7.937526] (-) TimerEvent: {}
+[8.037932] (-) TimerEvent: {}
+[8.138352] (-) TimerEvent: {}
+[8.238807] (-) TimerEvent: {}
+[8.339423] (-) TimerEvent: {}
+[8.439945] (-) TimerEvent: {}
+[8.540431] (-) TimerEvent: {}
+[8.640977] (-) TimerEvent: {}
+[8.741404] (-) TimerEvent: {}
+[8.841966] (-) TimerEvent: {}
+[8.942465] (-) TimerEvent: {}
+[8.993020] (path2pos) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable pos_writer\x1b[0m\n'}
+[9.042592] (-) TimerEvent: {}
+[9.143158] (-) TimerEvent: {}
+[9.243636] (-) TimerEvent: {}
+[9.344235] (-) TimerEvent: {}
+[9.444792] (-) TimerEvent: {}
+[9.545318] (-) TimerEvent: {}
+[9.645842] (-) TimerEvent: {}
+[9.746360] (-) TimerEvent: {}
+[9.791281] (path2pos) StdoutLine: {'line': b'[100%] Built target pos_writer\n'}
+[9.810179] (path2pos) CommandEnded: {'returncode': 0}
+[9.846487] (-) TimerEvent: {}
+[9.848861] (path2pos) JobProgress: {'identifier': 'path2pos', 'progress': 'install'}
+[9.864031] (path2pos) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/build/path2pos'], 'cwd': '/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/build/path2pos', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'vincent'), ('LC_TIME', 'de_DE.UTF-8'), ('GIO_MODULE_DIR', '/home/vincent/snap/code/common/.cache/gio-modules'), ('SSH_AGENT_PID', '1339'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/176/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('HOME', '/home/vincent'), ('CHROME_DESKTOP', 'code.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.95.3'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/176/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/vincent/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/176/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'de_DE.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/176/usr/share/code/code'), ('MANAGERPID', '1200'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2258'), ('IM_CONFIG_PHASE', '1'), ('LOGNAME', 'vincent'), ('JOURNAL_STREAM', '8:38989'), ('_', '/usr/bin/colcon'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'vincent'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/vincent-ThinkPad-T430:@/tmp/.ICE-unix/1376,unix/vincent-ThinkPad-T430:/tmp/.ICE-unix/1376'), ('GTK_EXE_PREFIX', '/snap/code/176/usr'), ('INVOCATION_ID', '567a7e8bd6254461845977c6c5ee1573'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/176/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XDG_DATA_HOME', '/home/vincent/snap/code/176/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-c3580fd1f9.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/vincent/snap/code/176/.local/share/glib-2.0/schemas'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/build/path2pos'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/vincent/snap/code/176/.local/share:/home/vincent/snap/code/176:/snap/code/176/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1')]), 'shell': False}
+[9.929321] (path2pos) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.946703] (-) TimerEvent: {}
+[9.959329] (path2pos) StdoutLine: {'line': b'-- Installing: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/lib/path2pos/pos_writer\n'}
+[9.962715] (path2pos) StdoutLine: {'line': b'-- Set runtime path of "/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/lib/path2pos/pos_writer" to ""\n'}
+[9.963174] (path2pos) StdoutLine: {'line': b'-- Up-to-date: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/share/ament_index/resource_index/package_run_dependencies/path2pos\n'}
+[9.963529] (path2pos) StdoutLine: {'line': b'-- Up-to-date: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/share/ament_index/resource_index/parent_prefix_path/path2pos\n'}
+[9.963967] (path2pos) StdoutLine: {'line': b'-- Up-to-date: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/share/path2pos/environment/ament_prefix_path.sh\n'}
+[9.964309] (path2pos) StdoutLine: {'line': b'-- Up-to-date: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/share/path2pos/environment/ament_prefix_path.dsv\n'}
+[9.964732] (path2pos) StdoutLine: {'line': b'-- Up-to-date: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/share/path2pos/environment/path.sh\n'}
+[9.964956] (path2pos) StdoutLine: {'line': b'-- Up-to-date: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/share/path2pos/environment/path.dsv\n'}
+[9.965139] (path2pos) StdoutLine: {'line': b'-- Up-to-date: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/share/path2pos/local_setup.bash\n'}
+[9.965341] (path2pos) StdoutLine: {'line': b'-- Up-to-date: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/share/path2pos/local_setup.sh\n'}
+[9.965538] (path2pos) StdoutLine: {'line': b'-- Up-to-date: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/share/path2pos/local_setup.zsh\n'}
+[9.965734] (path2pos) StdoutLine: {'line': b'-- Up-to-date: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/share/path2pos/local_setup.dsv\n'}
+[9.965925] (path2pos) StdoutLine: {'line': b'-- Installing: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/share/path2pos/package.dsv\n'}
+[9.973793] (path2pos) StdoutLine: {'line': b'-- Up-to-date: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/share/ament_index/resource_index/packages/path2pos\n'}
+[9.974366] (path2pos) StdoutLine: {'line': b'-- Up-to-date: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/share/path2pos/cmake/path2posConfig.cmake\n'}
+[9.974655] (path2pos) StdoutLine: {'line': b'-- Up-to-date: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/share/path2pos/cmake/path2posConfig-version.cmake\n'}
+[9.975104] (path2pos) StdoutLine: {'line': b'-- Up-to-date: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/share/path2pos/package.xml\n'}
+[9.977017] (path2pos) CommandEnded: {'returncode': 0}
+[10.046899] (-) TimerEvent: {}
+[10.050880] (path2pos) JobEnded: {'identifier': 'path2pos', 'rc': 0}
+[10.052562] (-) EventReactorShutdown: {}

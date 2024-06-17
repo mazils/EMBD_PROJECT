@@ -1,0 +1,10 @@
+/home/mp4d/ros_motors/MyCode/path2pos/build/path2pos/CMakeFiles/install/strip.dir
+/home/mp4d/ros_motors/MyCode/path2pos/build/path2pos/CMakeFiles/install/local.dir
+/home/mp4d/ros_motors/MyCode/path2pos/build/path2pos/CMakeFiles/edit_cache.dir
+/home/mp4d/ros_motors/MyCode/path2pos/build/path2pos/CMakeFiles/test.dir
+/home/mp4d/ros_motors/MyCode/path2pos/build/path2pos/CMakeFiles/install.dir
+/home/mp4d/ros_motors/MyCode/path2pos/build/path2pos/CMakeFiles/list_install_components.dir
+/home/mp4d/ros_motors/MyCode/path2pos/build/path2pos/CMakeFiles/rebuild_cache.dir
+/home/mp4d/ros_motors/MyCode/path2pos/build/path2pos/CMakeFiles/pos_writer.dir
+/home/mp4d/ros_motors/MyCode/path2pos/build/path2pos/CMakeFiles/path2pos_uninstall.dir
+/home/mp4d/ros_motors/MyCode/path2pos/build/path2pos/CMakeFiles/uninstall.dir

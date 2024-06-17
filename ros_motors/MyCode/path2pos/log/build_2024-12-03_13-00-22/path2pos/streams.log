@@ -1,0 +1,52 @@
+[0.025s] Invoking command in '/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/build/path2pos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/build/path2pos -- -j4 -l4
+[0.104s] [35m[1mScanning dependencies of target pos_writer[0m
+[0.162s] [ 50%] [32mBuilding CXX object CMakeFiles/pos_writer.dir/src/pos_writer.cpp.o[0m
+[2.280s] [01m[K/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/src/pos_writer.cpp:33:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kfile_name[m[K’ has not been declared
+[2.280s]    33 |     void ReadFile([01;31m[Kfile_name[m[K){
+[2.280s]       |                   [01;31m[K^~~~~~~~~[m[K
+[2.281s] [01m[K/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/src/pos_writer.cpp:79:39:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.281s]    79 |     std::vector<std::vector<std::float[01;31m[K>>[m[K path;
+[2.281s]       |                                       [01;31m[K^~[m[K
+[2.281s] [01m[K/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/src/pos_writer.cpp:79:39:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[2.281s] [01m[K/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/src/pos_writer.cpp:79:42:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.281s]    79 |     std::vector<std::vector<std::float>> [01;31m[Kpath[m[K;
+[2.282s]       |                                          [01;31m[K^~~~[m[K
+[2.282s] [01m[K/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/src/pos_writer.cpp:79:42:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[2.291s] [01m[K/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/src/pos_writer.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[2.291s] [01m[K/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/src/pos_writer.cpp:27:22:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kconst char*[m[K’ to ‘[01m[Kint[m[K’ [[01;31m[K-fpermissive[m[K]
+[2.291s]    27 |       this->ReadFile([01;31m[K"output-1.csv"[m[K);
+[2.292s]       |                      [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.292s]       |                      [01;31m[K|[m[K
+[2.292s]       |                      [01;31m[Kconst char*[m[K
+[2.292s] [01m[K/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/src/pos_writer.cpp:33:19:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid MinimalPublisher::ReadFile(int)[m[K’
+[2.292s]    33 |     void ReadFile([01;36m[Kfile_name[m[K){
+[2.293s]       |                   [01;36m[K^~~~~~~~~[m[K
+[2.314s] [01m[K/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/src/pos_writer.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::ReadFile(int)[m[K’:
+[2.314s] [01m[K/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/src/pos_writer.cpp:34:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kfile_name[m[K’ was not declared in this scope
+[2.314s]    34 |         std::ifstream file([01;31m[Kfile_name[m[K);
+[2.314s]       |                            [01;31m[K^~~~~~~~~[m[K
+[2.315s] [01m[K/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/src/pos_writer.cpp:37:20:[m[K [01;31m[Kerror: [m[Kreturn-statement with a value, in function returning ‘[01m[Kvoid[m[K’ [[01;31m[K-fpermissive[m[K]
+[2.315s]    37 |             return [01;31m[K1[m[K;
+[2.315s]       |                    [01;31m[K^[m[K
+[2.322s] [01m[K/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/src/pos_writer.cpp:51:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MinimalPublisher[m[K’ has no member named ‘[01m[Kpath[m[K’
+[2.322s]    51 |             this->[01;31m[Kpath[m[K.push_back(row);
+[2.322s]       |                   [01;31m[K^~~~[m[K
+[2.322s] [01m[K/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/src/pos_writer.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[2.322s] [01m[K/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/src/pos_writer.cpp:59:29:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.323s]    59 |       std::vector<std::float[01;31m[K>>[m[K new_pos=this->data[index];
+[2.323s]       |                             [01;31m[K^~[m[K
+[2.323s] [01m[K/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/src/pos_writer.cpp:59:29:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[2.323s] [01m[K/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/src/pos_writer.cpp:59:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MinimalPublisher[m[K’ has no member named ‘[01m[Kdata[m[K’
+[2.323s]    59 |       std::vector<std::float>> new_pos=this->[01;31m[Kdata[m[K[index];
+[2.323s]       |                                              [01;31m[K^~~~[m[K
+[2.324s] [01m[K/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/src/pos_writer.cpp:61:18:[m[K [01;31m[Kerror: [m[K‘[01m[Knewpos[m[K’ was not declared in this scope; did you mean ‘[01m[Knew_pos[m[K’?
+[2.324s]    61 |       int angle0=[01;31m[Knewpos[m[K[0];
+[2.324s]       |                  [01;31m[K^~~~~~[m[K
+[2.324s]       |                  [32m[Knew_pos[m[K
+[2.335s] [01m[K/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/src/pos_writer.cpp:59:32:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Knew_pos[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.336s]    59 |       std::vector<std::float>> [01;35m[Knew_pos[m[K=this->data[index];
+[2.336s]       |                                [01;35m[K^~~~~~~[m[K
+[3.762s] make[2]: *** [CMakeFiles/pos_writer.dir/build.make:63: CMakeFiles/pos_writer.dir/src/pos_writer.cpp.o] Error 1
+[3.763s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/pos_writer.dir/all] Error 2
+[3.763s] make: *** [Makefile:141: all] Error 2
+[3.769s] Invoked command in '/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/build/path2pos' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/build/path2pos -- -j4 -l4

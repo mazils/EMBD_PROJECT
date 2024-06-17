@@ -1,0 +1,26 @@
+[0.233s] Invoking command in '/home/mp4d/fpga_interface/fpga_interface/build/fpga_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mp4d/fpga_interface/fpga_interface/build/fpga_interface -- -j4 -l4
+[0.922s] [35m[1mScanning dependencies of target interface_node[0m
+[1.558s] [ 25%] [32mBuilding CXX object CMakeFiles/interface_node.dir/src/interface_node.cpp.o[0m
+[117.745s] [ 50%] [32m[1mLinking CXX executable interface_node[0m
+[127.659s] [100%] Built target interface_node
+[127.825s] Invoked command in '/home/mp4d/fpga_interface/fpga_interface/build/fpga_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mp4d/fpga_interface/fpga_interface/build/fpga_interface -- -j4 -l4
+[128.383s] Invoking command in '/home/mp4d/fpga_interface/fpga_interface/build/fpga_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/mp4d/fpga_interface/fpga_interface/build/fpga_interface
+[128.545s] -- Install configuration: ""
+[128.552s] -- Installing: /home/mp4d/fpga_interface/fpga_interface/install/fpga_interface/lib/fpga_interface/interface_node
+[128.569s] -- Set runtime path of "/home/mp4d/fpga_interface/fpga_interface/install/fpga_interface/lib/fpga_interface/interface_node" to ""
+[128.570s] -- Up-to-date: /home/mp4d/fpga_interface/fpga_interface/install/fpga_interface/share/ament_index/resource_index/package_run_dependencies/fpga_interface
+[128.572s] -- Up-to-date: /home/mp4d/fpga_interface/fpga_interface/install/fpga_interface/share/ament_index/resource_index/parent_prefix_path/fpga_interface
+[128.578s] -- Up-to-date: /home/mp4d/fpga_interface/fpga_interface/install/fpga_interface/share/fpga_interface/environment/ament_prefix_path.sh
+[128.582s] -- Up-to-date: /home/mp4d/fpga_interface/fpga_interface/install/fpga_interface/share/fpga_interface/environment/ament_prefix_path.dsv
+[128.594s] -- Up-to-date: /home/mp4d/fpga_interface/fpga_interface/install/fpga_interface/share/fpga_interface/environment/path.sh
+[128.612s] -- Up-to-date: /home/mp4d/fpga_interface/fpga_interface/install/fpga_interface/share/fpga_interface/environment/path.dsv
+[128.613s] -- Up-to-date: /home/mp4d/fpga_interface/fpga_interface/install/fpga_interface/share/fpga_interface/local_setup.bash
+[128.614s] -- Up-to-date: /home/mp4d/fpga_interface/fpga_interface/install/fpga_interface/share/fpga_interface/local_setup.sh
+[128.615s] -- Up-to-date: /home/mp4d/fpga_interface/fpga_interface/install/fpga_interface/share/fpga_interface/local_setup.zsh
+[128.616s] -- Up-to-date: /home/mp4d/fpga_interface/fpga_interface/install/fpga_interface/share/fpga_interface/local_setup.dsv
+[128.616s] -- Installing: /home/mp4d/fpga_interface/fpga_interface/install/fpga_interface/share/fpga_interface/package.dsv
+[128.622s] -- Up-to-date: /home/mp4d/fpga_interface/fpga_interface/install/fpga_interface/share/ament_index/resource_index/packages/fpga_interface
+[128.623s] -- Up-to-date: /home/mp4d/fpga_interface/fpga_interface/install/fpga_interface/share/fpga_interface/cmake/fpga_interfaceConfig.cmake
+[128.624s] -- Up-to-date: /home/mp4d/fpga_interface/fpga_interface/install/fpga_interface/share/fpga_interface/cmake/fpga_interfaceConfig-version.cmake
+[128.626s] -- Up-to-date: /home/mp4d/fpga_interface/fpga_interface/install/fpga_interface/share/fpga_interface/package.xml
+[128.642s] Invoked command in '/home/mp4d/fpga_interface/fpga_interface/build/fpga_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/mp4d/fpga_interface/fpga_interface/build/fpga_interface

@@ -1,0 +1,4 @@
+Invoking command in '/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/build/path2pos': /usr/bin/cmake --build /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/build/path2pos -- -j4 -l4
+Invoked command in '/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/build/path2pos' returned '0': /usr/bin/cmake --build /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/build/path2pos -- -j4 -l4
+Invoking command in '/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/build/path2pos': /usr/bin/cmake --install /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/build/path2pos
+Invoked command in '/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/build/path2pos' returned '0': /usr/bin/cmake --install /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/build/path2pos

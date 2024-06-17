@@ -1,0 +1,48 @@
+[0.103s] Invoking command in '/home/mp4d/fpga_interface/fpga_interface/build/fpga_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mp4d/fpga_interface/fpga_interface/build/fpga_interface -- -j4 -l4
+[0.365s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.578s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.276s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.617s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.654s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.548s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.052s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[4.067s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.412s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[6.523s] -- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)
+[6.722s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[7.338s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.428s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.430s] -- Configured cppcheck include dirs: /home/mp4d/fpga_interface/fpga_interface/lib;$<BUILD_INTERFACE:/home/mp4d/fpga_interface/fpga_interface/include>
+[7.431s] -- Configured cppcheck exclude dirs and/or files: 
+[7.520s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[7.521s] -- Configured cpplint exclude dirs and/or files: 
+[7.538s] -- Added test 'flake8' to check Python code syntax and style conventions
+[7.566s] -- Added test 'lint_cmake' to check CMake code style
+[7.582s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[7.682s] -- Added test 'uncrustify' to check C / C++ code style
+[7.683s] -- Configured uncrustify additional arguments: 
+[7.700s] -- Added test 'xmllint' to check XML markup files
+[7.722s] -- Configuring done
+[7.932s] -- Generating done
+[7.946s] -- Build files have been written to: /home/mp4d/fpga_interface/fpga_interface/build/fpga_interface
+[8.291s] [100%] Built target interface_node
+[8.369s] Invoked command in '/home/mp4d/fpga_interface/fpga_interface/build/fpga_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mp4d/fpga_interface/fpga_interface/build/fpga_interface -- -j4 -l4
+[8.624s] Invoking command in '/home/mp4d/fpga_interface/fpga_interface/build/fpga_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/mp4d/fpga_interface/fpga_interface/build/fpga_interface
+[8.693s] -- Install configuration: ""
+[8.695s] -- Up-to-date: /home/mp4d/fpga_interface/fpga_interface/install/fpga_interface/lib/fpga_interface/interface_node
+[8.696s] -- Up-to-date: /home/mp4d/fpga_interface/fpga_interface/install/fpga_interface/share/ament_index/resource_index/package_run_dependencies/fpga_interface
+[8.698s] -- Up-to-date: /home/mp4d/fpga_interface/fpga_interface/install/fpga_interface/share/ament_index/resource_index/parent_prefix_path/fpga_interface
+[8.699s] -- Installing: /home/mp4d/fpga_interface/fpga_interface/install/fpga_interface/share/fpga_interface/environment/ament_prefix_path.sh
+[8.700s] -- Installing: /home/mp4d/fpga_interface/fpga_interface/install/fpga_interface/share/fpga_interface/environment/ament_prefix_path.dsv
+[8.702s] -- Installing: /home/mp4d/fpga_interface/fpga_interface/install/fpga_interface/share/fpga_interface/environment/path.sh
+[8.703s] -- Installing: /home/mp4d/fpga_interface/fpga_interface/install/fpga_interface/share/fpga_interface/environment/path.dsv
+[8.703s] -- Up-to-date: /home/mp4d/fpga_interface/fpga_interface/install/fpga_interface/share/fpga_interface/local_setup.bash
+[8.704s] -- Up-to-date: /home/mp4d/fpga_interface/fpga_interface/install/fpga_interface/share/fpga_interface/local_setup.sh
+[8.705s] -- Up-to-date: /home/mp4d/fpga_interface/fpga_interface/install/fpga_interface/share/fpga_interface/local_setup.zsh
+[8.705s] -- Installing: /home/mp4d/fpga_interface/fpga_interface/install/fpga_interface/share/fpga_interface/local_setup.dsv
+[8.706s] -- Installing: /home/mp4d/fpga_interface/fpga_interface/install/fpga_interface/share/fpga_interface/package.dsv
+[8.706s] -- Up-to-date: /home/mp4d/fpga_interface/fpga_interface/install/fpga_interface/share/ament_index/resource_index/packages/fpga_interface
+[8.707s] -- Up-to-date: /home/mp4d/fpga_interface/fpga_interface/install/fpga_interface/share/fpga_interface/cmake/fpga_interfaceConfig.cmake
+[8.708s] -- Up-to-date: /home/mp4d/fpga_interface/fpga_interface/install/fpga_interface/share/fpga_interface/cmake/fpga_interfaceConfig-version.cmake
+[8.708s] -- Up-to-date: /home/mp4d/fpga_interface/fpga_interface/install/fpga_interface/share/fpga_interface/package.xml
+[8.719s] Invoked command in '/home/mp4d/fpga_interface/fpga_interface/build/fpga_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/mp4d/fpga_interface/fpga_interface/build/fpga_interface

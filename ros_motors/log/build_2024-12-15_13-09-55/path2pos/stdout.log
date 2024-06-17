@@ -1,0 +1,22 @@
+[35m[1mScanning dependencies of target pos_writer[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/pos_writer.dir/src/pos_writer.cpp.o[0m
+[100%] [32m[1mLinking CXX executable pos_writer[0m
+[100%] Built target pos_writer
+-- Install configuration: ""
+-- Installing: /home/mp4d/ros_motors/install/path2pos/lib/path2pos/pos_writer
+-- Set runtime path of "/home/mp4d/ros_motors/install/path2pos/lib/path2pos/pos_writer" to ""
+-- Installing: /home/mp4d/ros_motors/install/path2pos/share/ament_index/resource_index/package_run_dependencies/path2pos
+-- Installing: /home/mp4d/ros_motors/install/path2pos/share/ament_index/resource_index/parent_prefix_path/path2pos
+-- Installing: /home/mp4d/ros_motors/install/path2pos/share/path2pos/environment/ament_prefix_path.sh
+-- Installing: /home/mp4d/ros_motors/install/path2pos/share/path2pos/environment/ament_prefix_path.dsv
+-- Installing: /home/mp4d/ros_motors/install/path2pos/share/path2pos/environment/path.sh
+-- Installing: /home/mp4d/ros_motors/install/path2pos/share/path2pos/environment/path.dsv
+-- Installing: /home/mp4d/ros_motors/install/path2pos/share/path2pos/local_setup.bash
+-- Installing: /home/mp4d/ros_motors/install/path2pos/share/path2pos/local_setup.sh
+-- Installing: /home/mp4d/ros_motors/install/path2pos/share/path2pos/local_setup.zsh
+-- Installing: /home/mp4d/ros_motors/install/path2pos/share/path2pos/local_setup.dsv
+-- Installing: /home/mp4d/ros_motors/install/path2pos/share/path2pos/package.dsv
+-- Installing: /home/mp4d/ros_motors/install/path2pos/share/ament_index/resource_index/packages/path2pos
+-- Installing: /home/mp4d/ros_motors/install/path2pos/share/path2pos/cmake/path2posConfig.cmake
+-- Installing: /home/mp4d/ros_motors/install/path2pos/share/path2pos/cmake/path2posConfig-version.cmake
+-- Installing: /home/mp4d/ros_motors/install/path2pos/share/path2pos/package.xml

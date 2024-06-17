@@ -1,0 +1,566 @@
+[0.000000] (-) TimerEvent: {}
+[0.002029] (path2pos) JobQueued: {'identifier': 'path2pos', 'dependencies': OrderedDict()}
+[0.003800] (path2pos) JobStarted: {'identifier': 'path2pos'}
+[0.075353] (path2pos) JobProgress: {'identifier': 'path2pos', 'progress': 'cmake'}
+[0.080176] (path2pos) JobProgress: {'identifier': 'path2pos', 'progress': 'build'}
+[0.085865] (path2pos) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mp4d/ros_motors/MyCode/build/path2pos', '--', '-j4', '-l4'], 'cwd': '/home/mp4d/ros_motors/MyCode/build/path2pos', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mp4d'), ('SSH_CLIENT', '10.42.0.1 55210 22'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/mp4d/.vscode-server/cli/servers/Stable-138f619c86f1199955d53b4166bef66ef252935c/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk_custom_interfaces/lib:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk/lib:/home/mp4d/ros_camera/install/usb_cam/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/mp4d/.vscode-server/cli/servers/Stable-138f619c86f1199955d53b4166bef66ef252935c/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/mp4d'), ('OLDPWD', '/home/mp4d/ros_motors'), ('TERM_PROGRAM_VERSION', '1.96.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-21e632ac-929e-4b38-a32e-977bf83e14a2.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/mp4d/.vscode-server/cli/servers/Stable-138f619c86f1199955d53b4166bef66ef252935c/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'de_DE.UTF-8'), ('XILINX_XRT', '/usr'), ('VSCODE_GIT_ASKPASS_NODE', '/home/mp4d/.vscode-server/cli/servers/Stable-138f619c86f1199955d53b4166bef66ef252935c/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/mp4d/ros_motors/DynamixelSDK/install:/home/mp4d/ros_camera/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'mp4d'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/mp4d/.vscode-server/cli/servers/Stable-138f619c86f1199955d53b4166bef66ef252935c/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-0e2a5675cf.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk_examples:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk_custom_interfaces:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk:/home/mp4d/ros_camera/install/usb_cam:/home/mp4d/ros_camera/install/cam_sub:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/mp4d/ros_motors/MyCode/build/path2pos'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.42.0.1 55210 10.42.0.93 22'), ('PYTHONPATH', '/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk_examples:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk_custom_interfaces:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk:/opt/ros/foxy:/home/mp4d/ros_camera/install/usb_cam:/home/mp4d/ros_camera/install/cam_sub')]), 'shell': False}
+[0.100322] (-) TimerEvent: {}
+[0.211109] (-) TimerEvent: {}
+[0.312827] (-) TimerEvent: {}
+[0.414534] (-) TimerEvent: {}
+[0.476130] (path2pos) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pos_writer.dir/src/pos_writer.cpp.o\x1b[0m\n'}
+[0.515013] (-) TimerEvent: {}
+[0.616936] (-) TimerEvent: {}
+[0.718763] (-) TimerEvent: {}
+[0.820497] (-) TimerEvent: {}
+[0.922341] (-) TimerEvent: {}
+[1.024209] (-) TimerEvent: {}
+[1.125948] (-) TimerEvent: {}
+[1.228999] (-) TimerEvent: {}
+[1.330911] (-) TimerEvent: {}
+[1.432791] (-) TimerEvent: {}
+[1.534749] (-) TimerEvent: {}
+[1.636597] (-) TimerEvent: {}
+[1.738516] (-) TimerEvent: {}
+[1.840349] (-) TimerEvent: {}
+[1.942207] (-) TimerEvent: {}
+[2.044041] (-) TimerEvent: {}
+[2.145828] (-) TimerEvent: {}
+[2.247803] (-) TimerEvent: {}
+[2.349663] (-) TimerEvent: {}
+[2.451606] (-) TimerEvent: {}
+[2.553517] (-) TimerEvent: {}
+[2.655547] (-) TimerEvent: {}
+[2.757413] (-) TimerEvent: {}
+[2.859398] (-) TimerEvent: {}
+[2.961237] (-) TimerEvent: {}
+[3.063150] (-) TimerEvent: {}
+[3.165077] (-) TimerEvent: {}
+[3.266985] (-) TimerEvent: {}
+[3.368783] (-) TimerEvent: {}
+[3.470646] (-) TimerEvent: {}
+[3.572432] (-) TimerEvent: {}
+[3.674274] (-) TimerEvent: {}
+[3.776238] (-) TimerEvent: {}
+[3.878086] (-) TimerEvent: {}
+[3.979950] (-) TimerEvent: {}
+[4.081838] (-) TimerEvent: {}
+[4.183868] (-) TimerEvent: {}
+[4.285789] (-) TimerEvent: {}
+[4.387673] (-) TimerEvent: {}
+[4.489465] (-) TimerEvent: {}
+[4.591426] (-) TimerEvent: {}
+[4.693266] (-) TimerEvent: {}
+[4.795058] (-) TimerEvent: {}
+[4.896857] (-) TimerEvent: {}
+[4.998730] (-) TimerEvent: {}
+[5.100540] (-) TimerEvent: {}
+[5.202359] (-) TimerEvent: {}
+[5.304246] (-) TimerEvent: {}
+[5.406172] (-) TimerEvent: {}
+[5.508141] (-) TimerEvent: {}
+[5.610011] (-) TimerEvent: {}
+[5.711905] (-) TimerEvent: {}
+[5.813768] (-) TimerEvent: {}
+[5.915721] (-) TimerEvent: {}
+[6.017562] (-) TimerEvent: {}
+[6.119492] (-) TimerEvent: {}
+[6.221447] (-) TimerEvent: {}
+[6.323364] (-) TimerEvent: {}
+[6.425266] (-) TimerEvent: {}
+[6.527204] (-) TimerEvent: {}
+[6.629117] (-) TimerEvent: {}
+[6.731002] (-) TimerEvent: {}
+[6.833264] (-) TimerEvent: {}
+[6.935230] (-) TimerEvent: {}
+[7.037068] (-) TimerEvent: {}
+[7.138948] (-) TimerEvent: {}
+[7.240744] (-) TimerEvent: {}
+[7.342609] (-) TimerEvent: {}
+[7.444493] (-) TimerEvent: {}
+[7.546376] (-) TimerEvent: {}
+[7.648343] (-) TimerEvent: {}
+[7.750331] (-) TimerEvent: {}
+[7.852228] (-) TimerEvent: {}
+[7.954086] (-) TimerEvent: {}
+[8.055993] (-) TimerEvent: {}
+[8.157910] (-) TimerEvent: {}
+[8.259767] (-) TimerEvent: {}
+[8.361720] (-) TimerEvent: {}
+[8.463598] (-) TimerEvent: {}
+[8.565461] (-) TimerEvent: {}
+[8.667363] (-) TimerEvent: {}
+[8.769233] (-) TimerEvent: {}
+[8.871151] (-) TimerEvent: {}
+[8.973016] (-) TimerEvent: {}
+[9.074872] (-) TimerEvent: {}
+[9.176672] (-) TimerEvent: {}
+[9.278634] (-) TimerEvent: {}
+[9.380452] (-) TimerEvent: {}
+[9.482269] (-) TimerEvent: {}
+[9.584128] (-) TimerEvent: {}
+[9.685903] (-) TimerEvent: {}
+[9.787744] (-) TimerEvent: {}
+[9.889572] (-) TimerEvent: {}
+[9.991510] (-) TimerEvent: {}
+[10.093346] (-) TimerEvent: {}
+[10.195294] (-) TimerEvent: {}
+[10.297108] (-) TimerEvent: {}
+[10.399052] (-) TimerEvent: {}
+[10.501028] (-) TimerEvent: {}
+[10.603052] (-) TimerEvent: {}
+[10.704937] (-) TimerEvent: {}
+[10.806886] (-) TimerEvent: {}
+[10.908861] (-) TimerEvent: {}
+[11.010849] (-) TimerEvent: {}
+[11.112762] (-) TimerEvent: {}
+[11.149485] (path2pos) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/ext/alloc_traits.h:36\x1b[m\x1b[K,\n'}
+[11.151243] (path2pos) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:40\x1b[m\x1b[K,\n'}
+[11.152002] (path2pos) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/string:55\x1b[m\x1b[K,\n'}
+[11.152586] (path2pos) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/stdexcept:39\x1b[m\x1b[K,\n'}
+[11.153135] (path2pos) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/array:39\x1b[m\x1b[K,\n'}
+[11.153667] (path2pos) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/tuple:39\x1b[m\x1b[K,\n'}
+[11.154194] (path2pos) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/functional:54\x1b[m\x1b[K,\n'}
+[11.154796] (path2pos) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mp4d/ros_motors/MyCode/path2pos/src/pos_writer.cpp:2\x1b[m\x1b[K:\n'}
+[11.155351] (path2pos) StderrLine: {'line': b'/usr/include/c++/9/bits/alloc_traits.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kstruct std::allocator_traits<std::allocator<const std_msgs::msg::Int32_<std::allocator<void> >&> >\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.155894] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/message_memory_strategy.hpp:47:9:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kclass rclcpp::message_memory_strategy::MessageMemoryStrategy<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.156424] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:91:1:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class CallbackMessageT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = std_msgs::msg::Int32_<std::allocator<void> >; CallbackT = std::_Bind<void (MinimalPublisher::*(MinimalPublisher*, std::_Placeholder<1>))(const std_msgs::msg::Int32_<std::allocator<void> >&)>; AllocatorT = std::allocator<void>; CallbackMessageT = const std_msgs::msg::Int32_<std::allocator<void> >&; SubscriptionT = rclcpp::Subscription<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.157004] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mp4d/ros_motors/MyCode/path2pos/src/pos_writer.cpp:35:102:\x1b[m\x1b[K   required from here\n'}
+[11.157523] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/alloc_traits.h:399:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kforming pointer to reference type \xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::Int32_<std::allocator<void> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.158156] (path2pos) StderrLine: {'line': b'  399 |       using \x1b[01;31m\x1b[Kpointer\x1b[m\x1b[K = _Tp*;\n'}
+[11.158895] (path2pos) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[11.159450] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/alloc_traits.h:402:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kforming pointer to reference type \xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::Int32_<std::allocator<void> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.159985] (path2pos) StderrLine: {'line': b'  402 |       using \x1b[01;31m\x1b[Kconst_pointer\x1b[m\x1b[K = const _Tp*;\n'}
+[11.160501] (path2pos) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.175512] (path2pos) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:80\x1b[m\x1b[K,\n'}
+[11.178472] (path2pos) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mp4d/ros_motors/MyCode/path2pos/src/pos_writer.cpp:3\x1b[m\x1b[K:\n'}
+[11.180599] (path2pos) StderrLine: {'line': b'/usr/include/c++/9/bits/unique_ptr.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kstruct std::default_delete<const std_msgs::msg::Int32_<std::allocator<void> >&>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.181810] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/message_memory_strategy.hpp:119:18:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kclass rclcpp::message_memory_strategy::MessageMemoryStrategy<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.182724] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:91:1:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class CallbackMessageT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = std_msgs::msg::Int32_<std::allocator<void> >; CallbackT = std::_Bind<void (MinimalPublisher::*(MinimalPublisher*, std::_Placeholder<1>))(const std_msgs::msg::Int32_<std::allocator<void> >&)>; AllocatorT = std::allocator<void>; CallbackMessageT = const std_msgs::msg::Int32_<std::allocator<void> >&; SubscriptionT = rclcpp::Subscription<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.183460] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mp4d/ros_motors/MyCode/path2pos/src/pos_writer.cpp:35:102:\x1b[m\x1b[K   required from here\n'}
+[11.183998] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/unique_ptr.h:71:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kforming pointer to reference type \xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::Int32_<std::allocator<void> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.184534] (path2pos) StderrLine: {'line': b'   71 |         \x1b[01;31m\x1b[Kdefault_delete\x1b[m\x1b[K(const default_delete<_Up>&) noexcept { }\n'}
+[11.185059] (path2pos) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.185596] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/unique_ptr.h:75:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kforming pointer to reference type \xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::Int32_<std::allocator<void> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.186196] (path2pos) StderrLine: {'line': b'   75 |       \x1b[01;31m\x1b[Koperator\x1b[m\x1b[K()(_Tp* __ptr) const\n'}
+[11.186887] (path2pos) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[11.213107] (-) TimerEvent: {}
+[11.246182] (path2pos) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/subscription_base.hpp:29\x1b[m\x1b[K,\n'}
+[11.247799] (path2pos) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:26\x1b[m\x1b[K,\n'}
+[11.248579] (path2pos) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[11.249163] (path2pos) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[11.249704] (path2pos) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[11.250228] (path2pos) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[11.250849] (path2pos) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[11.251387] (path2pos) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[11.251914] (path2pos) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[11.252440] (path2pos) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[11.252959] (path2pos) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mp4d/ros_motors/MyCode/path2pos/src/pos_writer.cpp:10\x1b[m\x1b[K:\n'}
+[11.253480] (path2pos) StderrLine: {'line': b'/opt/ros/foxy/include/rclcpp/any_subscription_callback.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass rclcpp::AnySubscriptionCallback<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.254016] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/subscription.hpp:347:57:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kclass rclcpp::Subscription<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.254711] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/type_traits:1313:45:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _From1, class _To1, class> static std::true_type std::__is_convertible_helper<rclcpp::Subscription<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void> > >*, rclcpp::Subscription<std_msgs::msg::Int32_<std::allocator<void> > >*, false>::__test<_From1, _To1, <template-parameter-1-3> >(int) [with _From1 = rclcpp::Subscription<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void> > >*; _To1 = rclcpp::Subscription<std_msgs::msg::Int32_<std::allocator<void> > >*; <template-parameter-1-3> = <missing>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.255368] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/type_traits:1322:42:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstruct std::__is_convertible_helper<rclcpp::Subscription<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void> > >*, rclcpp::Subscription<std_msgs::msg::Int32_<std::allocator<void> > >*, false>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.255961] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/type_traits:1328:12:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstruct std::is_convertible<rclcpp::Subscription<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void> > >*, rclcpp::Subscription<std_msgs::msg::Int32_<std::allocator<void> > >*>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.256495] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr_base.h:927:12:\x1b[m\x1b[K   [ skipping 2 instantiation contexts, use -ftemplate-backtrace-limit=0 to disable ]\n'}
+[11.257023] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr_base.h:1099:8:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, __gnu_cxx::_Lock_policy _Lp> template<class _Yp> using _Assignable = std::__shared_ptr<_Tp, _Lp>::_Compatible<_Yp, std::__shared_ptr<_Tp, _Lp>&> [with _Yp = rclcpp::Subscription<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void> > >; _Tp = rclcpp::Subscription<std_msgs::msg::Int32_<std::allocator<void> > >; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.257590] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr_base.h:1271:2:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::__shared_ptr<rclcpp::Subscription<std_msgs::msg::Int32_<std::allocator<void> > >, __gnu_cxx::_S_atomic>::_Assignable<_Yp> std::__shared_ptr<rclcpp::Subscription<std_msgs::msg::Int32_<std::allocator<void> > >, __gnu_cxx::_S_atomic>::operator=<_Yp>(std::__shared_ptr<_Tp>&&) [with _Yp = rclcpp::Subscription<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.258173] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/type_traits:1010:12:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstruct std::is_assignable<std::__shared_ptr<rclcpp::Subscription<std_msgs::msg::Int32_<std::allocator<void> > >, __gnu_cxx::_S_atomic>&, std::shared_ptr<rclcpp::Subscription<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void> > > > >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.258813] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:111:8:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> template<class _Arg> using _Assignable = typename std::enable_if<std::is_assignable<std::__shared_ptr<_Tp>&, _Arg>::value, std::shared_ptr<_Tp>&>::type [with _Arg = std::shared_ptr<rclcpp::Subscription<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void> > > >; _Tp = rclcpp::Subscription<std_msgs::msg::Int32_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.259378] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:341:2:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<rclcpp::Subscription<std_msgs::msg::Int32_<std::allocator<void> > > >::_Assignable<std::shared_ptr<_Tp> > std::shared_ptr<rclcpp::Subscription<std_msgs::msg::Int32_<std::allocator<void> > > >::operator=<_Yp>(std::shared_ptr<_Tp>&&) [with _Yp = rclcpp::Subscription<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.259999] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mp4d/ros_motors/MyCode/path2pos/src/pos_writer.cpp:35:102:\x1b[m\x1b[K   required from here\n'}
+[11.260525] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_subscription_callback.hpp:111:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_ptr<const std_msgs::msg::Int32_<std::allocator<void> >&>)> >::value, void>::type* <anonymous> > void rclcpp::AnySubscriptionCallback<MessageT, Alloc>::set(CallbackT) [with CallbackT = CallbackT; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_ptr<const _Tp>)> >::value>::type* <anonymous> = <enumerator>; MessageT = const std_msgs::msg::Int32_<std::allocator<void> >&; Alloc = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99 cannot be overloaded with \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_ptr<const std_msgs::msg::Int32_<std::allocator<void> >&>)> >::value, void>::type* <anonymous> > void rclcpp::AnySubscriptionCallback<MessageT, Alloc>::set(CallbackT) [with CallbackT = CallbackT; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_ptr<_Tp>)> >::value>::type* <anonymous> = <enumerator>; MessageT = const std_msgs::msg::Int32_<std::allocator<void> >&; Alloc = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.261190] (path2pos) StderrLine: {'line': b'  111 |   void \x1b[01;31m\x1b[Kset\x1b[m\x1b[K(CallbackT callback)\n'}
+[11.261728] (path2pos) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[11.262257] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_subscription_callback.hpp:83:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_ptr<const std_msgs::msg::Int32_<std::allocator<void> >&>)> >::value, void>::type* <anonymous> > void rclcpp::AnySubscriptionCallback<MessageT, Alloc>::set(CallbackT) [with CallbackT = CallbackT; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_ptr<_Tp>)> >::value>::type* <anonymous> = <enumerator>; MessageT = const std_msgs::msg::Int32_<std::allocator<void> >&; Alloc = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.263004] (path2pos) StderrLine: {'line': b'   83 |   void \x1b[01;36m\x1b[Kset\x1b[m\x1b[K(CallbackT callback)\n'}
+[11.263546] (path2pos) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[11.264062] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_subscription_callback.hpp:125:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_ptr<const std_msgs::msg::Int32_<std::allocator<void> >&>, const rclcpp::MessageInfo&)> >::value, void>::type* <anonymous> > void rclcpp::AnySubscriptionCallback<MessageT, Alloc>::set(CallbackT) [with CallbackT = CallbackT; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_ptr<const _Tp>, const rclcpp::MessageInfo&)> >::value>::type* <anonymous> = <enumerator>; MessageT = const std_msgs::msg::Int32_<std::allocator<void> >&; Alloc = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99 cannot be overloaded with \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_ptr<const std_msgs::msg::Int32_<std::allocator<void> >&>, const rclcpp::MessageInfo&)> >::value, void>::type* <anonymous> > void rclcpp::AnySubscriptionCallback<MessageT, Alloc>::set(CallbackT) [with CallbackT = CallbackT; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_ptr<_Tp>, const rclcpp::MessageInfo&)> >::value>::type* <anonymous> = <enumerator>; MessageT = const std_msgs::msg::Int32_<std::allocator<void> >&; Alloc = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.264750] (path2pos) StderrLine: {'line': b'  125 |   void \x1b[01;31m\x1b[Kset\x1b[m\x1b[K(CallbackT callback)\n'}
+[11.265260] (path2pos) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[11.265774] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_subscription_callback.hpp:97:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_ptr<const std_msgs::msg::Int32_<std::allocator<void> >&>, const rclcpp::MessageInfo&)> >::value, void>::type* <anonymous> > void rclcpp::AnySubscriptionCallback<MessageT, Alloc>::set(CallbackT) [with CallbackT = CallbackT; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_ptr<_Tp>, const rclcpp::MessageInfo&)> >::value>::type* <anonymous> = <enumerator>; MessageT = const std_msgs::msg::Int32_<std::allocator<void> >&; Alloc = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.266457] (path2pos) StderrLine: {'line': b'   97 |   void \x1b[01;36m\x1b[Kset\x1b[m\x1b[K(CallbackT callback)\n'}
+[11.267021] (path2pos) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[11.284503] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mp4d/ros_motors/MyCode/path2pos/src/pos_writer.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMinimalPublisher::MinimalPublisher()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.285939] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mp4d/ros_motors/MyCode/path2pos/src/pos_writer.cpp:35:102:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Subscription<std_msgs::msg::Int32_<std::allocator<void> > >::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Subscription<std_msgs::msg::Int32_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Subscription<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[11.286722] (path2pos) StderrLine: {'line': b'   35 |         "/can_i_draw",10,std::bind(&MinimalPublisher::can_i_draw_callback,this,std::placeholders::_1)\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[11.287313] (path2pos) StderrLine: {'line': b'      |                                                                                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[11.287862] (path2pos) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[11.288401] (path2pos) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mp4d/ros_motors/MyCode/path2pos/src/pos_writer.cpp:3\x1b[m\x1b[K:\n'}
+[11.288936] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:309:19:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Tp>&) [with _Tp = rclcpp::Subscription<std_msgs::msg::Int32_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.289485] (path2pos) StderrLine: {'line': b'  309 |       shared_ptr& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const shared_ptr&) noexcept = default;\n'}
+[11.290126] (path2pos) StderrLine: {'line': b'      |                   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[11.290850] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:309:29:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Subscription<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<rclcpp::Subscription<std_msgs::msg::Int32_<std::allocator<void> > > >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.291457] (path2pos) StderrLine: {'line': b'  309 |       shared_ptr& operator=(\x1b[01;36m\x1b[Kconst shared_ptr&\x1b[m\x1b[K) noexcept = default;\n'}
+[11.292008] (path2pos) StderrLine: {'line': b'      |                             \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.292548] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:313:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<const std::shared_ptr<_Yp>&> std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Yp>&) [with _Yp = _Yp; _Tp = rclcpp::Subscription<std_msgs::msg::Int32_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.293212] (path2pos) StderrLine: {'line': b'  313 |  \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const shared_ptr<_Yp>& __r) noexcept\n'}
+[11.293782] (path2pos) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[11.294336] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:313:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[11.294980] (path2pos) StderrLine: {'line': b'/usr/include/c++/9/bits/shared_ptr.h: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> template<class _Arg> using _Assignable = typename std::enable_if<std::is_assignable<std::__shared_ptr<_Tp>&, _Arg>::value, std::shared_ptr<_Tp>&>::type [with _Arg = const std::shared_ptr<rclcpp::Subscription<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void> > > >&; _Tp = rclcpp::Subscription<std_msgs::msg::Int32_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.295542] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:313:2:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<rclcpp::Subscription<std_msgs::msg::Int32_<std::allocator<void> > > >::_Assignable<const std::shared_ptr<_Tp>&> std::shared_ptr<rclcpp::Subscription<std_msgs::msg::Int32_<std::allocator<void> > > >::operator=<_Yp>(const std::shared_ptr<_Tp>&) [with _Yp = rclcpp::Subscription<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.296199] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mp4d/ros_motors/MyCode/path2pos/src/pos_writer.cpp:35:102:\x1b[m\x1b[K   required from here\n'}
+[11.296726] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:111:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, std::shared_ptr<rclcpp::Subscription<std_msgs::msg::Int32_<std::allocator<void> > > >&>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.297263] (path2pos) StderrLine: {'line': b'  111 |  using \x1b[01;31m\x1b[K_Assignable\x1b[m\x1b[K = typename enable_if<\n'}
+[11.297817] (path2pos) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.298336] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:324:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::auto_ptr<_Up> > std::shared_ptr<_Tp>::operator=(std::auto_ptr<_Up>&&) [with _Yp = _Yp; _Tp = rclcpp::Subscription<std_msgs::msg::Int32_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.299137] (path2pos) StderrLine: {'line': b'  324 |  \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(auto_ptr<_Yp>&& __r)\n'}
+[11.299731] (path2pos) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[11.300277] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:324:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[11.300856] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mp4d/ros_motors/MyCode/path2pos/src/pos_writer.cpp:35:102:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Subscription<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::auto_ptr<_Up>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.301424] (path2pos) StderrLine: {'line': b'   35 |         "/can_i_draw",10,std::bind(&MinimalPublisher::can_i_draw_callback,this,std::placeholders::_1)\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[11.301956] (path2pos) StderrLine: {'line': b'      |                                                                                                      \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[11.302592] (path2pos) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[11.303230] (path2pos) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mp4d/ros_motors/MyCode/path2pos/src/pos_writer.cpp:3\x1b[m\x1b[K:\n'}
+[11.303798] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:333:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Tp>&&) [with _Tp = rclcpp::Subscription<std_msgs::msg::Int32_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.304354] (path2pos) StderrLine: {'line': b'  333 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(shared_ptr&& __r) noexcept\n'}
+[11.304881] (path2pos) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[11.305421] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:333:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Subscription<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Subscription<std_msgs::msg::Int32_<std::allocator<void> > > >&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.306078] (path2pos) StderrLine: {'line': b'  333 |       operator=(\x1b[01;36m\x1b[Kshared_ptr&& __r\x1b[m\x1b[K) noexcept\n'}
+[11.306675] (path2pos) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[11.307207] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:341:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::shared_ptr<_Yp> > std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Yp>&&) [with _Yp = _Yp; _Tp = rclcpp::Subscription<std_msgs::msg::Int32_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.307797] (path2pos) StderrLine: {'line': b'  341 |  \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(shared_ptr<_Yp>&& __r) noexcept\n'}
+[11.308322] (path2pos) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[11.308835] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:341:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  substitution of deduced template arguments resulted in errors seen above\n'}
+[11.309358] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:349:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp, class _Del> std::shared_ptr<_Tp>::_Assignable<std::unique_ptr<_Up, _Ep> > std::shared_ptr<_Tp>::operator=(std::unique_ptr<_Up, _Ep>&&) [with _Yp = _Yp; _Del = _Del; _Tp = rclcpp::Subscription<std_msgs::msg::Int32_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.309972] (path2pos) StderrLine: {'line': b'  349 |  \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(unique_ptr<_Yp, _Del>&& __r)\n'}
+[11.310602] (path2pos) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[11.311139] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:349:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[11.311661] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mp4d/ros_motors/MyCode/path2pos/src/pos_writer.cpp:35:102:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Subscription<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<_Tp, _Dp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.312199] (path2pos) StderrLine: {'line': b'   35 |         "/can_i_draw",10,std::bind(&MinimalPublisher::can_i_draw_callback,this,std::placeholders::_1)\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[11.312721] (path2pos) StderrLine: {'line': b'      |                                                                                                      \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[11.313224] (-) TimerEvent: {}
+[11.411206] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mp4d/ros_motors/MyCode/path2pos/src/pos_writer.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalPublisher::set_number_callback(std_msgs::msg::Int32_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.412667] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mp4d/ros_motors/MyCode/path2pos/src/pos_writer.cpp:143:15:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kpos1\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[11.413412] (-) TimerEvent: {}
+[11.414351] (path2pos) StderrLine: {'line': b'  143 |           int \x1b[01;35m\x1b[Kpos1\x1b[m\x1b[K=(angle1+60)*1023/300;\n'}
+[11.415340] (path2pos) StderrLine: {'line': b'      |               \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[11.514036] (-) TimerEvent: {}
+[11.616206] (-) TimerEvent: {}
+[11.718035] (-) TimerEvent: {}
+[11.819939] (-) TimerEvent: {}
+[11.921865] (-) TimerEvent: {}
+[12.023880] (-) TimerEvent: {}
+[12.125793] (-) TimerEvent: {}
+[12.227833] (-) TimerEvent: {}
+[12.329737] (-) TimerEvent: {}
+[12.431703] (-) TimerEvent: {}
+[12.533544] (-) TimerEvent: {}
+[12.635661] (-) TimerEvent: {}
+[12.739863] (-) TimerEvent: {}
+[12.841685] (-) TimerEvent: {}
+[12.943621] (-) TimerEvent: {}
+[13.045519] (-) TimerEvent: {}
+[13.147494] (-) TimerEvent: {}
+[13.249464] (-) TimerEvent: {}
+[13.351466] (-) TimerEvent: {}
+[13.453417] (-) TimerEvent: {}
+[13.555465] (-) TimerEvent: {}
+[13.657414] (-) TimerEvent: {}
+[13.759351] (-) TimerEvent: {}
+[13.861167] (-) TimerEvent: {}
+[13.962941] (-) TimerEvent: {}
+[14.064736] (-) TimerEvent: {}
+[14.166561] (-) TimerEvent: {}
+[14.268362] (-) TimerEvent: {}
+[14.370261] (-) TimerEvent: {}
+[14.472116] (-) TimerEvent: {}
+[14.573913] (-) TimerEvent: {}
+[14.675717] (-) TimerEvent: {}
+[14.777478] (-) TimerEvent: {}
+[14.879261] (-) TimerEvent: {}
+[14.981053] (-) TimerEvent: {}
+[15.082911] (-) TimerEvent: {}
+[15.184750] (-) TimerEvent: {}
+[15.286659] (-) TimerEvent: {}
+[15.388520] (-) TimerEvent: {}
+[15.490455] (-) TimerEvent: {}
+[15.592341] (-) TimerEvent: {}
+[15.694217] (-) TimerEvent: {}
+[15.796012] (-) TimerEvent: {}
+[15.835918] (path2pos) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_topics_interface.hpp:32\x1b[m\x1b[K,\n'}
+[15.837461] (path2pos) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:55\x1b[m\x1b[K,\n'}
+[15.838218] (path2pos) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[15.838953] (path2pos) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[15.839542] (path2pos) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[15.840088] (path2pos) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mp4d/ros_motors/MyCode/path2pos/src/pos_writer.cpp:10\x1b[m\x1b[K:\n'}
+[15.840624] (path2pos) StderrLine: {'line': b'/opt/ros/foxy/include/rclcpp/subscription_factory.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Krclcpp::SubscriptionFactory rclcpp::create_subscription_factory(CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr, std::shared_ptr<rclcpp::topic_statistics::SubscriptionTopicStatistics<CallbackMessageT> >) [with MessageT = std_msgs::msg::Int32_<std::allocator<void> >; CallbackT = std::_Bind<void (MinimalPublisher::*(MinimalPublisher*, std::_Placeholder<1>))(const std_msgs::msg::Int32_<std::allocator<void> >&)>; AllocatorT = std::allocator<void>; CallbackMessageT = const std_msgs::msg::Int32_<std::allocator<void> >&; SubscriptionT = rclcpp::Subscription<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void> >; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[15.841372] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/create_subscription.hpp:144:63:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<SubscriptionT> rclcpp::create_subscription(NodeT&&, const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = std_msgs::msg::Int32_<std::allocator<void> >; CallbackT = std::_Bind<void (MinimalPublisher::*(MinimalPublisher*, std::_Placeholder<1>))(const std_msgs::msg::Int32_<std::allocator<void> >&)>; AllocatorT = std::allocator<void>; CallbackMessageT = const std_msgs::msg::Int32_<std::allocator<void> >&; SubscriptionT = rclcpp::Subscription<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void> >; NodeT = rclcpp::Node&; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[15.842105] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:98:47:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = std_msgs::msg::Int32_<std::allocator<void> >; CallbackT = std::_Bind<void (MinimalPublisher::*(MinimalPublisher*, std::_Placeholder<1>))(const std_msgs::msg::Int32_<std::allocator<void> >&)>; AllocatorT = std::allocator<void>; CallbackMessageT = const std_msgs::msg::Int32_<std::allocator<void> >&; SubscriptionT = rclcpp::Subscription<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void> >; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[15.842902] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mp4d/ros_motors/MyCode/path2pos/src/pos_writer.cpp:35:102:\x1b[m\x1b[K   required from here\n'}
+[15.843483] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/subscription_factory.hpp:97:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::AnySubscriptionCallback<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void> >::set(std::_Bind<void (MinimalPublisher::*(MinimalPublisher*, std::_Placeholder<1>))(const std_msgs::msg::Int32_<std::allocator<void> >&)>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[15.844139] (path2pos) StderrLine: {'line': b'   97 |   \x1b[01;31m\x1b[Kany_subscription_callback\x1b[m\x1b[K.set(std::forward<CallbackT>(callback));\n'}
+[15.844708] (path2pos) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.845245] (path2pos) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/subscription_base.hpp:29\x1b[m\x1b[K,\n'}
+[15.845766] (path2pos) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:26\x1b[m\x1b[K,\n'}
+[15.846295] (path2pos) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[15.846929] (path2pos) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[15.847473] (path2pos) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[15.848000] (path2pos) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[15.848543] (path2pos) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[15.849097] (path2pos) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[15.849649] (path2pos) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[15.850183] (path2pos) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[15.850839] (path2pos) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mp4d/ros_motors/MyCode/path2pos/src/pos_writer.cpp:10\x1b[m\x1b[K:\n'}
+[15.851416] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_subscription_callback.hpp:83:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_ptr<const std_msgs::msg::Int32_<std::allocator<void> >&>)> >::value, void>::type* <anonymous> > void rclcpp::AnySubscriptionCallback<MessageT, Alloc>::set(CallbackT) [with CallbackT = CallbackT; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_ptr<_Tp>)> >::value>::type* <anonymous> = <enumerator>; MessageT = const std_msgs::msg::Int32_<std::allocator<void> >&; Alloc = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[15.852212] (path2pos) StderrLine: {'line': b'   83 |   void \x1b[01;36m\x1b[Kset\x1b[m\x1b[K(CallbackT callback)\n'}
+[15.852775] (path2pos) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[15.853326] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_subscription_callback.hpp:83:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[15.853891] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_subscription_callback.hpp:81:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, void>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[15.854498] (path2pos) StderrLine: {'line': b'   81 |     >::type * = \x1b[01;31m\x1b[Knullptr\x1b[m\x1b[K\n'}
+[15.855050] (path2pos) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[15.855579] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_subscription_callback.hpp:97:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_ptr<const std_msgs::msg::Int32_<std::allocator<void> >&>, const rclcpp::MessageInfo&)> >::value, void>::type* <anonymous> > void rclcpp::AnySubscriptionCallback<MessageT, Alloc>::set(CallbackT) [with CallbackT = CallbackT; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_ptr<_Tp>, const rclcpp::MessageInfo&)> >::value>::type* <anonymous> = <enumerator>; MessageT = const std_msgs::msg::Int32_<std::allocator<void> >&; Alloc = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[15.856166] (path2pos) StderrLine: {'line': b'   97 |   void \x1b[01;36m\x1b[Kset\x1b[m\x1b[K(CallbackT callback)\n'}
+[15.856709] (path2pos) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[15.857234] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_subscription_callback.hpp:97:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[15.857761] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_subscription_callback.hpp:95:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, void>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[15.858287] (path2pos) StderrLine: {'line': b'   95 |     >::type * = \x1b[01;31m\x1b[Knullptr\x1b[m\x1b[K\n'}
+[15.858899] (path2pos) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[15.859415] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_subscription_callback.hpp:139:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::unique_ptr<const std_msgs::msg::Int32_<std::allocator<void> >&, std::default_delete<const std_msgs::msg::Int32_<std::allocator<void> >&> >)> >::value, void>::type* <anonymous> > void rclcpp::AnySubscriptionCallback<MessageT, Alloc>::set(CallbackT) [with CallbackT = CallbackT; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::unique_ptr<MessageT, typename std::conditional<std::is_same<typename std::allocator_traits<typename std::allocator_traits<_Alloc>::rebind_traits<MessageT>::allocator_type>::rebind_alloc<MessageT>, typename std::allocator<void>::rebind<_Tp1>::other>::value, std::default_delete<_Tp>, rclcpp::allocator::AllocatorDeleter<typename std::allocator_traits<_Alloc>::rebind_traits<MessageT>::allocator_type> >::type>)> >::value>::type* <anonymous> = <enumerator>; MessageT = const std_msgs::msg::Int32_<std::allocator<void> >&; Alloc = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[15.860169] (path2pos) StderrLine: {'line': b'  139 |   void \x1b[01;36m\x1b[Kset\x1b[m\x1b[K(CallbackT callback)\n'}
+[15.862284] (path2pos) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[15.863267] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_subscription_callback.hpp:139:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[15.865567] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_subscription_callback.hpp:137:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, void>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[15.866561] (path2pos) StderrLine: {'line': b'  137 |     >::type * = \x1b[01;31m\x1b[Knullptr\x1b[m\x1b[K\n'}
+[15.867268] (path2pos) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[15.867871] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_subscription_callback.hpp:153:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::unique_ptr<const std_msgs::msg::Int32_<std::allocator<void> >&, std::default_delete<const std_msgs::msg::Int32_<std::allocator<void> >&> >, const rclcpp::MessageInfo&)> >::value, void>::type* <anonymous> > void rclcpp::AnySubscriptionCallback<MessageT, Alloc>::set(CallbackT) [with CallbackT = CallbackT; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::unique_ptr<MessageT, typename std::conditional<std::is_same<typename std::allocator_traits<typename std::allocator_traits<_Alloc>::rebind_traits<MessageT>::allocator_type>::rebind_alloc<MessageT>, typename std::allocator<void>::rebind<_Tp1>::other>::value, std::default_delete<_Tp>, rclcpp::allocator::AllocatorDeleter<typename std::allocator_traits<_Alloc>::rebind_traits<MessageT>::allocator_type> >::type>, const rclcpp::MessageInfo&)> >::value>::type* <anonymous> = <enumerator>; MessageT = const std_msgs::msg::Int32_<std::allocator<void> >&; Alloc = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[15.868686] (path2pos) StderrLine: {'line': b'  153 |   void \x1b[01;36m\x1b[Kset\x1b[m\x1b[K(CallbackT callback)\n'}
+[15.869273] (path2pos) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[15.869825] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_subscription_callback.hpp:153:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[15.871085] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_subscription_callback.hpp:151:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, void>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[15.871787] (path2pos) StderrLine: {'line': b'  151 |     >::type * = \x1b[01;31m\x1b[Knullptr\x1b[m\x1b[K\n'}
+[15.872470] (path2pos) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[15.896410] (-) TimerEvent: {}
+[15.998428] (-) TimerEvent: {}
+[16.100362] (-) TimerEvent: {}
+[16.202306] (-) TimerEvent: {}
+[16.304321] (-) TimerEvent: {}
+[16.406291] (-) TimerEvent: {}
+[16.508445] (-) TimerEvent: {}
+[16.610678] (-) TimerEvent: {}
+[16.712745] (-) TimerEvent: {}
+[16.814773] (-) TimerEvent: {}
+[16.916638] (-) TimerEvent: {}
+[17.018564] (-) TimerEvent: {}
+[17.120516] (-) TimerEvent: {}
+[17.222549] (-) TimerEvent: {}
+[17.324464] (-) TimerEvent: {}
+[17.426521] (-) TimerEvent: {}
+[17.528430] (-) TimerEvent: {}
+[17.630363] (-) TimerEvent: {}
+[17.732397] (-) TimerEvent: {}
+[17.834229] (-) TimerEvent: {}
+[17.936135] (-) TimerEvent: {}
+[18.038084] (-) TimerEvent: {}
+[18.140054] (-) TimerEvent: {}
+[18.204406] (path2pos) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/aarch64-linux-gnu/c++/9/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[18.208911] (path2pos) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[18.210071] (path2pos) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/string:41\x1b[m\x1b[K,\n'}
+[18.210888] (path2pos) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/stdexcept:39\x1b[m\x1b[K,\n'}
+[18.211510] (path2pos) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/array:39\x1b[m\x1b[K,\n'}
+[18.212107] (path2pos) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/tuple:39\x1b[m\x1b[K,\n'}
+[18.212687] (path2pos) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/functional:54\x1b[m\x1b[K,\n'}
+[18.213343] (path2pos) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mp4d/ros_motors/MyCode/path2pos/src/pos_writer.cpp:2\x1b[m\x1b[K:\n'}
+[18.213924] (path2pos) StderrLine: {'line': b'/usr/include/c++/9/ext/new_allocator.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass __gnu_cxx::new_allocator<const std_msgs::msg::Int32_<std::allocator<void> >&>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[18.214583] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/allocator.h:111:11:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kclass std::allocator<const std_msgs::msg::Int32_<std::allocator<void> >&>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.215204] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr_base.h:1365:63:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> struct std::__shared_ptr<std::allocator<const std_msgs::msg::Int32_<std::allocator<void> >&>, __gnu_cxx::_S_atomic>::__has_esft_base<_Yp, std::__void_t<decltype (__enable_shared_from_this_base(declval<const std::__shared_count<__gnu_cxx::_S_atomic>&>(), declval<_Yp*>()))> > [with _Yp = std::allocator<const std_msgs::msg::Int32_<std::allocator<void> >&>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.215825] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr_base.h:1387:21:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp, class _Yp2> typename std::enable_if<(! std::__shared_ptr<std::allocator<const std_msgs::msg::Int32_<std::allocator<void> >&>, __gnu_cxx::_S_atomic>::__has_esft_base<_Yp2, void>::value), void>::type std::__shared_ptr<std::allocator<const std_msgs::msg::Int32_<std::allocator<void> >&>, __gnu_cxx::_S_atomic>::_M_enable_shared_from_this_with<_Yp, _Yp2>(_Yp*) [with _Yp = std::allocator<const std_msgs::msg::Int32_<std::allocator<void> >&>; _Yp2 = std::allocator<const std_msgs::msg::Int32_<std::allocator<void> >&>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.216418] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr_base.h:1345:4:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<std::allocator<const std_msgs::msg::Int32_<std::allocator<void> >&> >; _Args = {std::allocator<void>&}; _Tp = std::allocator<const std_msgs::msg::Int32_<std::allocator<void> >&>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.217093] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:359:59:\x1b[m\x1b[K   [ skipping 2 instantiation contexts, use -ftemplate-backtrace-limit=0 to disable ]\n'}
+[18.217663] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:717:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = std::allocator<const std_msgs::msg::Int32_<std::allocator<void> >&>; _Args = {std::allocator<void>&}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.218354] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_subscription_callback.hpp:68:56:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Krclcpp::AnySubscriptionCallback<MessageT, Alloc>::AnySubscriptionCallback(std::shared_ptr<_Tp>) [with MessageT = const std_msgs::msg::Int32_<std::allocator<void> >&; Alloc = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.219082] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/subscription_factory.hpp:96:57:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Krclcpp::SubscriptionFactory rclcpp::create_subscription_factory(CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr, std::shared_ptr<rclcpp::topic_statistics::SubscriptionTopicStatistics<CallbackMessageT> >) [with MessageT = std_msgs::msg::Int32_<std::allocator<void> >; CallbackT = std::_Bind<void (MinimalPublisher::*(MinimalPublisher*, std::_Placeholder<1>))(const std_msgs::msg::Int32_<std::allocator<void> >&)>; AllocatorT = std::allocator<void>; CallbackMessageT = const std_msgs::msg::Int32_<std::allocator<void> >&; SubscriptionT = rclcpp::Subscription<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void> >; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.219804] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/create_subscription.hpp:144:63:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<SubscriptionT> rclcpp::create_subscription(NodeT&&, const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = std_msgs::msg::Int32_<std::allocator<void> >; CallbackT = std::_Bind<void (MinimalPublisher::*(MinimalPublisher*, std::_Placeholder<1>))(const std_msgs::msg::Int32_<std::allocator<void> >&)>; AllocatorT = std::allocator<void>; CallbackMessageT = const std_msgs::msg::Int32_<std::allocator<void> >&; SubscriptionT = rclcpp::Subscription<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void> >; NodeT = rclcpp::Node&; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.220468] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:98:47:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = std_msgs::msg::Int32_<std::allocator<void> >; CallbackT = std::_Bind<void (MinimalPublisher::*(MinimalPublisher*, std::_Placeholder<1>))(const std_msgs::msg::Int32_<std::allocator<void> >&)>; AllocatorT = std::allocator<void>; CallbackMessageT = const std_msgs::msg::Int32_<std::allocator<void> >&; SubscriptionT = rclcpp::Subscription<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void> >; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.221229] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mp4d/ros_motors/MyCode/path2pos/src/pos_writer.cpp:35:102:\x1b[m\x1b[K   required from here\n'}
+[18.221825] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ext/new_allocator.h:63:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kforming pointer to reference type \xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::Int32_<std::allocator<void> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.222465] (path2pos) StderrLine: {'line': b'   63 |       typedef _Tp*       \x1b[01;31m\x1b[Kpointer\x1b[m\x1b[K;\n'}
+[18.223060] (path2pos) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[18.223628] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ext/new_allocator.h:64:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kforming pointer to reference type \xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::Int32_<std::allocator<void> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.224183] (path2pos) StderrLine: {'line': b'   64 |       typedef const _Tp* \x1b[01;31m\x1b[Kconst_pointer\x1b[m\x1b[K;\n'}
+[18.224738] (path2pos) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.225292] (path2pos) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/string:41\x1b[m\x1b[K,\n'}
+[18.225842] (path2pos) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/stdexcept:39\x1b[m\x1b[K,\n'}
+[18.226475] (path2pos) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/array:39\x1b[m\x1b[K,\n'}
+[18.227186] (path2pos) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/tuple:39\x1b[m\x1b[K,\n'}
+[18.227732] (path2pos) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/functional:54\x1b[m\x1b[K,\n'}
+[18.228261] (path2pos) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mp4d/ros_motors/MyCode/path2pos/src/pos_writer.cpp:2\x1b[m\x1b[K:\n'}
+[18.228798] (path2pos) StderrLine: {'line': b'/usr/include/c++/9/bits/allocator.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass std::allocator<const std_msgs::msg::Int32_<std::allocator<void> >&>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[18.229438] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr_base.h:1365:63:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> struct std::__shared_ptr<std::allocator<const std_msgs::msg::Int32_<std::allocator<void> >&>, __gnu_cxx::_S_atomic>::__has_esft_base<_Yp, std::__void_t<decltype (__enable_shared_from_this_base(declval<const std::__shared_count<__gnu_cxx::_S_atomic>&>(), declval<_Yp*>()))> > [with _Yp = std::allocator<const std_msgs::msg::Int32_<std::allocator<void> >&>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.230076] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr_base.h:1387:21:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp, class _Yp2> typename std::enable_if<(! std::__shared_ptr<std::allocator<const std_msgs::msg::Int32_<std::allocator<void> >&>, __gnu_cxx::_S_atomic>::__has_esft_base<_Yp2, void>::value), void>::type std::__shared_ptr<std::allocator<const std_msgs::msg::Int32_<std::allocator<void> >&>, __gnu_cxx::_S_atomic>::_M_enable_shared_from_this_with<_Yp, _Yp2>(_Yp*) [with _Yp = std::allocator<const std_msgs::msg::Int32_<std::allocator<void> >&>; _Yp2 = std::allocator<const std_msgs::msg::Int32_<std::allocator<void> >&>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.230782] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr_base.h:1345:4:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<std::allocator<const std_msgs::msg::Int32_<std::allocator<void> >&> >; _Args = {std::allocator<void>&}; _Tp = std::allocator<const std_msgs::msg::Int32_<std::allocator<void> >&>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.231393] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:359:59:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<std::allocator<const std_msgs::msg::Int32_<std::allocator<void> >&> >; _Args = {std::allocator<void>&}; _Tp = std::allocator<const std_msgs::msg::Int32_<std::allocator<void> >&>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.231984] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:701:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = std::allocator<const std_msgs::msg::Int32_<std::allocator<void> >&>; _Alloc = std::allocator<std::allocator<const std_msgs::msg::Int32_<std::allocator<void> >&> >; _Args = {std::allocator<void>&}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.232571] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:717:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = std::allocator<const std_msgs::msg::Int32_<std::allocator<void> >&>; _Args = {std::allocator<void>&}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.233263] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_subscription_callback.hpp:68:56:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Krclcpp::AnySubscriptionCallback<MessageT, Alloc>::AnySubscriptionCallback(std::shared_ptr<_Tp>) [with MessageT = const std_msgs::msg::Int32_<std::allocator<void> >&; Alloc = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.233842] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/subscription_factory.hpp:96:57:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Krclcpp::SubscriptionFactory rclcpp::create_subscription_factory(CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr, std::shared_ptr<rclcpp::topic_statistics::SubscriptionTopicStatistics<CallbackMessageT> >) [with MessageT = std_msgs::msg::Int32_<std::allocator<void> >; CallbackT = std::_Bind<void (MinimalPublisher::*(MinimalPublisher*, std::_Placeholder<1>))(const std_msgs::msg::Int32_<std::allocator<void> >&)>; AllocatorT = std::allocator<void>; CallbackMessageT = const std_msgs::msg::Int32_<std::allocator<void> >&; SubscriptionT = rclcpp::Subscription<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void> >; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.234678] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/create_subscription.hpp:144:63:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<SubscriptionT> rclcpp::create_subscription(NodeT&&, const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = std_msgs::msg::Int32_<std::allocator<void> >; CallbackT = std::_Bind<void (MinimalPublisher::*(MinimalPublisher*, std::_Placeholder<1>))(const std_msgs::msg::Int32_<std::allocator<void> >&)>; AllocatorT = std::allocator<void>; CallbackMessageT = const std_msgs::msg::Int32_<std::allocator<void> >&; SubscriptionT = rclcpp::Subscription<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void> >; NodeT = rclcpp::Node&; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.235333] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:98:47:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = std_msgs::msg::Int32_<std::allocator<void> >; CallbackT = std::_Bind<void (MinimalPublisher::*(MinimalPublisher*, std::_Placeholder<1>))(const std_msgs::msg::Int32_<std::allocator<void> >&)>; AllocatorT = std::allocator<void>; CallbackMessageT = const std_msgs::msg::Int32_<std::allocator<void> >&; SubscriptionT = rclcpp::Subscription<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void> >; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.235984] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mp4d/ros_motors/MyCode/path2pos/src/pos_writer.cpp:35:102:\x1b[m\x1b[K   required from here\n'}
+[18.236533] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/allocator.h:116:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kforming pointer to reference type \xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::Int32_<std::allocator<void> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.237077] (path2pos) StderrLine: {'line': b'  116 |       typedef _Tp*       \x1b[01;31m\x1b[Kpointer\x1b[m\x1b[K;\n'}
+[18.237606] (path2pos) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[18.238140] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/allocator.h:117:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kforming pointer to reference type \xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::Int32_<std::allocator<void> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.238768] (path2pos) StderrLine: {'line': b'  117 |       typedef const _Tp* \x1b[01;31m\x1b[Kconst_pointer\x1b[m\x1b[K;\n'}
+[18.239359] (path2pos) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.240119] (-) TimerEvent: {}
+[18.341409] (-) TimerEvent: {}
+[18.443385] (-) TimerEvent: {}
+[18.545362] (-) TimerEvent: {}
+[18.647397] (-) TimerEvent: {}
+[18.749313] (-) TimerEvent: {}
+[18.851324] (-) TimerEvent: {}
+[18.953376] (-) TimerEvent: {}
+[19.055417] (-) TimerEvent: {}
+[19.157372] (-) TimerEvent: {}
+[19.259330] (-) TimerEvent: {}
+[19.361312] (-) TimerEvent: {}
+[19.463370] (-) TimerEvent: {}
+[19.565349] (-) TimerEvent: {}
+[19.667308] (-) TimerEvent: {}
+[19.769276] (-) TimerEvent: {}
+[19.871233] (-) TimerEvent: {}
+[19.973135] (-) TimerEvent: {}
+[20.075147] (-) TimerEvent: {}
+[20.177086] (-) TimerEvent: {}
+[20.279094] (-) TimerEvent: {}
+[20.381033] (-) TimerEvent: {}
+[20.483031] (-) TimerEvent: {}
+[20.584992] (-) TimerEvent: {}
+[20.686903] (-) TimerEvent: {}
+[20.788781] (-) TimerEvent: {}
+[20.890711] (-) TimerEvent: {}
+[20.993730] (-) TimerEvent: {}
+[21.095771] (-) TimerEvent: {}
+[21.197709] (-) TimerEvent: {}
+[21.299742] (-) TimerEvent: {}
+[21.401709] (-) TimerEvent: {}
+[21.503851] (-) TimerEvent: {}
+[21.606160] (-) TimerEvent: {}
+[21.708028] (-) TimerEvent: {}
+[21.809841] (-) TimerEvent: {}
+[21.911891] (-) TimerEvent: {}
+[22.013813] (-) TimerEvent: {}
+[22.115853] (-) TimerEvent: {}
+[22.217764] (-) TimerEvent: {}
+[22.319761] (-) TimerEvent: {}
+[22.421685] (-) TimerEvent: {}
+[22.523720] (-) TimerEvent: {}
+[22.625750] (-) TimerEvent: {}
+[22.729567] (-) TimerEvent: {}
+[22.781546] (path2pos) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:52\x1b[m\x1b[K,\n'}
+[22.783080] (path2pos) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[22.783821] (path2pos) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mp4d/ros_motors/MyCode/path2pos/src/pos_writer.cpp:3\x1b[m\x1b[K:\n'}
+[22.784414] (path2pos) StderrLine: {'line': b'/usr/include/c++/9/bits/shared_ptr_base.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass std::__shared_ptr_access<const std_msgs::msg::Int32_<std::allocator<void> >&, __gnu_cxx::_S_atomic, false, false>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[22.785055] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr_base.h:1080:11:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kclass std::__shared_ptr<const std_msgs::msg::Int32_<std::allocator<void> >&, __gnu_cxx::_S_atomic>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[22.785604] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/message_memory_strategy.hpp:85:37:\x1b[m\x1b[K   recursively required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> rclcpp::message_memory_strategy::MessageMemoryStrategy<MessageT, Alloc>::borrow_message() [with MessageT = const std_msgs::msg::Int32_<std::allocator<void> >&; Alloc = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[22.786159] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/message_memory_strategy.hpp:85:37:\x1b[m\x1b[K   required from here\n'}
+[22.786766] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr_base.h:1012:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kforming pointer to reference type \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr_access<const std_msgs::msg::Int32_<std::allocator<void> >&, __gnu_cxx::_S_atomic, false, false>::element_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::Int32_<std::allocator<void> >&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[22.787323] (path2pos) StderrLine: {'line': b' 1012 |       \x1b[01;31m\x1b[Koperator\x1b[m\x1b[K->() const noexcept\n'}
+[22.787874] (path2pos) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[22.788402] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr_base.h:1020:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kforming pointer to reference type \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr_access<const std_msgs::msg::Int32_<std::allocator<void> >&, __gnu_cxx::_S_atomic, false, false>::element_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::Int32_<std::allocator<void> >&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[22.789059] (path2pos) StderrLine: {'line': b' 1020 |       \x1b[01;31m\x1b[K_M_get\x1b[m\x1b[K() const noexcept\n'}
+[22.789582] (path2pos) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[22.790086] (path2pos) StderrLine: {'line': b'/usr/include/c++/9/bits/shared_ptr_base.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass std::__shared_ptr<const std_msgs::msg::Int32_<std::allocator<void> >&, __gnu_cxx::_S_atomic>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[22.792277] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/message_memory_strategy.hpp:85:37:\x1b[m\x1b[K   recursively required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> rclcpp::message_memory_strategy::MessageMemoryStrategy<MessageT, Alloc>::borrow_message() [with MessageT = const std_msgs::msg::Int32_<std::allocator<void> >&; Alloc = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[22.792954] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/message_memory_strategy.hpp:85:37:\x1b[m\x1b[K   required from here\n'}
+[22.793505] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr_base.h:1094:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kforming pointer to reference type \xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::Int32_<std::allocator<void> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[22.796540] (path2pos) StderrLine: {'line': b' 1094 |  using \x1b[01;31m\x1b[K_Compatible\x1b[m\x1b[K = typename\n'}
+[22.799261] (path2pos) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.800628] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr_base.h:1104:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kforming pointer to reference type \xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::Int32_<std::allocator<void> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[22.801403] (path2pos) StderrLine: {'line': b' 1104 |  using \x1b[01;31m\x1b[K_UniqCompatible\x1b[m\x1b[K = typename enable_if<__and_<\n'}
+[22.802141] (path2pos) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.802904] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr_base.h:1162:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kforming pointer to reference type \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr<const std_msgs::msg::Int32_<std::allocator<void> >&, __gnu_cxx::_S_atomic>::element_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::Int32_<std::allocator<void> >&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[22.803550] (path2pos) StderrLine: {'line': b' 1162 |  \x1b[01;31m\x1b[K__shared_ptr\x1b[m\x1b[K(const __shared_ptr<_Yp, _Lp>& __r,\n'}
+[22.804140] (path2pos) StderrLine: {'line': b'      |  \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.804705] (path2pos) StderrLine: {'line': b'/usr/include/c++/9/bits/shared_ptr_base.h: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, __gnu_cxx::_Lock_policy _Lp> template<class _Yp, class _Res> using _Compatible = typename std::enable_if<std::__sp_compatible_with<_Yp*, _Tp*>::value, _Res>::type [with _Yp = _Yp; _Res = void; _Tp = const std_msgs::msg::Int32_<std::allocator<void> >&; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[22.805324] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr_base.h:1172:2:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kclass std::__shared_ptr<const std_msgs::msg::Int32_<std::allocator<void> >&, __gnu_cxx::_S_atomic>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[22.805912] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/message_memory_strategy.hpp:85:37:\x1b[m\x1b[K   recursively required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> rclcpp::message_memory_strategy::MessageMemoryStrategy<MessageT, Alloc>::borrow_message() [with MessageT = const std_msgs::msg::Int32_<std::allocator<void> >&; Alloc = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[22.806727] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/message_memory_strategy.hpp:85:37:\x1b[m\x1b[K   required from here\n'}
+[22.807360] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr_base.h:1094:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kforming pointer to reference type \xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::Int32_<std::allocator<void> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[22.807933] (path2pos) StderrLine: {'line': b' 1094 |  using \x1b[01;31m\x1b[K_Compatible\x1b[m\x1b[K = typename\n'}
+[22.808471] (path2pos) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.809014] (path2pos) StderrLine: {'line': b'/usr/include/c++/9/bits/shared_ptr_base.h: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, __gnu_cxx::_Lock_policy _Lp> template<class _Yp, class _Del, class _Res, class _Ptr> using _UniqCompatible = typename std::enable_if<std::__and_<std::__sp_compatible_with<_Yp*, _Tp*>, std::is_convertible<_Ptr, typename std::remove_extent<_Up>::type*> >::value, _Res>::type [with _Yp = _Yp; _Del = _Del; _Res = void; _Ptr = typename std::unique_ptr<_Tp, _Dp>::pointer; _Tp = const std_msgs::msg::Int32_<std::allocator<void> >&; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[22.809617] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr_base.h:1203:2:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kclass std::__shared_ptr<const std_msgs::msg::Int32_<std::allocator<void> >&, __gnu_cxx::_S_atomic>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[22.810209] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/message_memory_strategy.hpp:85:37:\x1b[m\x1b[K   recursively required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> rclcpp::message_memory_strategy::MessageMemoryStrategy<MessageT, Alloc>::borrow_message() [with MessageT = const std_msgs::msg::Int32_<std::allocator<void> >&; Alloc = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[22.810885] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/message_memory_strategy.hpp:85:37:\x1b[m\x1b[K   required from here\n'}
+[22.811435] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr_base.h:1104:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kforming pointer to reference type \xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::Int32_<std::allocator<void> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[22.811979] (path2pos) StderrLine: {'line': b' 1104 |  using \x1b[01;31m\x1b[K_UniqCompatible\x1b[m\x1b[K = typename enable_if<__and_<\n'}
+[22.812531] (path2pos) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.813073] (path2pos) StderrLine: {'line': b'/usr/include/c++/9/bits/shared_ptr_base.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass std::__shared_ptr<const std_msgs::msg::Int32_<std::allocator<void> >&, __gnu_cxx::_S_atomic>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[22.813640] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/message_memory_strategy.hpp:85:37:\x1b[m\x1b[K   recursively required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> rclcpp::message_memory_strategy::MessageMemoryStrategy<MessageT, Alloc>::borrow_message() [with MessageT = const std_msgs::msg::Int32_<std::allocator<void> >&; Alloc = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[22.814214] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/message_memory_strategy.hpp:85:37:\x1b[m\x1b[K   required from here\n'}
+[22.814879] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr_base.h:1219:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kforming pointer to reference type \xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::Int32_<std::allocator<void> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[22.815651] (path2pos) StderrLine: {'line': b' 1219 |  \x1b[01;31m\x1b[K__shared_ptr\x1b[m\x1b[K(unique_ptr<_Tp1, _Del>&& __r, __sp_array_delete)\n'}
+[22.816237] (path2pos) StderrLine: {'line': b'      |  \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.816795] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr_base.h:1309:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kforming pointer to reference type \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr<const std_msgs::msg::Int32_<std::allocator<void> >&, __gnu_cxx::_S_atomic>::element_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::Int32_<std::allocator<void> >&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[22.817391] (path2pos) StderrLine: {'line': b' 1309 |       \x1b[01;31m\x1b[Kget\x1b[m\x1b[K() const noexcept\n'}
+[22.817951] (path2pos) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[22.818571] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr_base.h:1404:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kforming pointer to reference type \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr<const std_msgs::msg::Int32_<std::allocator<void> >&, __gnu_cxx::_S_atomic>::element_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::Int32_<std::allocator<void> >&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[22.819263] (path2pos) StderrLine: {'line': b' 1404 |       element_type*    \x1b[01;31m\x1b[K_M_ptr\x1b[m\x1b[K;         // Contained pointer.\n'}
+[22.819852] (path2pos) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[22.820436] (path2pos) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[22.821001] (path2pos) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mp4d/ros_motors/MyCode/path2pos/src/pos_writer.cpp:3\x1b[m\x1b[K:\n'}
+[22.821551] (path2pos) StderrLine: {'line': b'/usr/include/c++/9/bits/shared_ptr.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass std::shared_ptr<const std_msgs::msg::Int32_<std::allocator<void> >&>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[22.822121] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/message_memory_strategy.hpp:85:37:\x1b[m\x1b[K   recursively required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> rclcpp::message_memory_strategy::MessageMemoryStrategy<MessageT, Alloc>::borrow_message() [with MessageT = const std_msgs::msg::Int32_<std::allocator<void> >&; Alloc = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[22.822867] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/message_memory_strategy.hpp:85:37:\x1b[m\x1b[K   required from here\n'}
+[22.823437] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:234:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kforming pointer to reference type \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<const std_msgs::msg::Int32_<std::allocator<void> >&>::element_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::Int32_<std::allocator<void> >&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[22.823997] (path2pos) StderrLine: {'line': b'  234 |  \x1b[01;31m\x1b[Kshared_ptr\x1b[m\x1b[K(const shared_ptr<_Yp>& __r, element_type* __p) noexcept\n'}
+[22.824524] (path2pos) StderrLine: {'line': b'      |  \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.829786] (-) TimerEvent: {}
+[22.931484] (-) TimerEvent: {}
+[23.002789] (path2pos) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:52\x1b[m\x1b[K,\n'}
+[23.004786] (path2pos) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[23.005541] (path2pos) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mp4d/ros_motors/MyCode/path2pos/src/pos_writer.cpp:3\x1b[m\x1b[K:\n'}
+[23.006113] (path2pos) StderrLine: {'line': b'/usr/include/c++/9/bits/shared_ptr_base.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kconstexpr std::__shared_ptr<_Tp, _Lp>::__shared_ptr() [with _Tp = const std_msgs::msg::Int32_<std::allocator<void> >&; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[23.006857] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr_base.h:1287:9:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kvoid std::__shared_ptr<_Tp, _Lp>::reset() [with _Tp = const std_msgs::msg::Int32_<std::allocator<void> >&; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[23.007428] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/message_memory_strategy.hpp:109:5:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::message_memory_strategy::MessageMemoryStrategy<MessageT, Alloc>::return_message(std::shared_ptr<_Tp>&) [with MessageT = const std_msgs::msg::Int32_<std::allocator<void> >&; Alloc = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[23.007998] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/message_memory_strategy.hpp:107:16:\x1b[m\x1b[K   required from here\n'}
+[23.008542] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr_base.h:1119:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kusing invalid field \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr<_Tp, _Lp>::_M_ptr\x1b[m\x1b[K\xe2\x80\x99\n'}
+[23.009089] (path2pos) StderrLine: {'line': b' 1119 |       : _M_ptr(0), _M_refcount(\x1b[01;31m\x1b[K)\x1b[m\x1b[K\n'}
+[23.009623] (path2pos) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[23.010173] (path2pos) StderrLine: {'line': b'/usr/include/c++/9/bits/shared_ptr_base.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid std::__shared_ptr<_Tp, _Lp>::swap(std::__shared_ptr<_Tp, _Lp>&) [with _Tp = const std_msgs::msg::Int32_<std::allocator<void> >&; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[23.010813] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr_base.h:1287:24:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kvoid std::__shared_ptr<_Tp, _Lp>::reset() [with _Tp = const std_msgs::msg::Int32_<std::allocator<void> >&; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[23.011502] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/message_memory_strategy.hpp:109:5:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::message_memory_strategy::MessageMemoryStrategy<MessageT, Alloc>::return_message(std::shared_ptr<_Tp>&) [with MessageT = const std_msgs::msg::Int32_<std::allocator<void> >&; Alloc = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[23.012097] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/message_memory_strategy.hpp:107:16:\x1b[m\x1b[K   required from here\n'}
+[23.012654] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr_base.h:1326:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kusing invalid field \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr<_Tp, _Lp>::_M_ptr\x1b[m\x1b[K\xe2\x80\x99\n'}
+[23.013269] (path2pos) StderrLine: {'line': b' 1326 |  std::swap(\x1b[01;31m\x1b[K_M_ptr\x1b[m\x1b[K, __other._M_ptr);\n'}
+[23.013817] (path2pos) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[23.014351] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr_base.h:1326:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass std::__shared_ptr<const std_msgs::msg::Int32_<std::allocator<void> >&, __gnu_cxx::_S_atomic>\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[K_M_ptr\x1b[m\x1b[K\xe2\x80\x99\n'}
+[23.015010] (path2pos) StderrLine: {'line': b' 1326 |  std::swap(_M_ptr, \x1b[01;31m\x1b[K__other._M_ptr\x1b[m\x1b[K);\n'}
+[23.015560] (path2pos) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[23.031823] (-) TimerEvent: {}
+[23.133796] (-) TimerEvent: {}
+[23.235755] (-) TimerEvent: {}
+[23.310214] (path2pos) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/functional:59\x1b[m\x1b[K,\n'}
+[23.311591] (path2pos) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mp4d/ros_motors/MyCode/path2pos/src/pos_writer.cpp:2\x1b[m\x1b[K:\n'}
+[23.312183] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/std_function.h:\x1b[m\x1b[K At global scope:\n'}
+[23.312698] (path2pos) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/std_function.h:667:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::function<_Res(_ArgTypes ...)>::function(_Functor) [with _Functor = rclcpp::create_subscription_factory(CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr, std::shared_ptr<rclcpp::topic_statistics::SubscriptionTopicStatistics<CallbackMessageT> >) [with MessageT = std_msgs::msg::Int32_<std::allocator<void> >; CallbackT = std::_Bind<void (MinimalPublisher::*(MinimalPublisher*, std::_Placeholder<1>))(const std_msgs::msg::Int32_<std::allocator<void> >&)>; AllocatorT = std::allocator<void>; CallbackMessageT = const std_msgs::msg::Int32_<std::allocator<void> >&; SubscriptionT = rclcpp::Subscription<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void> >; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void> > >]::<lambda(rclcpp::node_interfaces::NodeBaseInterface*, const string&, const rclcpp::QoS&)>; <template-parameter-2-2> = void; <template-parameter-2-3> = void; _Res = std::shared_ptr<rclcpp::SubscriptionBase>; _ArgTypes = {rclcpp::node_interfaces::NodeBaseInterface*, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const rclcpp::QoS&}]\x1b[m\x1b[K\xe2\x80\x99, declared using local type \xe2\x80\x98\x1b[01m\x1b[Krclcpp::create_subscription_factory(CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr, std::shared_ptr<rclcpp::topic_statistics::SubscriptionTopicStatistics<CallbackMessageT> >) [with MessageT = std_msgs::msg::Int32_<std::allocator<void> >; CallbackT = std::_Bind<void (MinimalPublisher::*(MinimalPublisher*, std::_Placeholder<1>))(const std_msgs::msg::Int32_<std::allocator<void> >&)>; AllocatorT = std::allocator<void>; CallbackMessageT = const std_msgs::msg::Int32_<std::allocator<void> >&; SubscriptionT = rclcpp::Subscription<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void> >; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<const std_msgs::msg::Int32_<std::allocator<void> >&, std::allocator<void> > >]::<lambda(rclcpp::node_interfaces::NodeBaseInterface*, const string&, const rclcpp::QoS&)>\x1b[m\x1b[K\xe2\x80\x99, is used but never defined [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[23.313437] (path2pos) StderrLine: {'line': b'  667 |       \x1b[01;31m\x1b[Kfunction<_Res(_ArgTypes...)>\x1b[m\x1b[K::\n'}
+[23.313946] (path2pos) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.336038] (-) TimerEvent: {}
+[23.437820] (-) TimerEvent: {}
+[23.539657] (-) TimerEvent: {}
+[23.641379] (-) TimerEvent: {}
+[23.743192] (-) TimerEvent: {}
+[23.845073] (-) TimerEvent: {}
+[23.946933] (-) TimerEvent: {}
+[24.049072] (-) TimerEvent: {}
+[24.151125] (-) TimerEvent: {}
+[24.253121] (-) TimerEvent: {}
+[24.355147] (-) TimerEvent: {}
+[24.457117] (-) TimerEvent: {}
+[24.559105] (-) TimerEvent: {}
+[24.661087] (-) TimerEvent: {}
+[24.763107] (-) TimerEvent: {}
+[24.865761] (-) TimerEvent: {}
+[24.967835] (-) TimerEvent: {}
+[25.069962] (-) TimerEvent: {}
+[25.153768] (path2pos) StderrLine: {'line': b'make[2]: *** [CMakeFiles/pos_writer.dir/build.make:63: CMakeFiles/pos_writer.dir/src/pos_writer.cpp.o] Error 1\n'}
+[25.155576] (path2pos) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/pos_writer.dir/all] Error 2\n'}
+[25.156602] (path2pos) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[25.168214] (path2pos) CommandEnded: {'returncode': 2}
+[25.171828] (-) TimerEvent: {}
+[25.284562] (-) TimerEvent: {}
+[25.384091] (path2pos) JobEnded: {'identifier': 'path2pos', 'rc': 2}
+[25.392773] (-) TimerEvent: {}
+[25.397895] (-) EventReactorShutdown: {}

@@ -1,0 +1,5 @@
+source;share/path2pos/local_setup.bash
+source;share/path2pos/local_setup.dsv
+source;share/path2pos/local_setup.ps1
+source;share/path2pos/local_setup.sh
+source;share/path2pos/local_setup.zsh

@@ -1,0 +1,10 @@
+/home/mp4d/ros_motors/build/dynamixel_sdk/CMakeFiles/install/strip.dir
+/home/mp4d/ros_motors/build/dynamixel_sdk/CMakeFiles/install/local.dir
+/home/mp4d/ros_motors/build/dynamixel_sdk/CMakeFiles/install.dir
+/home/mp4d/ros_motors/build/dynamixel_sdk/CMakeFiles/list_install_components.dir
+/home/mp4d/ros_motors/build/dynamixel_sdk/CMakeFiles/rebuild_cache.dir
+/home/mp4d/ros_motors/build/dynamixel_sdk/CMakeFiles/edit_cache.dir
+/home/mp4d/ros_motors/build/dynamixel_sdk/CMakeFiles/test.dir
+/home/mp4d/ros_motors/build/dynamixel_sdk/CMakeFiles/dynamixel_sdk.dir
+/home/mp4d/ros_motors/build/dynamixel_sdk/CMakeFiles/dynamixel_sdk_uninstall.dir
+/home/mp4d/ros_motors/build/dynamixel_sdk/CMakeFiles/uninstall.dir

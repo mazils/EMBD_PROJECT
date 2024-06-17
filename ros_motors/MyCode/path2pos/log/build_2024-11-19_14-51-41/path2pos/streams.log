@@ -1,0 +1,58 @@
+[0.018s] Invoking command in '/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/build/path2pos': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos -DCMAKE_INSTALL_PREFIX=/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos
+[0.108s] -- The C compiler identification is GNU 9.4.0
+[0.198s] -- The CXX compiler identification is GNU 9.4.0
+[0.205s] -- Check for working C compiler: /usr/bin/cc
+[0.317s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.319s] -- Detecting C compiler ABI info
+[0.429s] -- Detecting C compiler ABI info - done
+[0.448s] -- Detecting C compile features
+[0.448s] -- Detecting C compile features - done
+[0.451s] -- Check for working CXX compiler: /usr/bin/c++
+[0.568s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.570s] -- Detecting CXX compiler ABI info
+[0.698s] -- Detecting CXX compiler ABI info - done
+[0.718s] -- Detecting CXX compile features
+[0.719s] -- Detecting CXX compile features - done
+[0.721s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.755s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.756s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.019s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.115s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.119s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.120s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/include>
+[1.120s] -- Configured cppcheck exclude dirs and/or files: 
+[1.124s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.125s] -- Configured cpplint exclude dirs and/or files: 
+[1.127s] -- Added test 'lint_cmake' to check CMake code style
+[1.132s] -- Added test 'uncrustify' to check C / C++ code style
+[1.134s] -- Configured uncrustify additional arguments: 
+[1.134s] -- Added test 'xmllint' to check XML markup files
+[1.136s] -- Configuring done
+[1.140s] -- Generating done
+[1.143s] -- Build files have been written to: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/build/path2pos
+[1.150s] Invoked command in '/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/build/path2pos' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos -DCMAKE_INSTALL_PREFIX=/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos
+[1.155s] Invoking command in '/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/build/path2pos': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/build/path2pos -- -j4 -l4
+[1.218s] [35m[1mScanning dependencies of target pos_writer[0m
+[1.237s] [ 50%] [32mBuilding CXX object CMakeFiles/pos_writer.dir/src/pos_writer.cpp.o[0m
+[1.289s] [100%] [32m[1mLinking CXX executable pos_writer[0m
+[1.351s] [100%] Built target pos_writer
+[1.372s] Invoked command in '/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/build/path2pos' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/build/path2pos -- -j4 -l4
+[1.423s] Invoking command in '/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/build/path2pos': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/build/path2pos
+[1.438s] -- Install configuration: ""
+[1.438s] -- Installing: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/lib/path2pos/pos_writer
+[1.439s] -- Installing: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/share/ament_index/resource_index/package_run_dependencies/path2pos
+[1.439s] -- Installing: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/share/ament_index/resource_index/parent_prefix_path/path2pos
+[1.439s] -- Installing: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/share/path2pos/environment/ament_prefix_path.sh
+[1.439s] -- Installing: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/share/path2pos/environment/ament_prefix_path.dsv
+[1.439s] -- Installing: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/share/path2pos/environment/path.sh
+[1.440s] -- Installing: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/share/path2pos/environment/path.dsv
+[1.440s] -- Installing: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/share/path2pos/local_setup.bash
+[1.440s] -- Installing: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/share/path2pos/local_setup.sh
+[1.440s] -- Installing: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/share/path2pos/local_setup.zsh
+[1.441s] -- Installing: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/share/path2pos/local_setup.dsv
+[1.441s] -- Installing: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/share/path2pos/package.dsv
+[1.441s] -- Installing: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/share/ament_index/resource_index/packages/path2pos
+[1.442s] -- Installing: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/share/path2pos/cmake/path2posConfig.cmake
+[1.442s] -- Installing: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/share/path2pos/cmake/path2posConfig-version.cmake
+[1.442s] -- Installing: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/share/path2pos/package.xml
+[1.446s] Invoked command in '/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/build/path2pos' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/build/path2pos

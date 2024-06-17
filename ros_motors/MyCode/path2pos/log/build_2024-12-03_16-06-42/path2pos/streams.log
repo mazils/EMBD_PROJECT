@@ -1,0 +1,11 @@
+[0.065s] Invoking command in '/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/build/path2pos': /usr/bin/cmake --build /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/build/path2pos -- -j4 -l4
+[0.661s] [35m[1mScanning dependencies of target pos_writer[0m
+[0.764s] [ 50%] [32mBuilding CXX object CMakeFiles/pos_writer.dir/src/pos_writer.cpp.o[0m
+[4.295s] [01m[K/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/src/pos_writer.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::set_number_callback(std_msgs::msg::Int32_<std::allocator<void> >::SharedPtr)[m[K’:
+[4.295s] [01m[K/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/src/pos_writer.cpp:95:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MinimalPublisher[m[K’ has no member named ‘[01m[Kdata[m[K’
+[4.295s]    95 |         switch(this->[01;31m[Kdata[m[K){
+[4.295s]       |                      [01;31m[K^~~~[m[K
+[6.984s] make[2]: *** [CMakeFiles/pos_writer.dir/build.make:63: CMakeFiles/pos_writer.dir/src/pos_writer.cpp.o] Error 1
+[6.984s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/pos_writer.dir/all] Error 2
+[6.985s] make: *** [Makefile:141: all] Error 2
+[6.988s] Invoked command in '/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/build/path2pos' returned '2': /usr/bin/cmake --build /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/build/path2pos -- -j4 -l4

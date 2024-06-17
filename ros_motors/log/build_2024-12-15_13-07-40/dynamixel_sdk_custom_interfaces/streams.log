@@ -1,0 +1,257 @@
+[0.131s] Invoking command in '/home/mp4d/ros_motors/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk_examples:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk_custom_interfaces:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk:/opt/ros/foxy:/home/mp4d/ros_camera/install/usb_cam:/home/mp4d/ros_camera/install/cam_sub /usr/bin/cmake /home/mp4d/ros_motors/DynamixelSDK/dynamixel_sdk_custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces
+[0.695s] -- The C compiler identification is GNU 9.4.0
+[1.233s] -- The CXX compiler identification is GNU 9.4.0
+[1.265s] -- Check for working C compiler: /usr/bin/cc
+[1.876s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.884s] -- Detecting C compiler ABI info
+[2.501s] -- Detecting C compiler ABI info - done
+[2.591s] -- Detecting C compile features
+[2.593s] -- Detecting C compile features - done
+[2.612s] -- Check for working CXX compiler: /usr/bin/c++
+[3.292s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.301s] -- Detecting CXX compiler ABI info
+[3.997s] -- Detecting CXX compiler ABI info - done
+[4.100s] -- Detecting CXX compile features
+[4.105s] -- Detecting CXX compile features - done
+[4.118s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[4.377s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[4.379s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.124s] -- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)
+[6.298s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.345s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[6.906s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[7.084s] -- Found FastRTPS: /opt/ros/foxy/include  
+[7.889s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.279s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[8.932s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[12.228s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[13.545s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[13.843s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[14.296s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[14.315s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[14.821s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[14.824s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[14.825s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[14.826s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[15.140s] -- Found PythonExtra: .so  
+[15.818s] -- Configuring done
+[16.191s] -- Generating done
+[16.222s] -- Build files have been written to: /home/mp4d/ros_motors/build/dynamixel_sdk_custom_interfaces
+[16.372s] Invoked command in '/home/mp4d/ros_motors/build/dynamixel_sdk_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk_examples:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk_custom_interfaces:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk:/opt/ros/foxy:/home/mp4d/ros_camera/install/usb_cam:/home/mp4d/ros_camera/install/cam_sub /usr/bin/cmake /home/mp4d/ros_motors/DynamixelSDK/dynamixel_sdk_custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces
+[16.378s] Invoking command in '/home/mp4d/ros_motors/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk_examples:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk_custom_interfaces:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk:/opt/ros/foxy:/home/mp4d/ros_camera/install/usb_cam:/home/mp4d/ros_camera/install/cam_sub /usr/bin/cmake --build /home/mp4d/ros_motors/build/dynamixel_sdk_custom_interfaces -- -j4 -l4
+[16.686s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[16.689s] [35m[1mScanning dependencies of target dynamixel_sdk_custom_interfaces__cpp[0m
+[16.780s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[20.481s] [  5%] Built target dynamixel_sdk_custom_interfaces__cpp
+[20.632s] [  7%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[20.638s] [ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[20.675s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[20.934s] [35m[1mScanning dependencies of target dynamixel_sdk_custom_interfaces__rosidl_generator_c[0m
+[21.053s] [ 15%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_sdk_custom_interfaces/msg/detail/set_position__functions.c.o[0m
+[21.528s] [ 17%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_sdk_custom_interfaces/srv/detail/get_position__functions.c.o[0m
+[22.087s] [ 20%] [32m[1mLinking C shared library libdynamixel_sdk_custom_interfaces__rosidl_generator_c.so[0m
+[22.486s] [ 20%] Built target dynamixel_sdk_custom_interfaces__rosidl_generator_c
+[22.565s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[24.111s] [35m[1mScanning dependencies of target dynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp[0m
+[24.246s] [ 25%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynamixel_sdk_custom_interfaces/msg/set_position__type_support.cpp.o[0m
+[24.268s] [35m[1mScanning dependencies of target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp[0m
+[24.375s] [ 28%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support.cpp.o[0m
+[24.493s] [35m[1mScanning dependencies of target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[24.629s] [ 30%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dynamixel_sdk_custom_interfaces/msg/detail/dds_fastrtps/set_position__type_support.cpp.o[0m
+[26.490s] [35m[1mScanning dependencies of target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c[0m
+[26.598s] [ 33%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support.c.o[0m
+[26.914s] [ 35%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support.c.o[0m
+[27.267s] [ 38%] [32m[1mLinking C shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c.so[0m
+[27.308s] [ 41%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support.cpp.o[0m
+[27.362s] [ 43%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynamixel_sdk_custom_interfaces/srv/get_position__type_support.cpp.o[0m
+[27.533s] [ 43%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c
+[27.611s] [ 46%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dynamixel_sdk_custom_interfaces/srv/detail/dds_fastrtps/get_position__type_support.cpp.o[0m
+[29.666s] [ 48%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[30.244s] [ 51%] [32m[1mLinking CXX shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[30.612s] [ 51%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp
+[30.880s] [ 53%] [32m[1mLinking CXX shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp.so[0m
+[31.205s] [ 53%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp
+[32.142s] [ 56%] [32m[1mLinking CXX shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[32.930s] [35m[1mScanning dependencies of target dynamixel_sdk_custom_interfaces__rosidl_typesupport_c[0m
+[33.015s] [ 61%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynamixel_sdk_custom_interfaces/msg/set_position__type_support.cpp.o[0m
+[33.017s] [ 61%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynamixel_sdk_custom_interfaces/srv/get_position__type_support.cpp.o[0m
+[33.273s] [ 64%] [32m[1mLinking CXX shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_c.so[0m
+[33.329s] [ 64%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp
+[33.403s] [ 66%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[33.567s] [ 66%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_c
+[36.310s] [35m[1mScanning dependencies of target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c[0m
+[36.419s] [ 71%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support_c.cpp.o[0m
+[36.421s] [ 71%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support_c.cpp.o[0m
+[39.404s] [ 74%] [32m[1mLinking CXX shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[40.472s] [ 74%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c
+[40.541s] [35m[1mScanning dependencies of target dynamixel_sdk_custom_interfaces[0m
+[40.604s] [ 74%] Built target dynamixel_sdk_custom_interfaces
+[40.669s] [35m[1mScanning dependencies of target dynamixel_sdk_custom_interfaces__py[0m
+[40.733s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[46.928s] [ 76%] Built target dynamixel_sdk_custom_interfaces__py
+[46.992s] [35m[1mScanning dependencies of target dynamixel_sdk_custom_interfaces__python[0m
+[47.122s] [ 82%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__python.dir/rosidl_generator_py/dynamixel_sdk_custom_interfaces/msg/_set_position_s.c.o[0m
+[47.123s] [ 82%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__python.dir/rosidl_generator_py/dynamixel_sdk_custom_interfaces/srv/_get_position_s.c.o[0m
+[47.930s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/dynamixel_sdk_custom_interfaces/libdynamixel_sdk_custom_interfaces__python.so[0m
+[48.306s] [ 84%] Built target dynamixel_sdk_custom_interfaces__python
+[48.377s] [35m[1mScanning dependencies of target dynamixel_sdk_custom_interfaces__rosidl_typesupport_c__pyext[0m
+[48.379s] [35m[1mScanning dependencies of target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[48.379s] [35m[1mScanning dependencies of target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[48.510s] [ 87%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/dynamixel_sdk_custom_interfaces/_dynamixel_sdk_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[48.517s] [ 89%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/dynamixel_sdk_custom_interfaces/_dynamixel_sdk_custom_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[48.523s] [ 92%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/dynamixel_sdk_custom_interfaces/_dynamixel_sdk_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[49.324s] [ 97%] [32m[1mLinking CXX shared library rosidl_generator_py/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so[0m
+[49.325s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so[0m
+[49.344s] [100%] [32m[1mLinking C shared library rosidl_generator_py/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so[0m
+[49.854s] [100%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_c__pyext
+[49.869s] [100%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c__pyext
+[50.081s] [100%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[50.160s] Invoked command in '/home/mp4d/ros_motors/build/dynamixel_sdk_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk_examples:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk_custom_interfaces:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk:/opt/ros/foxy:/home/mp4d/ros_camera/install/usb_cam:/home/mp4d/ros_camera/install/cam_sub /usr/bin/cmake --build /home/mp4d/ros_motors/build/dynamixel_sdk_custom_interfaces -- -j4 -l4
+[50.486s] Invoking command in '/home/mp4d/ros_motors/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk_examples:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk_custom_interfaces:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk:/opt/ros/foxy:/home/mp4d/ros_camera/install/usb_cam:/home/mp4d/ros_camera/install/cam_sub /usr/bin/cmake --install /home/mp4d/ros_motors/build/dynamixel_sdk_custom_interfaces
+[50.551s] -- Install configuration: ""
+[50.553s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/dynamixel_sdk_custom_interfaces
+[50.555s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces
+[50.559s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg
+[50.560s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/detail
+[50.561s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support.h
+[50.562s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/detail/set_position__struct.h
+[50.563s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/detail/set_position__functions.c
+[50.563s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/detail/set_position__functions.h
+[50.564s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/rosidl_generator_c__visibility_control.h
+[50.565s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/set_position.h
+[50.566s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv
+[50.566s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/detail
+[50.567s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/detail/get_position__functions.c
+[50.568s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/detail/get_position__struct.h
+[50.569s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/detail/get_position__functions.h
+[50.570s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support.h
+[50.570s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/get_position.h
+[50.571s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/library_path.sh
+[50.572s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/library_path.dsv
+[50.572s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_generator_c.so
+[50.573s] -- Set runtime path of "/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_generator_c.so" to ""
+[50.574s] -- Up-to-date: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces
+[50.575s] -- Up-to-date: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg
+[50.576s] -- Up-to-date: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/detail
+[50.576s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/detail/set_position__rosidl_typesupport_fastrtps_c.h
+[50.577s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[50.578s] -- Up-to-date: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv
+[50.578s] -- Up-to-date: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/detail
+[50.579s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/detail/get_position__rosidl_typesupport_fastrtps_c.h
+[50.580s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c.so
+[50.581s] -- Set runtime path of "/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[50.581s] -- Up-to-date: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces
+[50.582s] -- Up-to-date: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg
+[50.583s] -- Up-to-date: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/detail
+[50.584s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/detail/set_position__rosidl_typesupport_fastrtps_cpp.hpp
+[50.584s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/detail/dds_fastrtps
+[50.585s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[50.586s] -- Up-to-date: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv
+[50.586s] -- Up-to-date: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/detail
+[50.587s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/detail/get_position__rosidl_typesupport_fastrtps_cpp.hpp
+[50.588s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/detail/dds_fastrtps
+[50.588s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[50.589s] -- Set runtime path of "/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[50.590s] -- Up-to-date: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces
+[50.591s] -- Up-to-date: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg
+[50.594s] -- Up-to-date: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/detail
+[50.595s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/detail/set_position__rosidl_typesupport_introspection_c.h
+[50.596s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support.c
+[50.597s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[50.602s] -- Up-to-date: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv
+[50.603s] -- Up-to-date: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/detail
+[50.604s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/detail/get_position__rosidl_typesupport_introspection_c.h
+[50.605s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support.c
+[50.605s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c.so
+[50.606s] -- Set runtime path of "/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[50.607s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_c.so
+[50.608s] -- Set runtime path of "/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_c.so" to ""
+[50.608s] -- Up-to-date: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces
+[50.609s] -- Up-to-date: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg
+[50.610s] -- Up-to-date: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/detail
+[50.610s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/detail/set_position__struct.hpp
+[50.611s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support.hpp
+[50.611s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/detail/set_position__builder.hpp
+[50.612s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/detail/set_position__traits.hpp
+[50.612s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[50.613s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/set_position.hpp
+[50.614s] -- Up-to-date: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv
+[50.614s] -- Up-to-date: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/detail
+[50.615s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support.hpp
+[50.615s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/detail/get_position__traits.hpp
+[50.616s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/detail/get_position__struct.hpp
+[50.616s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/detail/get_position__builder.hpp
+[50.617s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/get_position.hpp
+[50.618s] -- Up-to-date: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces
+[50.618s] -- Up-to-date: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg
+[50.619s] -- Up-to-date: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/detail
+[50.619s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/detail/set_position__rosidl_typesupport_introspection_cpp.hpp
+[50.620s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support.cpp
+[50.620s] -- Up-to-date: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv
+[50.621s] -- Up-to-date: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/detail
+[50.622s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/detail/get_position__rosidl_typesupport_introspection_cpp.hpp
+[50.622s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support.cpp
+[50.623s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp.so
+[50.623s] -- Set runtime path of "/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[50.624s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp.so
+[50.624s] -- Set runtime path of "/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp.so" to ""
+[50.625s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/pythonpath.sh
+[50.625s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/pythonpath.dsv
+[50.626s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages/dynamixel_sdk_custom_interfaces/__init__.py
+[50.836s] Compiling '/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages/dynamixel_sdk_custom_interfaces/__init__.py'...
+[50.902s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages/dynamixel_sdk_custom_interfaces/msg
+[50.905s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages/dynamixel_sdk_custom_interfaces/msg/_set_position.py
+[50.907s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages/dynamixel_sdk_custom_interfaces/msg/__init__.py
+[50.908s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages/dynamixel_sdk_custom_interfaces/msg/_set_position_s.c
+[50.909s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages/dynamixel_sdk_custom_interfaces/srv
+[50.909s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages/dynamixel_sdk_custom_interfaces/srv/_get_position.py
+[50.910s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages/dynamixel_sdk_custom_interfaces/srv/__init__.py
+[50.910s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages/dynamixel_sdk_custom_interfaces/srv/_get_position_s.c
+[50.911s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[50.912s] -- Set runtime path of "/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" to ""
+[50.913s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[50.916s] -- Set runtime path of "/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" to ""
+[50.918s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[50.921s] -- Set runtime path of "/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" to ""
+[50.922s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__python.so
+[50.924s] -- Set runtime path of "/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__python.so" to ""
+[50.925s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/msg/SetPosition.idl
+[50.926s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/srv/GetPosition.idl
+[50.927s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/msg/SetPosition.msg
+[50.928s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/srv/GetPosition.srv
+[50.928s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/srv/GetPosition_Request.msg
+[50.929s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/srv/GetPosition_Response.msg
+[50.930s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk_custom_interfaces
+[50.931s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk_custom_interfaces
+[50.932s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/ament_prefix_path.sh
+[50.933s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/ament_prefix_path.dsv
+[50.934s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/path.sh
+[50.935s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/path.dsv
+[50.936s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/local_setup.bash
+[50.937s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/local_setup.sh
+[50.938s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/local_setup.zsh
+[50.938s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/local_setup.dsv
+[50.939s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.dsv
+[50.940s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/share/ament_index/resource_index/packages/dynamixel_sdk_custom_interfaces
+[50.941s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_generator_cExport.cmake
+[50.942s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_generator_cExport-noconfig.cmake
+[50.943s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[50.944s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[50.945s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cExport.cmake
+[50.946s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[50.948s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_generator_cppExport.cmake
+[50.949s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[50.950s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[50.951s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cppExport.cmake
+[50.952s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[50.953s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/rosidl_cmake-extras.cmake
+[50.954s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[50.955s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[50.956s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[50.957s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[50.958s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[50.959s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[50.959s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfacesConfig.cmake
+[50.963s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfacesConfig-version.cmake
+[50.964s] -- Installing: /home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.xml
+[50.980s] Invoked command in '/home/mp4d/ros_motors/build/dynamixel_sdk_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk_examples:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk_custom_interfaces:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk:/opt/ros/foxy:/home/mp4d/ros_camera/install/usb_cam:/home/mp4d/ros_camera/install/cam_sub /usr/bin/cmake --install /home/mp4d/ros_motors/build/dynamixel_sdk_custom_interfaces

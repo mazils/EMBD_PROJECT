@@ -1,0 +1,197 @@
+[0.000000] (-) TimerEvent: {}
+[0.000390] (fpga_interface) JobQueued: {'identifier': 'fpga_interface', 'dependencies': OrderedDict()}
+[0.000606] (fpga_interface) JobStarted: {'identifier': 'fpga_interface'}
+[0.021075] (fpga_interface) JobProgress: {'identifier': 'fpga_interface', 'progress': 'cmake'}
+[0.022222] (fpga_interface) JobProgress: {'identifier': 'fpga_interface', 'progress': 'build'}
+[0.023572] (fpga_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vincent/Embedded-System/ros_interface_node/fpga_interface/build/fpga_interface', '--', '-j4', '-l4'], 'cwd': '/home/vincent/Embedded-System/ros_interface_node/fpga_interface/build/fpga_interface', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'vincent'), ('LC_TIME', 'de_DE.UTF-8'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIO_MODULE_DIR', '/home/vincent/snap/code/common/.cache/gio-modules'), ('SSH_AGENT_PID', '1322'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/177/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/vincent'), ('CHROME_DESKTOP', 'code.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.96.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/177/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('XDG_DATA_HOME_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE', '/home/vincent/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/177/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'de_DE.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/177/usr/share/code/code'), ('MANAGERPID', '1209'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4462'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/vincent/Embedded-System/ros_interface_node/fpga_interface/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'vincent'), ('JOURNAL_STREAM', '8:38507'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'vincent'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/vincent-ThinkPad-T430:@/tmp/.ICE-unix/1359,unix/vincent-ThinkPad-T430:/tmp/.ICE-unix/1359'), ('GTK_EXE_PREFIX', '/snap/code/177/usr'), ('INVOCATION_ID', '7c927caa99544bc49611ea7f438971ea'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/177/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XDG_DATA_HOME', '/home/vincent/snap/code/177/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-4369c3656f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/vincent/snap/code/177/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/vincent/Embedded-System/ros_interface_node/fpga_interface/install/fpga_interface:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vincent/Embedded-System/ros_interface_node/fpga_interface/build/fpga_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/vincent/snap/code/177/.local/share:/home/vincent/snap/code/177:/snap/code/177/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/vincent/Embedded-System/ros_interface_node/fpga_interface/install/fpga_interface:/opt/ros/foxy')]), 'shell': False}
+[0.078103] (fpga_interface) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.099007] (-) TimerEvent: {}
+[0.115864] (fpga_interface) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.199148] (-) TimerEvent: {}
+[0.299571] (-) TimerEvent: {}
+[0.399980] (-) TimerEvent: {}
+[0.442192] (fpga_interface) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.500111] (-) TimerEvent: {}
+[0.504260] (fpga_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.513826] (fpga_interface) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.600266] (-) TimerEvent: {}
+[0.700657] (-) TimerEvent: {}
+[0.703900] (fpga_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.792215] (fpga_interface) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.794260] (fpga_interface) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.800782] (-) TimerEvent: {}
+[0.901174] (-) TimerEvent: {}
+[1.001580] (-) TimerEvent: {}
+[1.036742] (fpga_interface) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[1.101700] (-) TimerEvent: {}
+[1.202074] (-) TimerEvent: {}
+[1.302416] (fpga_interface) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.302647] (-) TimerEvent: {}
+[1.402928] (-) TimerEvent: {}
+[1.405845] (fpga_interface) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.427555] (fpga_interface) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.427897] (fpga_interface) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/vincent/Embedded-System/ros_interface_node/fpga_interface/include>\n'}
+[1.428049] (fpga_interface) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.448849] (fpga_interface) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.449103] (fpga_interface) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.452141] (fpga_interface) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.458942] (fpga_interface) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.462308] (fpga_interface) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[1.484474] (fpga_interface) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.484717] (fpga_interface) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.487727] (fpga_interface) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.492456] (fpga_interface) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.503050] (-) TimerEvent: {}
+[1.504217] (fpga_interface) StdoutLine: {'line': b'-- Generating done\n'}
+[1.508116] (fpga_interface) StdoutLine: {'line': b'-- Build files have been written to: /home/vincent/Embedded-System/ros_interface_node/fpga_interface/build/fpga_interface\n'}
+[1.550915] (fpga_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interface_node\x1b[0m\n'}
+[1.603171] (-) TimerEvent: {}
+[1.613238] (fpga_interface) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/interface_node.dir/src/interface_node.cpp.o\x1b[0m\n'}
+[1.703313] (-) TimerEvent: {}
+[1.803790] (-) TimerEvent: {}
+[1.904323] (-) TimerEvent: {}
+[2.004976] (-) TimerEvent: {}
+[2.105493] (-) TimerEvent: {}
+[2.205968] (-) TimerEvent: {}
+[2.306390] (-) TimerEvent: {}
+[2.406796] (-) TimerEvent: {}
+[2.507245] (-) TimerEvent: {}
+[2.607725] (-) TimerEvent: {}
+[2.708152] (-) TimerEvent: {}
+[2.808581] (-) TimerEvent: {}
+[2.909032] (-) TimerEvent: {}
+[3.009480] (-) TimerEvent: {}
+[3.109914] (-) TimerEvent: {}
+[3.210377] (-) TimerEvent: {}
+[3.310831] (-) TimerEvent: {}
+[3.411272] (-) TimerEvent: {}
+[3.511742] (-) TimerEvent: {}
+[3.612151] (-) TimerEvent: {}
+[3.712605] (-) TimerEvent: {}
+[3.813082] (-) TimerEvent: {}
+[3.835458] (fpga_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent/Embedded-System/ros_interface_node/fpga_interface/src/interface_node.cpp:53:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSetPosition\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.835799] (fpga_interface) StderrLine: {'line': b'   53 |     rclcpp::Publisher<\x1b[01;31m\x1b[KSetPosition\x1b[m\x1b[K>::SharedPtr publisher_;\n'}
+[3.835973] (fpga_interface) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.836141] (fpga_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent/Embedded-System/ros_interface_node/fpga_interface/src/interface_node.cpp:53:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.836310] (fpga_interface) StderrLine: {'line': b'   53 |     rclcpp::Publisher<SetPosition\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr publisher_;\n'}
+[3.836497] (fpga_interface) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.836671] (fpga_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent/Embedded-System/ros_interface_node/fpga_interface/src/interface_node.cpp:53:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[3.836834] (fpga_interface) StderrLine: {'line': b'   53 |     rclcpp::Publisher<SetPosition>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K publisher_;\n'}
+[3.836996] (fpga_interface) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.837161] (fpga_interface) StderrLine: {'line': b'      |                                              \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[3.839918] (fpga_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent/Embedded-System/ros_interface_node/fpga_interface/src/interface_node.cpp:53:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.840234] (fpga_interface) StderrLine: {'line': b'   53 |     rclcpp::Publisher<SetPosition>::SharedPtr \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K;\n'}
+[3.840398] (fpga_interface) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.840553] (fpga_interface) StderrLine: {'line': b'      |                                               \x1b[32m\x1b[Krcl_publisher_t\x1b[m\x1b[K\n'}
+[3.868244] (fpga_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent/Embedded-System/ros_interface_node/fpga_interface/src/interface_node.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMinimalPublisher::MinimalPublisher()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.868573] (fpga_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent/Embedded-System/ros_interface_node/fpga_interface/src/interface_node.cpp:27:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.868749] (fpga_interface) StderrLine: {'line': b'   27 |       \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K = this->create_publisher<std_msg::msg::Int32>("/set_draw_number", 10);\n'}
+[3.868908] (fpga_interface) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.869063] (fpga_interface) StderrLine: {'line': b'      |       \x1b[32m\x1b[Krcl_publisher_t\x1b[m\x1b[K\n'}
+[3.871089] (fpga_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent/Embedded-System/ros_interface_node/fpga_interface/src/interface_node.cpp:27:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd_msg\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.871564] (fpga_interface) StderrLine: {'line': b'   27 |       publisher_ = this->create_publisher<\x1b[01;31m\x1b[Kstd_msg\x1b[m\x1b[K::msg::Int32>("/set_draw_number", 10);\n'}
+[3.871732] (fpga_interface) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.871891] (fpga_interface) StderrLine: {'line': b'      |                                           \x1b[32m\x1b[Kstd_msgs\x1b[m\x1b[K\n'}
+[3.872048] (fpga_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent/Embedded-System/ros_interface_node/fpga_interface/src/interface_node.cpp:27:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kparse error in template argument list\n'}
+[3.872202] (fpga_interface) StderrLine: {'line': b'   27 |       publisher_ = this->\x1b[01;31m\x1b[Kcreate_publisher<std_msg::msg::Int32>\x1b[m\x1b[K("/set_draw_number", 10);\n'}
+[3.872363] (fpga_interface) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.872517] (fpga_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent/Embedded-System/ros_interface_node/fpga_interface/src/interface_node.cpp:27:86:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KMinimalPublisher::create_publisher<<expression error> >(const char [17], int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.872677] (fpga_interface) StderrLine: {'line': b'   27 |       publisher_ = this->create_publisher<std_msg::msg::Int32>("/set_draw_number", 10\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[3.872828] (fpga_interface) StderrLine: {'line': b'      |                                                                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.872976] (fpga_interface) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[3.873125] (fpga_interface) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[3.873274] (fpga_interface) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[3.873423] (fpga_interface) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vincent/Embedded-System/ros_interface_node/fpga_interface/src/interface_node.cpp:11\x1b[m\x1b[K:\n'}
+[3.873572] (fpga_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.873754] (fpga_interface) StderrLine: {'line': b'  184 |   \x1b[01;36m\x1b[Kcreate_publisher\x1b[m\x1b[K(\n'}
+[3.873910] (fpga_interface) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.874085] (fpga_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.874250] (fpga_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent/Embedded-System/ros_interface_node/fpga_interface/src/interface_node.cpp:27:86:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.874404] (fpga_interface) StderrLine: {'line': b'   27 |       publisher_ = this->create_publisher<std_msg::msg::Int32>("/set_draw_number", 10\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[3.874560] (fpga_interface) StderrLine: {'line': b'      |                                                                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.913208] (-) TimerEvent: {}
+[3.913764] (fpga_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent/Embedded-System/ros_interface_node/fpga_interface/src/interface_node.cpp:29:113:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Subscription<std_msgs::msg::Int32_<std::allocator<void> > >::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Subscription<std_msgs::msg::Int32_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::Image_<std::allocator<void> >, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::Image_<std::allocator<void> >, std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[3.914305] (fpga_interface) StderrLine: {'line': b'   29 |       "/image_raw_scaled_down", 10, std::bind(&MinimalPublisher::get_image_callback, this,std::placeholders::_1)\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[3.914813] (fpga_interface) StderrLine: {'line': b'      |                                                                                                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.914975] (fpga_interface) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[3.915189] (fpga_interface) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vincent/Embedded-System/ros_interface_node/fpga_interface/src/interface_node.cpp:3\x1b[m\x1b[K:\n'}
+[3.915378] (fpga_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:309:19:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Tp>&) [with _Tp = rclcpp::Subscription<std_msgs::msg::Int32_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.915540] (fpga_interface) StderrLine: {'line': b'  309 |       shared_ptr& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const shared_ptr&) noexcept = default;\n'}
+[3.915703] (fpga_interface) StderrLine: {'line': b'      |                   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.915853] (fpga_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:309:29:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::Image_<std::allocator<void> >, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::Image_<std::allocator<void> >, std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<rclcpp::Subscription<std_msgs::msg::Int32_<std::allocator<void> > > >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.916017] (fpga_interface) StderrLine: {'line': b'  309 |       shared_ptr& operator=(\x1b[01;36m\x1b[Kconst shared_ptr&\x1b[m\x1b[K) noexcept = default;\n'}
+[3.916164] (fpga_interface) StderrLine: {'line': b'      |                             \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.916312] (fpga_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:313:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<const std::shared_ptr<_Yp>&> std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Yp>&) [with _Yp = _Yp; _Tp = rclcpp::Subscription<std_msgs::msg::Int32_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.916465] (fpga_interface) StderrLine: {'line': b'  313 |  \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const shared_ptr<_Yp>& __r) noexcept\n'}
+[3.916612] (fpga_interface) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.916758] (fpga_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:313:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.916906] (fpga_interface) StderrLine: {'line': b'/usr/include/c++/9/bits/shared_ptr.h: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> template<class _Arg> using _Assignable = typename std::enable_if<std::is_assignable<std::__shared_ptr<_Tp>&, _Arg>::value, std::shared_ptr<_Tp>&>::type [with _Arg = const std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::Image_<std::allocator<void> >, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::Image_<std::allocator<void> >, std::allocator<void> > > >&; _Tp = rclcpp::Subscription<std_msgs::msg::Int32_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.917079] (fpga_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:313:2:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<rclcpp::Subscription<std_msgs::msg::Int32_<std::allocator<void> > > >::_Assignable<const std::shared_ptr<_Tp>&> std::shared_ptr<rclcpp::Subscription<std_msgs::msg::Int32_<std::allocator<void> > > >::operator=<_Yp>(const std::shared_ptr<_Tp>&) [with _Yp = rclcpp::Subscription<sensor_msgs::msg::Image_<std::allocator<void> >, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::Image_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.917242] (fpga_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent/Embedded-System/ros_interface_node/fpga_interface/src/interface_node.cpp:29:113:\x1b[m\x1b[K   required from here\n'}
+[3.917390] (fpga_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:111:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, std::shared_ptr<rclcpp::Subscription<std_msgs::msg::Int32_<std::allocator<void> > > >&>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.917542] (fpga_interface) StderrLine: {'line': b'  111 |  using \x1b[01;31m\x1b[K_Assignable\x1b[m\x1b[K = typename enable_if<\n'}
+[3.917696] (fpga_interface) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.917843] (fpga_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:324:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::auto_ptr<_Up> > std::shared_ptr<_Tp>::operator=(std::auto_ptr<_Up>&&) [with _Yp = _Yp; _Tp = rclcpp::Subscription<std_msgs::msg::Int32_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.918018] (fpga_interface) StderrLine: {'line': b'  324 |  \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(auto_ptr<_Yp>&& __r)\n'}
+[3.918213] (fpga_interface) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.918361] (fpga_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:324:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.918510] (fpga_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent/Embedded-System/ros_interface_node/fpga_interface/src/interface_node.cpp:29:113:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::Image_<std::allocator<void> >, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::Image_<std::allocator<void> >, std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::auto_ptr<_Up>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.918680] (fpga_interface) StderrLine: {'line': b'   29 |       "/image_raw_scaled_down", 10, std::bind(&MinimalPublisher::get_image_callback, this,std::placeholders::_1)\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[3.919001] (fpga_interface) StderrLine: {'line': b'      |                                                                                                                 \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.919209] (fpga_interface) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[3.919402] (fpga_interface) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vincent/Embedded-System/ros_interface_node/fpga_interface/src/interface_node.cpp:3\x1b[m\x1b[K:\n'}
+[3.919587] (fpga_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:333:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Tp>&&) [with _Tp = rclcpp::Subscription<std_msgs::msg::Int32_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.919758] (fpga_interface) StderrLine: {'line': b'  333 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(shared_ptr&& __r) noexcept\n'}
+[3.919936] (fpga_interface) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.920120] (fpga_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:333:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::Image_<std::allocator<void> >, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::Image_<std::allocator<void> >, std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Subscription<std_msgs::msg::Int32_<std::allocator<void> > > >&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.920308] (fpga_interface) StderrLine: {'line': b'  333 |       operator=(\x1b[01;36m\x1b[Kshared_ptr&& __r\x1b[m\x1b[K) noexcept\n'}
+[3.920490] (fpga_interface) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[3.920670] (fpga_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:341:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::shared_ptr<_Yp> > std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Yp>&&) [with _Yp = _Yp; _Tp = rclcpp::Subscription<std_msgs::msg::Int32_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.922545] (fpga_interface) StderrLine: {'line': b'  341 |  \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(shared_ptr<_Yp>&& __r) noexcept\n'}
+[3.922759] (fpga_interface) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.922941] (fpga_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:341:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.923137] (fpga_interface) StderrLine: {'line': b'/usr/include/c++/9/bits/shared_ptr.h: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> template<class _Arg> using _Assignable = typename std::enable_if<std::is_assignable<std::__shared_ptr<_Tp>&, _Arg>::value, std::shared_ptr<_Tp>&>::type [with _Arg = std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::Image_<std::allocator<void> >, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::Image_<std::allocator<void> >, std::allocator<void> > > >; _Tp = rclcpp::Subscription<std_msgs::msg::Int32_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.923328] (fpga_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:341:2:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<rclcpp::Subscription<std_msgs::msg::Int32_<std::allocator<void> > > >::_Assignable<std::shared_ptr<_Tp> > std::shared_ptr<rclcpp::Subscription<std_msgs::msg::Int32_<std::allocator<void> > > >::operator=<_Yp>(std::shared_ptr<_Tp>&&) [with _Yp = rclcpp::Subscription<sensor_msgs::msg::Image_<std::allocator<void> >, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::Image_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.923523] (fpga_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent/Embedded-System/ros_interface_node/fpga_interface/src/interface_node.cpp:29:113:\x1b[m\x1b[K   required from here\n'}
+[3.923703] (fpga_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:111:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, std::shared_ptr<rclcpp::Subscription<std_msgs::msg::Int32_<std::allocator<void> > > >&>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.923882] (fpga_interface) StderrLine: {'line': b'  111 |  using \x1b[01;31m\x1b[K_Assignable\x1b[m\x1b[K = typename enable_if<\n'}
+[3.924058] (fpga_interface) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.924233] (fpga_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:349:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp, class _Del> std::shared_ptr<_Tp>::_Assignable<std::unique_ptr<_Up, _Ep> > std::shared_ptr<_Tp>::operator=(std::unique_ptr<_Up, _Ep>&&) [with _Yp = _Yp; _Del = _Del; _Tp = rclcpp::Subscription<std_msgs::msg::Int32_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.924429] (fpga_interface) StderrLine: {'line': b'  349 |  \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(unique_ptr<_Yp, _Del>&& __r)\n'}
+[3.924611] (fpga_interface) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.924784] (fpga_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:349:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.924957] (fpga_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent/Embedded-System/ros_interface_node/fpga_interface/src/interface_node.cpp:29:113:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::Image_<std::allocator<void> >, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::Image_<std::allocator<void> >, std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<_Tp, _Dp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.925141] (fpga_interface) StderrLine: {'line': b'   29 |       "/image_raw_scaled_down", 10, std::bind(&MinimalPublisher::get_image_callback, this,std::placeholders::_1)\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[3.925319] (fpga_interface) StderrLine: {'line': b'      |                                                                                                                 \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.925498] (fpga_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent/Embedded-System/ros_interface_node/fpga_interface/src/interface_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalPublisher::get_image_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.925680] (fpga_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent/Embedded-System/ros_interface_node/fpga_interface/src/interface_node.cpp:34:70:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[3.927506] (fpga_interface) StderrLine: {'line': b'   34 |     void get_image_callback(\x1b[01;35m\x1b[Kconst sensor_msgs::msg::Image::SharedPtr msg\x1b[m\x1b[K)\n'}
+[3.927741] (fpga_interface) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[4.013345] (-) TimerEvent: {}
+[4.113816] (-) TimerEvent: {}
+[4.214305] (-) TimerEvent: {}
+[4.314745] (-) TimerEvent: {}
+[4.415177] (-) TimerEvent: {}
+[4.515610] (-) TimerEvent: {}
+[4.616037] (-) TimerEvent: {}
+[4.716481] (-) TimerEvent: {}
+[4.816882] (-) TimerEvent: {}
+[4.917281] (-) TimerEvent: {}
+[5.017684] (-) TimerEvent: {}
+[5.118429] (-) TimerEvent: {}
+[5.219037] (-) TimerEvent: {}
+[5.319420] (-) TimerEvent: {}
+[5.419793] (-) TimerEvent: {}
+[5.520166] (-) TimerEvent: {}
+[5.620591] (-) TimerEvent: {}
+[5.720990] (-) TimerEvent: {}
+[5.821382] (-) TimerEvent: {}
+[5.921787] (-) TimerEvent: {}
+[6.022214] (-) TimerEvent: {}
+[6.054683] (fpga_interface) StderrLine: {'line': b'make[2]: *** [CMakeFiles/interface_node.dir/build.make:63: CMakeFiles/interface_node.dir/src/interface_node.cpp.o] Error 1\n'}
+[6.055123] (fpga_interface) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/interface_node.dir/all] Error 2\n'}
+[6.055275] (fpga_interface) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[6.059235] (fpga_interface) CommandEnded: {'returncode': 2}
+[6.118501] (fpga_interface) JobEnded: {'identifier': 'fpga_interface', 'rc': 2}
+[6.122369] (-) TimerEvent: {}
+[6.129653] (-) EventReactorShutdown: {}

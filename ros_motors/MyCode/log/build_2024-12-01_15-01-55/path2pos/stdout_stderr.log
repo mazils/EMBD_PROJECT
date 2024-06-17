@@ -1,0 +1,16 @@
+[35m[1mScanning dependencies of target pos_writer[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/pos_writer.dir/src/pos_writer.cpp.o[0m
+[01m[K/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/src/pos_writer.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[01m[K/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/src/pos_writer.cpp:33:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kangle[m[K’ was not declared in this scope; did you mean ‘[01m[Kangle1[m[K’?
+   33 |       int pos0=([01;31m[Kangle[m[K+60)*1023/300;
+      |                 [01;31m[K^~~~~[m[K
+      |                 [32m[Kangle1[m[K
+[01m[K/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/src/pos_writer.cpp:31:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kangle0[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   31 |       int [01;35m[Kangle0[m[K=110;
+      |           [01;35m[K^~~~~~[m[K
+[01m[K/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/src/pos_writer.cpp:32:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kangle1[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   32 |       int [01;35m[Kangle1[m[K=70;
+      |           [01;35m[K^~~~~~[m[K
+make[2]: *** [CMakeFiles/pos_writer.dir/build.make:63: CMakeFiles/pos_writer.dir/src/pos_writer.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/pos_writer.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

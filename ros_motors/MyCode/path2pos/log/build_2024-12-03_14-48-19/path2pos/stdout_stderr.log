@@ -1,0 +1,22 @@
+[35m[1mScanning dependencies of target pos_writer[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/pos_writer.dir/src/pos_writer.cpp.o[0m
+[100%] [32m[1mLinking CXX executable pos_writer[0m
+[100%] Built target pos_writer
+-- Install configuration: ""
+-- Installing: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/lib/path2pos/pos_writer
+-- Set runtime path of "/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/lib/path2pos/pos_writer" to ""
+-- Up-to-date: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/share/ament_index/resource_index/package_run_dependencies/path2pos
+-- Up-to-date: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/share/ament_index/resource_index/parent_prefix_path/path2pos
+-- Up-to-date: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/share/path2pos/environment/ament_prefix_path.sh
+-- Up-to-date: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/share/path2pos/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/share/path2pos/environment/path.sh
+-- Up-to-date: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/share/path2pos/environment/path.dsv
+-- Up-to-date: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/share/path2pos/local_setup.bash
+-- Up-to-date: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/share/path2pos/local_setup.sh
+-- Up-to-date: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/share/path2pos/local_setup.zsh
+-- Up-to-date: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/share/path2pos/local_setup.dsv
+-- Installing: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/share/path2pos/package.dsv
+-- Up-to-date: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/share/ament_index/resource_index/packages/path2pos
+-- Up-to-date: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/share/path2pos/cmake/path2posConfig.cmake
+-- Up-to-date: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/share/path2pos/cmake/path2posConfig-version.cmake
+-- Up-to-date: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/share/path2pos/package.xml

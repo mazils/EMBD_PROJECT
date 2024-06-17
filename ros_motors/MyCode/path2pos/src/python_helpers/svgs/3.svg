@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg3155"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="3.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview3157"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.61647026"
+     inkscape:cx="397.42388"
+     inkscape:cy="562.07091"
+     inkscape:window-width="1600"
+     inkscape:window-height="837"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs3152" />
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 76.761644,86.800369 c 2.607818,-0.680162 7.268805,-2.186199 8.777287,1.207884 0.537827,1.210109 -0.441282,2.042832 -1.127357,2.818394 -1.386991,1.567903 -4.859462,2.517291 -6.844676,2.737869 -0.230246,0.02558 -1.570651,0.281437 -1.852088,0 -0.03796,-0.03796 0.108971,0.01302 0.161051,0 0.05823,-0.01455 0.107368,-0.05368 0.161052,-0.08053 0.214736,0 0.4298,0.01191 0.644205,0 0.269341,-0.01497 0.536837,-0.05368 0.805254,-0.08052 0.563682,0 1.127519,0.01341 1.69104,0 1.576014,-0.03753 3.177685,-0.313611 4.751009,-0.08053 1.463124,0.21676 2.263907,0.422108 2.49629,1.932612 0.06829,0.443862 0.128731,0.74994 0.08053,1.207883 -0.04262,0.404908 -0.117223,1.012182 -0.402627,1.368936 -0.739476,0.924346 -2.279242,2.039562 -3.462599,2.254713 -0.638747,0.11614 -1.288735,0.1585 -1.932615,0.24158 -0.841843,0.10862 -1.511715,0.0842 -2.335241,-0.0805 -0.141031,-0.0282 -0.402627,-0.0154 -0.402627,-0.16105"
+       id="path1515" />
+  </g>
+</svg>

@@ -1,0 +1,58 @@
+[0.067s] Invoking command in '/home/mp4d/ros_motors/MyCode/build/path2pos': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/mp4d/ros_motors/MyCode/path2pos -DCMAKE_INSTALL_PREFIX=/home/mp4d/ros_motors/MyCode/install/path2pos
+[0.535s] -- The C compiler identification is GNU 9.4.0
+[0.967s] -- The CXX compiler identification is GNU 9.4.0
+[0.997s] -- Check for working C compiler: /usr/bin/cc
+[1.495s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.500s] -- Detecting C compiler ABI info
+[1.995s] -- Detecting C compiler ABI info - done
+[2.090s] -- Detecting C compile features
+[2.095s] -- Detecting C compile features - done
+[2.114s] -- Check for working CXX compiler: /usr/bin/c++
+[2.677s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.684s] -- Detecting CXX compiler ABI info
+[3.273s] -- Detecting CXX compiler ABI info - done
+[3.367s] -- Detecting CXX compile features
+[3.370s] -- Detecting CXX compile features - done
+[3.382s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.553s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.554s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.043s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[5.295s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.337s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[5.768s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[5.938s] -- Found FastRTPS: /opt/ros/foxy/include  
+[6.422s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.833s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[6.842s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.848s] -- Looking for pthread.h
+[7.370s] -- Looking for pthread.h - found
+[7.371s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.893s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[7.896s] -- Looking for pthread_create in pthreads
+[8.269s] -- Looking for pthread_create in pthreads - not found
+[8.271s] -- Looking for pthread_create in pthread
+[8.789s] -- Looking for pthread_create in pthread - found
+[8.798s] -- Found Threads: TRUE  
+[10.070s] CMake Error at CMakeLists.txt:22 (find_package):
+[10.070s]   By not providing "Finddynamixel_sdk_custom_interfaces.cmake" in
+[10.071s]   CMAKE_MODULE_PATH this project has asked CMake to find a package
+[10.072s]   configuration file provided by "dynamixel_sdk_custom_interfaces", but CMake
+[10.072s]   did not find one.
+[10.073s] 
+[10.073s]   Could not find a package configuration file provided by
+[10.074s]   "dynamixel_sdk_custom_interfaces" with any of the following names:
+[10.074s] 
+[10.075s]     dynamixel_sdk_custom_interfacesConfig.cmake
+[10.075s]     dynamixel_sdk_custom_interfaces-config.cmake
+[10.076s] 
+[10.077s]   Add the installation prefix of "dynamixel_sdk_custom_interfaces" to
+[10.077s]   CMAKE_PREFIX_PATH or set "dynamixel_sdk_custom_interfaces_DIR" to a
+[10.078s]   directory containing one of the above files.  If
+[10.078s]   "dynamixel_sdk_custom_interfaces" provides a separate development package
+[10.079s]   or SDK, be sure it has been installed.
+[10.079s] 
+[10.080s] 
+[10.080s] -- Configuring incomplete, errors occurred!
+[10.081s] See also "/home/mp4d/ros_motors/MyCode/build/path2pos/CMakeFiles/CMakeOutput.log".
+[10.081s] See also "/home/mp4d/ros_motors/MyCode/build/path2pos/CMakeFiles/CMakeError.log".
+[10.161s] Invoked command in '/home/mp4d/ros_motors/MyCode/build/path2pos' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/mp4d/ros_motors/MyCode/path2pos -DCMAKE_INSTALL_PREFIX=/home/mp4d/ros_motors/MyCode/install/path2pos

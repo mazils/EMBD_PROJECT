@@ -1,0 +1,106 @@
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/vincent/Embedded-System/ros_interface_node/fpga_interface/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/vincent/Embedded-System/ros_interface_node/fpga_interface/build/fpga_interface
+[35m[1mScanning dependencies of target interface_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/interface_node.dir/src/interface_node.cpp.o[0m
+[01m[K/home/vincent/Embedded-System/ros_interface_node/fpga_interface/src/interface_node.cpp:33:35:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs[m[K’ does not name a type
+   33 |     void get_image_callback(const [01;31m[Ksensor_msgs[m[K::msg::Image::SharedPtr msg)
+      |                                   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/vincent/Embedded-System/ros_interface_node/fpga_interface/src/interface_node.cpp:33:51:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+   33 |     void get_image_callback(const sensor_msgs::msg[01;31m[K::[m[KImage::SharedPtr msg)
+      |                                                   [01;31m[K^~[m[K
+[01m[K/home/vincent/Embedded-System/ros_interface_node/fpga_interface/src/interface_node.cpp:33:51:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+   33 |     void get_image_callback[34m[K([m[Kconst sensor_msgs::msg[01;31m[K:[m[K[32m[K:[m[KImage::SharedPtr msg)
+      |                            [34m[K~[m[K                      [01;31m[K^[m[K[32m[K~[m[K
+      |                                                   [32m[K)[m[K
+[01m[K/home/vincent/Embedded-System/ros_interface_node/fpga_interface/src/interface_node.cpp:33:48:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   33 |     void get_image_callback(const sensor_msgs::[01;31m[Kmsg[m[K::Image::SharedPtr msg)
+      |                                                [01;31m[K^~~[m[K
+      |                                                   [32m[K;[m[K
+[01m[K/home/vincent/Embedded-System/ros_interface_node/fpga_interface/src/interface_node.cpp:33:53:[m[K [01;31m[Kerror: [m[K‘[01m[KImage[m[K’ in namespace ‘[01m[K::[m[K’ does not name a type
+   33 |     void get_image_callback(const sensor_msgs::msg::[01;31m[KImage[m[K::SharedPtr msg)
+      |                                                     [01;31m[K^~~~~[m[K
+[01m[K/home/vincent/Embedded-System/ros_interface_node/fpga_interface/src/interface_node.cpp:52:23:[m[K [01;31m[Kerror: [m[K‘[01m[KSetPosition[m[K’ was not declared in this scope
+   52 |     rclcpp::Publisher<[01;31m[KSetPosition[m[K>::SharedPtr publisher_;
+      |                       [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/vincent/Embedded-System/ros_interface_node/fpga_interface/src/interface_node.cpp:52:34:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   52 |     rclcpp::Publisher<SetPosition[01;31m[K>[m[K::SharedPtr publisher_;
+      |                                  [01;31m[K^[m[K
+[01m[K/home/vincent/Embedded-System/ros_interface_node/fpga_interface/src/interface_node.cpp:52:37:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   52 |     rclcpp::Publisher<SetPosition>::[01;31m[KSharedPtr[m[K publisher_;
+      |                                     [01;31m[K^~~~~~~~~[m[K
+      |                                              [32m[K;[m[K
+[01m[K/home/vincent/Embedded-System/ros_interface_node/fpga_interface/src/interface_node.cpp:52:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+   52 |     rclcpp::Publisher<SetPosition>::SharedPtr [01;31m[Kpublisher_[m[K;
+      |                                               [01;31m[K^~~~~~~~~~[m[K
+      |                                               [32m[Krcl_publisher_t[m[K
+[01m[K/home/vincent/Embedded-System/ros_interface_node/fpga_interface/src/interface_node.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[01m[K/home/vincent/Embedded-System/ros_interface_node/fpga_interface/src/interface_node.cpp:26:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+   26 |       [01;31m[Kpublisher_[m[K = this->create_publisher<std_msg::msg::Int32>("/set_draw_number", 10);
+      |       [01;31m[K^~~~~~~~~~[m[K
+      |       [32m[Krcl_publisher_t[m[K
+[01m[K/home/vincent/Embedded-System/ros_interface_node/fpga_interface/src/interface_node.cpp:26:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msg[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd_msgs[m[K’?
+   26 |       publisher_ = this->create_publisher<[01;31m[Kstd_msg[m[K::msg::Int32>("/set_draw_number", 10);
+      |                                           [01;31m[K^~~~~~~[m[K
+      |                                           [32m[Kstd_msgs[m[K
+[01m[K/home/vincent/Embedded-System/ros_interface_node/fpga_interface/src/interface_node.cpp:26:26:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   26 |       publisher_ = this->[01;31m[Kcreate_publisher<std_msg::msg::Int32>[m[K("/set_draw_number", 10);
+      |                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/vincent/Embedded-System/ros_interface_node/fpga_interface/src/interface_node.cpp:26:86:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMinimalPublisher::create_publisher<<expression error> >(const char [17], int)[m[K’
+   26 |       publisher_ = this->create_publisher<std_msg::msg::Int32>("/set_draw_number", 10[01;31m[K)[m[K;
+      |                                                                                      [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/vincent/Embedded-System/ros_interface_node/fpga_interface/src/interface_node.cpp:11[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  184 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/vincent/Embedded-System/ros_interface_node/fpga_interface/src/interface_node.cpp:26:86:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   26 |       publisher_ = this->create_publisher<std_msg::msg::Int32>("/set_draw_number", 10[01;31m[K)[m[K;
+      |                                                                                      [01;31m[K^[m[K
+[01m[K/home/vincent/Embedded-System/ros_interface_node/fpga_interface/src/interface_node.cpp:27:49:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs[m[K’ was not declared in this scope
+   27 |       subscription_ = this->create_subscription<[01;31m[Ksensor_msgs[m[K::msg::Image>(
+      |                                                 [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/vincent/Embedded-System/ros_interface_node/fpga_interface/src/interface_node.cpp:27:29:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   27 |       subscription_ = this->[01;31m[Kcreate_subscription<sensor_msgs::msg::Image>[m[K(
+      |                             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/vincent/Embedded-System/ros_interface_node/fpga_interface/src/interface_node.cpp:28:113:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMinimalPublisher::create_subscription<<expression error> >(const char [23], int, std::_Bind_helper<false, void (MinimalPublisher::*)(...), MinimalPublisher*, const std::_Placeholder<1>&>::type)[m[K’
+   28 |       "/image_raw_scaled_down", 10, std::bind(&MinimalPublisher::get_image_callback, this,std::placeholders::_1)[01;31m[K)[m[K;
+      |                                                                                                                 [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/vincent/Embedded-System/ros_interface_node/fpga_interface/src/interface_node.cpp:11[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:213:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class CallbackMessageT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+  213 |   [01;36m[Kcreate_subscription[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:213:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/vincent/Embedded-System/ros_interface_node/fpga_interface/src/interface_node.cpp:28:113:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   28 |       "/image_raw_scaled_down", 10, std::bind(&MinimalPublisher::get_image_callback, this,std::placeholders::_1)[01;31m[K)[m[K;
+      |                                                                                                                 [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/interface_node.dir/build.make:63: CMakeFiles/interface_node.dir/src/interface_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/interface_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

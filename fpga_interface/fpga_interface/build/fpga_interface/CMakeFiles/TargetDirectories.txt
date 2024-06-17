@@ -1,0 +1,10 @@
+/home/mp4d/fpga_interface/fpga_interface/build/fpga_interface/CMakeFiles/install/strip.dir
+/home/mp4d/fpga_interface/fpga_interface/build/fpga_interface/CMakeFiles/install/local.dir
+/home/mp4d/fpga_interface/fpga_interface/build/fpga_interface/CMakeFiles/install.dir
+/home/mp4d/fpga_interface/fpga_interface/build/fpga_interface/CMakeFiles/list_install_components.dir
+/home/mp4d/fpga_interface/fpga_interface/build/fpga_interface/CMakeFiles/rebuild_cache.dir
+/home/mp4d/fpga_interface/fpga_interface/build/fpga_interface/CMakeFiles/edit_cache.dir
+/home/mp4d/fpga_interface/fpga_interface/build/fpga_interface/CMakeFiles/test.dir
+/home/mp4d/fpga_interface/fpga_interface/build/fpga_interface/CMakeFiles/interface_node.dir
+/home/mp4d/fpga_interface/fpga_interface/build/fpga_interface/CMakeFiles/fpga_interface_uninstall.dir
+/home/mp4d/fpga_interface/fpga_interface/build/fpga_interface/CMakeFiles/uninstall.dir

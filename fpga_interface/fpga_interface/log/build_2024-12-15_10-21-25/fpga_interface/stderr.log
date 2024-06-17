@@ -1,0 +1,4 @@
+CMake Error: The current CMakeCache.txt directory /home/mp4d/fpga_interface/fpga_interface/build/fpga_interface/CMakeCache.txt is different than the directory /home/vincent/Embedded-System/ros_interface_node/fpga_interface/build/fpga_interface where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+CMake Error: The source directory "/home/vincent/Embedded-System/ros_interface_node/fpga_interface" does not exist.
+Specify --help for usage, or press the help button on the CMake GUI.
+make: *** [Makefile:326: cmake_check_build_system] Error 1

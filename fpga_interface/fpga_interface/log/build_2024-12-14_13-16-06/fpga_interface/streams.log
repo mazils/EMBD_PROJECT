@@ -1,0 +1,35 @@
+[0.039s] Invoking command in '/home/vincent/Embedded-System/ros_interface_node/fpga_interface/build/fpga_interface': /usr/bin/cmake /home/vincent/Embedded-System/ros_interface_node/fpga_interface -DCMAKE_INSTALL_PREFIX=/home/vincent/Embedded-System/ros_interface_node/fpga_interface/install/fpga_interface
+[0.316s] -- The C compiler identification is GNU 9.4.0
+[1.116s] -- The CXX compiler identification is GNU 9.4.0
+[1.153s] -- Check for working C compiler: /usr/bin/cc
+[1.290s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.307s] -- Detecting C compiler ABI info
+[1.416s] -- Detecting C compiler ABI info - done
+[1.437s] -- Detecting C compile features
+[1.437s] -- Detecting C compile features - done
+[1.445s] -- Check for working CXX compiler: /usr/bin/c++
+[1.581s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.583s] -- Detecting CXX compiler ABI info
+[1.742s] -- Detecting CXX compiler ABI info - done
+[1.764s] -- Detecting CXX compile features
+[1.764s] -- Detecting CXX compile features - done
+[1.980s] CMake Error at CMakeLists.txt:19 (find_package):
+[1.980s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[1.980s]   has asked CMake to find a package configuration file provided by
+[1.980s]   "ament_cmake", but CMake did not find one.
+[1.980s] 
+[1.980s]   Could not find a package configuration file provided by "ament_cmake" with
+[1.981s]   any of the following names:
+[1.981s] 
+[1.981s]     ament_cmakeConfig.cmake
+[1.981s]     ament_cmake-config.cmake
+[1.981s] 
+[1.981s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[1.981s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[1.981s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[1.982s]   has been installed.
+[1.982s] 
+[1.982s] -- Configuring incomplete, errors occurred!
+[1.982s] See also "/home/vincent/Embedded-System/ros_interface_node/fpga_interface/build/fpga_interface/CMakeFiles/CMakeOutput.log".
+[1.982s] 
+[1.985s] Invoked command in '/home/vincent/Embedded-System/ros_interface_node/fpga_interface/build/fpga_interface' returned '1': /usr/bin/cmake /home/vincent/Embedded-System/ros_interface_node/fpga_interface -DCMAKE_INSTALL_PREFIX=/home/vincent/Embedded-System/ros_interface_node/fpga_interface/install/fpga_interface

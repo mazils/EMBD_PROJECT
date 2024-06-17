@@ -1,0 +1,172 @@
+[0.000000] (-) TimerEvent: {}
+[0.000279] (fpga_interface) JobQueued: {'identifier': 'fpga_interface', 'dependencies': OrderedDict()}
+[0.001053] (fpga_interface) JobStarted: {'identifier': 'fpga_interface'}
+[0.021175] (fpga_interface) JobProgress: {'identifier': 'fpga_interface', 'progress': 'cmake'}
+[0.022427] (fpga_interface) JobProgress: {'identifier': 'fpga_interface', 'progress': 'build'}
+[0.023827] (fpga_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vincent/Embedded-System/ros_interface_node/fpga_interface/build/fpga_interface', '--', '-j4', '-l4'], 'cwd': '/home/vincent/Embedded-System/ros_interface_node/fpga_interface/build/fpga_interface', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'vincent'), ('LC_TIME', 'de_DE.UTF-8'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIO_MODULE_DIR', '/home/vincent/snap/code/common/.cache/gio-modules'), ('SSH_AGENT_PID', '1322'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/177/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/vincent'), ('CHROME_DESKTOP', 'code.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.96.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/177/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('XDG_DATA_HOME_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE', '/home/vincent/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/177/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'de_DE.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/177/usr/share/code/code'), ('MANAGERPID', '1209'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4462'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/vincent/Embedded-System/ros_interface_node/fpga_interface/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'vincent'), ('JOURNAL_STREAM', '8:38507'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'vincent'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/vincent-ThinkPad-T430:@/tmp/.ICE-unix/1359,unix/vincent-ThinkPad-T430:/tmp/.ICE-unix/1359'), ('GTK_EXE_PREFIX', '/snap/code/177/usr'), ('INVOCATION_ID', '7c927caa99544bc49611ea7f438971ea'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/177/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XDG_DATA_HOME', '/home/vincent/snap/code/177/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-4369c3656f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/vincent/snap/code/177/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/vincent/Embedded-System/ros_interface_node/fpga_interface/install/fpga_interface:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vincent/Embedded-System/ros_interface_node/fpga_interface/build/fpga_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/vincent/snap/code/177/.local/share:/home/vincent/snap/code/177:/snap/code/177/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/vincent/Embedded-System/ros_interface_node/fpga_interface/install/fpga_interface:/opt/ros/foxy')]), 'shell': False}
+[0.099599] (-) TimerEvent: {}
+[0.108044] (fpga_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interface_node\x1b[0m\n'}
+[0.199721] (-) TimerEvent: {}
+[0.300292] (-) TimerEvent: {}
+[0.400756] (-) TimerEvent: {}
+[0.463590] (fpga_interface) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/interface_node.dir/src/interface_node.cpp.o\x1b[0m\n'}
+[0.500893] (-) TimerEvent: {}
+[0.601356] (-) TimerEvent: {}
+[0.702047] (-) TimerEvent: {}
+[0.802496] (-) TimerEvent: {}
+[0.902992] (-) TimerEvent: {}
+[1.003402] (-) TimerEvent: {}
+[1.103818] (-) TimerEvent: {}
+[1.204245] (-) TimerEvent: {}
+[1.304705] (-) TimerEvent: {}
+[1.405112] (-) TimerEvent: {}
+[1.505498] (-) TimerEvent: {}
+[1.605915] (-) TimerEvent: {}
+[1.706429] (-) TimerEvent: {}
+[1.807036] (-) TimerEvent: {}
+[1.908238] (-) TimerEvent: {}
+[2.008697] (-) TimerEvent: {}
+[2.109253] (-) TimerEvent: {}
+[2.209687] (-) TimerEvent: {}
+[2.310163] (-) TimerEvent: {}
+[2.410688] (-) TimerEvent: {}
+[2.511226] (-) TimerEvent: {}
+[2.611718] (-) TimerEvent: {}
+[2.712208] (-) TimerEvent: {}
+[2.812673] (-) TimerEvent: {}
+[2.913186] (-) TimerEvent: {}
+[2.932348] (fpga_interface) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/vincent/Embedded-System/ros_interface_node/fpga_interface/src/interface_node.cpp:16\x1b[m\x1b[K:\n'}
+[2.932932] (fpga_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent/Embedded-System/ros_interface_node/fpga_interface/src/reserved_mem.hpp:51:6:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[2.933204] (fpga_interface) StderrLine: {'line': b'   51 |     }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[2.933442] (fpga_interface) StderrLine: {'line': b'      |      \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.933664] (fpga_interface) StderrLine: {'line': b'      |      \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[2.933875] (fpga_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent/Embedded-System/ros_interface_node/fpga_interface/src/reserved_mem.hpp:68:6:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[2.934087] (fpga_interface) StderrLine: {'line': b'   68 |     }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[2.934298] (fpga_interface) StderrLine: {'line': b'      |      \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.934501] (fpga_interface) StderrLine: {'line': b'      |      \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[3.013315] (-) TimerEvent: {}
+[3.113752] (-) TimerEvent: {}
+[3.214217] (-) TimerEvent: {}
+[3.314687] (-) TimerEvent: {}
+[3.415624] (-) TimerEvent: {}
+[3.516055] (-) TimerEvent: {}
+[3.596402] (fpga_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent/Embedded-System/ros_interface_node/fpga_interface/src/interface_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalPublisher::get_image_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.596876] (fpga_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent/Embedded-System/ros_interface_node/fpga_interface/src/interface_node.cpp:47:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KImageArray\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[3.598078] (fpga_interface) StderrLine: {'line': b'   47 |       uint8_t *\x1b[01;35m\x1b[KImageArray\x1b[m\x1b[K=msg->data.data();\n'}
+[3.598348] (fpga_interface) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.616203] (-) TimerEvent: {}
+[3.716743] (-) TimerEvent: {}
+[3.817274] (-) TimerEvent: {}
+[3.917782] (-) TimerEvent: {}
+[4.018238] (-) TimerEvent: {}
+[4.118990] (-) TimerEvent: {}
+[4.219407] (-) TimerEvent: {}
+[4.320102] (-) TimerEvent: {}
+[4.420696] (-) TimerEvent: {}
+[4.521318] (-) TimerEvent: {}
+[4.621731] (-) TimerEvent: {}
+[4.722185] (-) TimerEvent: {}
+[4.822637] (-) TimerEvent: {}
+[4.923113] (-) TimerEvent: {}
+[5.023840] (-) TimerEvent: {}
+[5.124291] (-) TimerEvent: {}
+[5.224878] (-) TimerEvent: {}
+[5.325352] (-) TimerEvent: {}
+[5.425791] (-) TimerEvent: {}
+[5.526217] (-) TimerEvent: {}
+[5.626651] (-) TimerEvent: {}
+[5.727115] (-) TimerEvent: {}
+[5.827614] (-) TimerEvent: {}
+[5.928046] (-) TimerEvent: {}
+[6.028441] (-) TimerEvent: {}
+[6.128885] (-) TimerEvent: {}
+[6.229272] (-) TimerEvent: {}
+[6.329661] (-) TimerEvent: {}
+[6.430055] (-) TimerEvent: {}
+[6.530465] (-) TimerEvent: {}
+[6.630949] (-) TimerEvent: {}
+[6.731594] (-) TimerEvent: {}
+[6.832293] (-) TimerEvent: {}
+[6.932706] (-) TimerEvent: {}
+[7.033141] (-) TimerEvent: {}
+[7.133578] (-) TimerEvent: {}
+[7.234028] (-) TimerEvent: {}
+[7.334410] (-) TimerEvent: {}
+[7.434795] (-) TimerEvent: {}
+[7.535178] (-) TimerEvent: {}
+[7.635527] (-) TimerEvent: {}
+[7.735921] (-) TimerEvent: {}
+[7.836318] (-) TimerEvent: {}
+[7.936704] (-) TimerEvent: {}
+[8.037107] (-) TimerEvent: {}
+[8.137484] (-) TimerEvent: {}
+[8.237854] (-) TimerEvent: {}
+[8.338237] (-) TimerEvent: {}
+[8.438667] (-) TimerEvent: {}
+[8.539094] (-) TimerEvent: {}
+[8.639521] (-) TimerEvent: {}
+[8.739981] (-) TimerEvent: {}
+[8.840392] (-) TimerEvent: {}
+[8.940822] (-) TimerEvent: {}
+[9.041220] (-) TimerEvent: {}
+[9.141602] (-) TimerEvent: {}
+[9.241975] (-) TimerEvent: {}
+[9.342394] (-) TimerEvent: {}
+[9.442829] (-) TimerEvent: {}
+[9.543274] (-) TimerEvent: {}
+[9.643713] (-) TimerEvent: {}
+[9.744152] (-) TimerEvent: {}
+[9.844576] (-) TimerEvent: {}
+[9.945018] (-) TimerEvent: {}
+[10.045541] (-) TimerEvent: {}
+[10.086377] (fpga_interface) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX executable interface_node\x1b[0m\n'}
+[10.145682] (-) TimerEvent: {}
+[10.246137] (-) TimerEvent: {}
+[10.346916] (-) TimerEvent: {}
+[10.447530] (-) TimerEvent: {}
+[10.548367] (-) TimerEvent: {}
+[10.648956] (-) TimerEvent: {}
+[10.749417] (-) TimerEvent: {}
+[10.849895] (-) TimerEvent: {}
+[10.950398] (-) TimerEvent: {}
+[11.050975] (-) TimerEvent: {}
+[11.151495] (-) TimerEvent: {}
+[11.251938] (-) TimerEvent: {}
+[11.352389] (-) TimerEvent: {}
+[11.452828] (-) TimerEvent: {}
+[11.553240] (-) TimerEvent: {}
+[11.653667] (-) TimerEvent: {}
+[11.754306] (-) TimerEvent: {}
+[11.855355] (-) TimerEvent: {}
+[11.955971] (-) TimerEvent: {}
+[12.056535] (-) TimerEvent: {}
+[12.156890] (-) TimerEvent: {}
+[12.257297] (-) TimerEvent: {}
+[12.356375] (fpga_interface) StdoutLine: {'line': b'[100%] Built target interface_node\n'}
+[12.357388] (-) TimerEvent: {}
+[12.373259] (fpga_interface) CommandEnded: {'returncode': 0}
+[12.445539] (fpga_interface) JobProgress: {'identifier': 'fpga_interface', 'progress': 'install'}
+[12.457791] (-) TimerEvent: {}
+[12.465618] (fpga_interface) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vincent/Embedded-System/ros_interface_node/fpga_interface/build/fpga_interface'], 'cwd': '/home/vincent/Embedded-System/ros_interface_node/fpga_interface/build/fpga_interface', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'vincent'), ('LC_TIME', 'de_DE.UTF-8'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIO_MODULE_DIR', '/home/vincent/snap/code/common/.cache/gio-modules'), ('SSH_AGENT_PID', '1322'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/177/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/vincent'), ('CHROME_DESKTOP', 'code.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.96.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/177/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('XDG_DATA_HOME_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE', '/home/vincent/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/177/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'de_DE.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/177/usr/share/code/code'), ('MANAGERPID', '1209'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4462'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/vincent/Embedded-System/ros_interface_node/fpga_interface/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'vincent'), ('JOURNAL_STREAM', '8:38507'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'vincent'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/vincent-ThinkPad-T430:@/tmp/.ICE-unix/1359,unix/vincent-ThinkPad-T430:/tmp/.ICE-unix/1359'), ('GTK_EXE_PREFIX', '/snap/code/177/usr'), ('INVOCATION_ID', '7c927caa99544bc49611ea7f438971ea'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/177/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XDG_DATA_HOME', '/home/vincent/snap/code/177/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-4369c3656f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/vincent/snap/code/177/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/vincent/Embedded-System/ros_interface_node/fpga_interface/install/fpga_interface:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vincent/Embedded-System/ros_interface_node/fpga_interface/build/fpga_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/vincent/snap/code/177/.local/share:/home/vincent/snap/code/177:/snap/code/177/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/vincent/Embedded-System/ros_interface_node/fpga_interface/install/fpga_interface:/opt/ros/foxy')]), 'shell': False}
+[12.482401] (fpga_interface) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.483025] (fpga_interface) StdoutLine: {'line': b'-- Installing: /home/vincent/Embedded-System/ros_interface_node/fpga_interface/install/fpga_interface/lib/fpga_interface/interface_node\n'}
+[12.485686] (fpga_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/vincent/Embedded-System/ros_interface_node/fpga_interface/install/fpga_interface/lib/fpga_interface/interface_node" to ""\n'}
+[12.485993] (fpga_interface) StdoutLine: {'line': b'-- Installing: /home/vincent/Embedded-System/ros_interface_node/fpga_interface/install/fpga_interface/share/ament_index/resource_index/package_run_dependencies/fpga_interface\n'}
+[12.486273] (fpga_interface) StdoutLine: {'line': b'-- Up-to-date: /home/vincent/Embedded-System/ros_interface_node/fpga_interface/install/fpga_interface/share/ament_index/resource_index/parent_prefix_path/fpga_interface\n'}
+[12.486439] (fpga_interface) StdoutLine: {'line': b'-- Up-to-date: /home/vincent/Embedded-System/ros_interface_node/fpga_interface/install/fpga_interface/share/fpga_interface/environment/ament_prefix_path.sh\n'}
+[12.486668] (fpga_interface) StdoutLine: {'line': b'-- Installing: /home/vincent/Embedded-System/ros_interface_node/fpga_interface/install/fpga_interface/share/fpga_interface/environment/ament_prefix_path.dsv\n'}
+[12.486831] (fpga_interface) StdoutLine: {'line': b'-- Up-to-date: /home/vincent/Embedded-System/ros_interface_node/fpga_interface/install/fpga_interface/share/fpga_interface/environment/path.sh\n'}
+[12.487086] (fpga_interface) StdoutLine: {'line': b'-- Installing: /home/vincent/Embedded-System/ros_interface_node/fpga_interface/install/fpga_interface/share/fpga_interface/environment/path.dsv\n'}
+[12.487326] (fpga_interface) StdoutLine: {'line': b'-- Up-to-date: /home/vincent/Embedded-System/ros_interface_node/fpga_interface/install/fpga_interface/share/fpga_interface/local_setup.bash\n'}
+[12.487583] (fpga_interface) StdoutLine: {'line': b'-- Up-to-date: /home/vincent/Embedded-System/ros_interface_node/fpga_interface/install/fpga_interface/share/fpga_interface/local_setup.sh\n'}
+[12.488943] (fpga_interface) StdoutLine: {'line': b'-- Up-to-date: /home/vincent/Embedded-System/ros_interface_node/fpga_interface/install/fpga_interface/share/fpga_interface/local_setup.zsh\n'}
+[12.489238] (fpga_interface) StdoutLine: {'line': b'-- Installing: /home/vincent/Embedded-System/ros_interface_node/fpga_interface/install/fpga_interface/share/fpga_interface/local_setup.dsv\n'}
+[12.489436] (fpga_interface) StdoutLine: {'line': b'-- Installing: /home/vincent/Embedded-System/ros_interface_node/fpga_interface/install/fpga_interface/share/fpga_interface/package.dsv\n'}
+[12.489596] (fpga_interface) StdoutLine: {'line': b'-- Up-to-date: /home/vincent/Embedded-System/ros_interface_node/fpga_interface/install/fpga_interface/share/ament_index/resource_index/packages/fpga_interface\n'}
+[12.489751] (fpga_interface) StdoutLine: {'line': b'-- Up-to-date: /home/vincent/Embedded-System/ros_interface_node/fpga_interface/install/fpga_interface/share/fpga_interface/cmake/fpga_interfaceConfig.cmake\n'}
+[12.489902] (fpga_interface) StdoutLine: {'line': b'-- Up-to-date: /home/vincent/Embedded-System/ros_interface_node/fpga_interface/install/fpga_interface/share/fpga_interface/cmake/fpga_interfaceConfig-version.cmake\n'}
+[12.490052] (fpga_interface) StdoutLine: {'line': b'-- Installing: /home/vincent/Embedded-System/ros_interface_node/fpga_interface/install/fpga_interface/share/fpga_interface/package.xml\n'}
+[12.500896] (fpga_interface) CommandEnded: {'returncode': 0}
+[12.557985] (-) TimerEvent: {}
+[12.572918] (fpga_interface) JobEnded: {'identifier': 'fpga_interface', 'rc': 0}
+[12.574705] (-) EventReactorShutdown: {}

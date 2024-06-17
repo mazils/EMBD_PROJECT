@@ -1,0 +1,13 @@
+In file included from [01m[K/home/vincent/Embedded-System/ros_interface_node/fpga_interface/src/interface_node.cpp:16[m[K:
+[01m[K/home/vincent/Embedded-System/ros_interface_node/fpga_interface/src/reserved_mem.hpp:51:6:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   51 |     }[01;35m[K;[m[K
+      |      [01;35m[K^[m[K
+      |      [31m[K-[m[K
+[01m[K/home/vincent/Embedded-System/ros_interface_node/fpga_interface/src/reserved_mem.hpp:68:6:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   68 |     }[01;35m[K;[m[K
+      |      [01;35m[K^[m[K
+      |      [31m[K-[m[K
+[01m[K/home/vincent/Embedded-System/ros_interface_node/fpga_interface/src/interface_node.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::get_image_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/vincent/Embedded-System/ros_interface_node/fpga_interface/src/interface_node.cpp:47:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KImageArray[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   47 |       uint8_t *[01;35m[KImageArray[m[K=msg->data.data();
+      |                [01;35m[K^~~~~~~~~~[m[K

@@ -1,0 +1,44 @@
+[35m[1mScanning dependencies of target pos_writer[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/pos_writer.dir/src/pos_writer.cpp.o[0m
+[01m[K/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/src/pos_writer.cpp:33:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kstring[m[K’ has not been declared
+   33 |     void ReadFile([01;31m[Kstring[m[K file_name){
+      |                   [01;31m[K^~~~~~[m[K
+[01m[K/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/src/pos_writer.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[01m[K/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/src/pos_writer.cpp:27:22:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kconst char*[m[K’ to ‘[01m[Kint[m[K’ [[01;31m[K-fpermissive[m[K]
+   27 |       this->ReadFile([01;31m[K"output-1.csv"[m[K);
+      |                      [01;31m[K^~~~~~~~~~~~~~[m[K
+      |                      [01;31m[K|[m[K
+      |                      [01;31m[Kconst char*[m[K
+[01m[K/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/src/pos_writer.cpp:33:26:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid MinimalPublisher::ReadFile(int)[m[K’
+   33 |     void ReadFile([01;36m[Kstring file_name[m[K){
+      |                   [01;36m[K~~~~~~~^~~~~~~~~[m[K
+[01m[K/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/src/pos_writer.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::ReadFile(int)[m[K’:
+[01m[K/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/src/pos_writer.cpp:34:28:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kconst char*[m[K’ [[01;31m[K-fpermissive[m[K]
+   34 |         std::ifstream file([01;31m[Kfile_name[m[K);
+      |                            [01;31m[K^~~~~~~~~[m[K
+      |                            [01;31m[K|[m[K
+      |                            [01;31m[Kint[m[K
+In file included from [01m[K/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/src/pos_writer.cpp:6[m[K:
+[01m[K/usr/include/c++/9/fstream:529:34:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kstd::basic_ifstream<_CharT, _Traits>::basic_ifstream(const char*, std::ios_base::openmode) [with _CharT = char; _Traits = std::char_traits<char>; std::ios_base::openmode = std::_Ios_Openmode][m[K’
+  529 |       basic_ifstream([01;36m[Kconst char* __s[m[K, ios_base::openmode __mode = ios_base::in)
+      |                      [01;36m[K~~~~~~~~~~~~^~~[m[K
+[01m[K/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/src/pos_writer.cpp:37:20:[m[K [01;31m[Kerror: [m[Kreturn-statement with a value, in function returning ‘[01m[Kvoid[m[K’ [[01;31m[K-fpermissive[m[K]
+   37 |             return [01;31m[K1[m[K;
+      |                    [01;31m[K^[m[K
+[01m[K/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/src/pos_writer.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[01m[K/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/src/pos_writer.cpp:59:29:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   59 |       std::vector<std::float[01;31m[K>>[m[K new_pos=this->data[index];
+      |                             [01;31m[K^~[m[K
+[01m[K/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/src/pos_writer.cpp:59:29:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/src/pos_writer.cpp:59:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MinimalPublisher[m[K’ has no member named ‘[01m[Kdata[m[K’
+   59 |       std::vector<std::float>> new_pos=this->[01;31m[Kdata[m[K[index];
+      |                                              [01;31m[K^~~~[m[K
+[01m[K/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/src/pos_writer.cpp:61:27:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[int][m[K’ for array subscript
+   61 |       int angle0=new_pos[0[01;31m[K][m[K;
+      |                           [01;31m[K^[m[K
+[01m[K/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/src/pos_writer.cpp:62:27:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[int][m[K’ for array subscript
+   62 |       int angle1=new_pos[1[01;31m[K][m[K;
+      |                           [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/pos_writer.dir/build.make:63: CMakeFiles/pos_writer.dir/src/pos_writer.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/pos_writer.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

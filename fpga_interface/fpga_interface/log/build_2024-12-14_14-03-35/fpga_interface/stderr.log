@@ -1,0 +1,19 @@
+[01m[K/home/vincent/Embedded-System/ros_interface_node/fpga_interface/src/interface_node.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::get_image_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/vincent/Embedded-System/ros_interface_node/fpga_interface/src/interface_node.cpp:43:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kimg_resized[m[K’ was not declared in this scope
+   43 |   cv_bridge_img.image = [01;31m[Kimg_resized[m[K;
+      |                         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/vincent/Embedded-System/ros_interface_node/fpga_interface/src/interface_node.cpp:51:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kcam_pub_red_res[m[K’ was not declared in this scope
+   51 |   [01;31m[Kcam_pub_red_res[m[K-> publish(*msg_reduced);
+      |   [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/vincent/Embedded-System/ros_interface_node/fpga_interface/src/interface_node.cpp:65:52:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   65 |     array.insert(array.end(), img_resized.ptr<uchar[01;31m[K>[m[K(i), img_resized.ptr<uchar>(i)+img_resized.cols);
+      |                                                    [01;31m[K^[m[K
+[01m[K/home/vincent/Embedded-System/ros_interface_node/fpga_interface/src/interface_node.cpp:65:79:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   65 |     array.insert(array.end(), img_resized.ptr<uchar>(i), img_resized.ptr<uchar[01;31m[K>[m[K(i)+img_resized.cols);
+      |                                                                               [01;31m[K^[m[K
+[01m[K/home/vincent/Embedded-System/ros_interface_node/fpga_interface/src/interface_node.cpp:38:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   38 |     void get_image_callback([01;35m[Kconst sensor_msgs::msg::Image::SharedPtr msg[m[K)
+      |                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+make[2]: *** [CMakeFiles/interface_node.dir/build.make:63: CMakeFiles/interface_node.dir/src/interface_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/interface_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

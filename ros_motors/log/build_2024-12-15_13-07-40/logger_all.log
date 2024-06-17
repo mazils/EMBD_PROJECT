@@ -1,0 +1,336 @@
+[1.493s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.494s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff88a9d550>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff88a9d550>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff8893feb0>)
+[2.599s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.600s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.600s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.600s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.601s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.601s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.601s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mp4d/ros_motors'
+[2.602s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.603s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.603s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.604s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.604s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.604s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.604s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.605s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.605s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.694s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.694s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.695s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.695s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.695s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.696s] Level 1:colcon.colcon_core.package_identification:_identify(DynamixelSDK) by extensions ['ignore', 'ignore_ament_install']
+[2.697s] Level 1:colcon.colcon_core.package_identification:_identify(DynamixelSDK) by extension 'ignore'
+[2.697s] Level 1:colcon.colcon_core.package_identification:_identify(DynamixelSDK) by extension 'ignore_ament_install'
+[2.698s] Level 1:colcon.colcon_core.package_identification:_identify(DynamixelSDK) by extensions ['colcon_pkg']
+[2.698s] Level 1:colcon.colcon_core.package_identification:_identify(DynamixelSDK) by extension 'colcon_pkg'
+[2.698s] Level 1:colcon.colcon_core.package_identification:_identify(DynamixelSDK) by extensions ['colcon_meta']
+[2.699s] Level 1:colcon.colcon_core.package_identification:_identify(DynamixelSDK) by extension 'colcon_meta'
+[2.699s] Level 1:colcon.colcon_core.package_identification:_identify(DynamixelSDK) by extensions ['ros']
+[2.699s] Level 1:colcon.colcon_core.package_identification:_identify(DynamixelSDK) by extension 'ros'
+[2.700s] Level 1:colcon.colcon_core.package_identification:_identify(DynamixelSDK) by extensions ['cmake', 'python']
+[2.700s] Level 1:colcon.colcon_core.package_identification:_identify(DynamixelSDK) by extension 'cmake'
+[2.700s] Level 1:colcon.colcon_core.package_identification:_identify(DynamixelSDK) by extension 'python'
+[2.701s] Level 1:colcon.colcon_core.package_identification:_identify(DynamixelSDK) by extensions ['python_setup_py']
+[2.701s] Level 1:colcon.colcon_core.package_identification:_identify(DynamixelSDK) by extension 'python_setup_py'
+[2.701s] Level 1:colcon.colcon_core.package_identification:_identify(DynamixelSDK/build) by extensions ['ignore', 'ignore_ament_install']
+[2.702s] Level 1:colcon.colcon_core.package_identification:_identify(DynamixelSDK/build) by extension 'ignore'
+[2.702s] Level 1:colcon.colcon_core.package_identification:_identify(DynamixelSDK/build) ignored
+[2.703s] Level 1:colcon.colcon_core.package_identification:_identify(DynamixelSDK/dynamixel_sdk) by extensions ['ignore', 'ignore_ament_install']
+[2.704s] Level 1:colcon.colcon_core.package_identification:_identify(DynamixelSDK/dynamixel_sdk) by extension 'ignore'
+[2.704s] Level 1:colcon.colcon_core.package_identification:_identify(DynamixelSDK/dynamixel_sdk) by extension 'ignore_ament_install'
+[2.704s] Level 1:colcon.colcon_core.package_identification:_identify(DynamixelSDK/dynamixel_sdk) by extensions ['colcon_pkg']
+[2.705s] Level 1:colcon.colcon_core.package_identification:_identify(DynamixelSDK/dynamixel_sdk) by extension 'colcon_pkg'
+[2.705s] Level 1:colcon.colcon_core.package_identification:_identify(DynamixelSDK/dynamixel_sdk) by extensions ['colcon_meta']
+[2.705s] Level 1:colcon.colcon_core.package_identification:_identify(DynamixelSDK/dynamixel_sdk) by extension 'colcon_meta'
+[2.705s] Level 1:colcon.colcon_core.package_identification:_identify(DynamixelSDK/dynamixel_sdk) by extensions ['ros']
+[2.706s] Level 1:colcon.colcon_core.package_identification:_identify(DynamixelSDK/dynamixel_sdk) by extension 'ros'
+[2.726s] DEBUG:colcon.colcon_core.package_identification:Package 'DynamixelSDK/dynamixel_sdk' with type 'ros.ament_cmake' and name 'dynamixel_sdk'
+[2.727s] Level 1:colcon.colcon_core.package_identification:_identify(DynamixelSDK/dynamixel_sdk_custom_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[2.728s] Level 1:colcon.colcon_core.package_identification:_identify(DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'ignore'
+[2.729s] Level 1:colcon.colcon_core.package_identification:_identify(DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'ignore_ament_install'
+[2.729s] Level 1:colcon.colcon_core.package_identification:_identify(DynamixelSDK/dynamixel_sdk_custom_interfaces) by extensions ['colcon_pkg']
+[2.729s] Level 1:colcon.colcon_core.package_identification:_identify(DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'colcon_pkg'
+[2.730s] Level 1:colcon.colcon_core.package_identification:_identify(DynamixelSDK/dynamixel_sdk_custom_interfaces) by extensions ['colcon_meta']
+[2.730s] Level 1:colcon.colcon_core.package_identification:_identify(DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'colcon_meta'
+[2.730s] Level 1:colcon.colcon_core.package_identification:_identify(DynamixelSDK/dynamixel_sdk_custom_interfaces) by extensions ['ros']
+[2.730s] Level 1:colcon.colcon_core.package_identification:_identify(DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'ros'
+[2.736s] DEBUG:colcon.colcon_core.package_identification:Package 'DynamixelSDK/dynamixel_sdk_custom_interfaces' with type 'ros.ament_cmake' and name 'dynamixel_sdk_custom_interfaces'
+[2.737s] Level 1:colcon.colcon_core.package_identification:_identify(DynamixelSDK/dynamixel_sdk_examples) by extensions ['ignore', 'ignore_ament_install']
+[2.739s] Level 1:colcon.colcon_core.package_identification:_identify(DynamixelSDK/dynamixel_sdk_examples) by extension 'ignore'
+[2.739s] Level 1:colcon.colcon_core.package_identification:_identify(DynamixelSDK/dynamixel_sdk_examples) by extension 'ignore_ament_install'
+[2.740s] Level 1:colcon.colcon_core.package_identification:_identify(DynamixelSDK/dynamixel_sdk_examples) by extensions ['colcon_pkg']
+[2.740s] Level 1:colcon.colcon_core.package_identification:_identify(DynamixelSDK/dynamixel_sdk_examples) by extension 'colcon_pkg'
+[2.740s] Level 1:colcon.colcon_core.package_identification:_identify(DynamixelSDK/dynamixel_sdk_examples) by extensions ['colcon_meta']
+[2.740s] Level 1:colcon.colcon_core.package_identification:_identify(DynamixelSDK/dynamixel_sdk_examples) by extension 'colcon_meta'
+[2.741s] Level 1:colcon.colcon_core.package_identification:_identify(DynamixelSDK/dynamixel_sdk_examples) by extensions ['ros']
+[2.741s] Level 1:colcon.colcon_core.package_identification:_identify(DynamixelSDK/dynamixel_sdk_examples) by extension 'ros'
+[2.748s] DEBUG:colcon.colcon_core.package_identification:Package 'DynamixelSDK/dynamixel_sdk_examples' with type 'ros.ament_cmake' and name 'dynamixel_sdk_examples'
+[2.750s] Level 1:colcon.colcon_core.package_identification:_identify(DynamixelSDK/install) by extensions ['ignore', 'ignore_ament_install']
+[2.750s] Level 1:colcon.colcon_core.package_identification:_identify(DynamixelSDK/install) by extension 'ignore'
+[2.751s] Level 1:colcon.colcon_core.package_identification:_identify(DynamixelSDK/install) ignored
+[2.751s] Level 1:colcon.colcon_core.package_identification:_identify(DynamixelSDK/log) by extensions ['ignore', 'ignore_ament_install']
+[2.752s] Level 1:colcon.colcon_core.package_identification:_identify(DynamixelSDK/log) by extension 'ignore'
+[2.752s] Level 1:colcon.colcon_core.package_identification:_identify(DynamixelSDK/log) ignored
+[2.753s] Level 1:colcon.colcon_core.package_identification:_identify(MyCode) by extensions ['ignore', 'ignore_ament_install']
+[2.753s] Level 1:colcon.colcon_core.package_identification:_identify(MyCode) by extension 'ignore'
+[2.753s] Level 1:colcon.colcon_core.package_identification:_identify(MyCode) by extension 'ignore_ament_install'
+[2.754s] Level 1:colcon.colcon_core.package_identification:_identify(MyCode) by extensions ['colcon_pkg']
+[2.754s] Level 1:colcon.colcon_core.package_identification:_identify(MyCode) by extension 'colcon_pkg'
+[2.754s] Level 1:colcon.colcon_core.package_identification:_identify(MyCode) by extensions ['colcon_meta']
+[2.755s] Level 1:colcon.colcon_core.package_identification:_identify(MyCode) by extension 'colcon_meta'
+[2.755s] Level 1:colcon.colcon_core.package_identification:_identify(MyCode) by extensions ['ros']
+[2.755s] Level 1:colcon.colcon_core.package_identification:_identify(MyCode) by extension 'ros'
+[2.756s] Level 1:colcon.colcon_core.package_identification:_identify(MyCode) by extensions ['cmake', 'python']
+[2.756s] Level 1:colcon.colcon_core.package_identification:_identify(MyCode) by extension 'cmake'
+[2.756s] Level 1:colcon.colcon_core.package_identification:_identify(MyCode) by extension 'python'
+[2.756s] Level 1:colcon.colcon_core.package_identification:_identify(MyCode) by extensions ['python_setup_py']
+[2.757s] Level 1:colcon.colcon_core.package_identification:_identify(MyCode) by extension 'python_setup_py'
+[2.757s] Level 1:colcon.colcon_core.package_identification:_identify(MyCode/build) by extensions ['ignore', 'ignore_ament_install']
+[2.758s] Level 1:colcon.colcon_core.package_identification:_identify(MyCode/build) by extension 'ignore'
+[2.758s] Level 1:colcon.colcon_core.package_identification:_identify(MyCode/build) ignored
+[2.759s] Level 1:colcon.colcon_core.package_identification:_identify(MyCode/install) by extensions ['ignore', 'ignore_ament_install']
+[2.759s] Level 1:colcon.colcon_core.package_identification:_identify(MyCode/install) by extension 'ignore'
+[2.760s] Level 1:colcon.colcon_core.package_identification:_identify(MyCode/install) ignored
+[2.760s] Level 1:colcon.colcon_core.package_identification:_identify(MyCode/log) by extensions ['ignore', 'ignore_ament_install']
+[2.761s] Level 1:colcon.colcon_core.package_identification:_identify(MyCode/log) by extension 'ignore'
+[2.761s] Level 1:colcon.colcon_core.package_identification:_identify(MyCode/log) ignored
+[2.762s] Level 1:colcon.colcon_core.package_identification:_identify(MyCode/path2pos) by extensions ['ignore', 'ignore_ament_install']
+[2.762s] Level 1:colcon.colcon_core.package_identification:_identify(MyCode/path2pos) by extension 'ignore'
+[2.762s] Level 1:colcon.colcon_core.package_identification:_identify(MyCode/path2pos) by extension 'ignore_ament_install'
+[2.763s] Level 1:colcon.colcon_core.package_identification:_identify(MyCode/path2pos) by extensions ['colcon_pkg']
+[2.763s] Level 1:colcon.colcon_core.package_identification:_identify(MyCode/path2pos) by extension 'colcon_pkg'
+[2.763s] Level 1:colcon.colcon_core.package_identification:_identify(MyCode/path2pos) by extensions ['colcon_meta']
+[2.763s] Level 1:colcon.colcon_core.package_identification:_identify(MyCode/path2pos) by extension 'colcon_meta'
+[2.764s] Level 1:colcon.colcon_core.package_identification:_identify(MyCode/path2pos) by extensions ['ros']
+[2.764s] Level 1:colcon.colcon_core.package_identification:_identify(MyCode/path2pos) by extension 'ros'
+[2.771s] DEBUG:colcon.colcon_core.package_identification:Package 'MyCode/path2pos' with type 'ros.ament_cmake' and name 'path2pos'
+[2.772s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.772s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.772s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.773s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.773s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.774s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.774s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.775s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.775s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.775s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.776s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.776s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.776s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.776s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.938s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.938s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.952s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/mp4d/ros_motors/DynamixelSDK/install
+[2.957s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/mp4d/ros_camera/install
+[2.967s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 258 installed packages in /opt/ros/foxy
+[2.982s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.619s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_args' from command line to 'None'
+[3.620s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_target' from command line to 'None'
+[3.620s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.621s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_clean_cache' from command line to 'False'
+[3.621s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_clean_first' from command line to 'False'
+[3.621s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_force_configure' from command line to 'False'
+[3.621s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'ament_cmake_args' from command line to 'None'
+[3.621s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'catkin_cmake_args' from command line to 'None'
+[3.622s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.622s] DEBUG:colcon.colcon_core.verb:Building package 'dynamixel_sdk' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mp4d/ros_motors/build/dynamixel_sdk', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mp4d/ros_motors/install/dynamixel_sdk', 'merge_install': False, 'path': '/home/mp4d/ros_motors/DynamixelSDK/dynamixel_sdk', 'symlink_install': False, 'test_result_base': None}
+[3.625s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_args' from command line to 'None'
+[3.626s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_target' from command line to 'None'
+[3.626s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.626s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[3.626s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[3.626s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[3.627s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[3.627s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[3.627s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.627s] DEBUG:colcon.colcon_core.verb:Building package 'dynamixel_sdk_custom_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mp4d/ros_motors/build/dynamixel_sdk_custom_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces', 'merge_install': False, 'path': '/home/mp4d/ros_motors/DynamixelSDK/dynamixel_sdk_custom_interfaces', 'symlink_install': False, 'test_result_base': None}
+[3.630s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_args' from command line to 'None'
+[3.631s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_target' from command line to 'None'
+[3.631s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.631s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_clean_cache' from command line to 'False'
+[3.631s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_clean_first' from command line to 'False'
+[3.631s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_force_configure' from command line to 'False'
+[3.632s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'ament_cmake_args' from command line to 'None'
+[3.632s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'catkin_cmake_args' from command line to 'None'
+[3.632s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.632s] DEBUG:colcon.colcon_core.verb:Building package 'dynamixel_sdk_examples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mp4d/ros_motors/build/dynamixel_sdk_examples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mp4d/ros_motors/install/dynamixel_sdk_examples', 'merge_install': False, 'path': '/home/mp4d/ros_motors/DynamixelSDK/dynamixel_sdk_examples', 'symlink_install': False, 'test_result_base': None}
+[3.635s] Level 5:colcon.colcon_core.verb:set package 'path2pos' build argument 'cmake_args' from command line to 'None'
+[3.636s] Level 5:colcon.colcon_core.verb:set package 'path2pos' build argument 'cmake_target' from command line to 'None'
+[3.636s] Level 5:colcon.colcon_core.verb:set package 'path2pos' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.636s] Level 5:colcon.colcon_core.verb:set package 'path2pos' build argument 'cmake_clean_cache' from command line to 'False'
+[3.636s] Level 5:colcon.colcon_core.verb:set package 'path2pos' build argument 'cmake_clean_first' from command line to 'False'
+[3.636s] Level 5:colcon.colcon_core.verb:set package 'path2pos' build argument 'cmake_force_configure' from command line to 'False'
+[3.637s] Level 5:colcon.colcon_core.verb:set package 'path2pos' build argument 'ament_cmake_args' from command line to 'None'
+[3.637s] Level 5:colcon.colcon_core.verb:set package 'path2pos' build argument 'catkin_cmake_args' from command line to 'None'
+[3.637s] Level 5:colcon.colcon_core.verb:set package 'path2pos' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.637s] DEBUG:colcon.colcon_core.verb:Building package 'path2pos' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mp4d/ros_motors/build/path2pos', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mp4d/ros_motors/install/path2pos', 'merge_install': False, 'path': '/home/mp4d/ros_motors/MyCode/path2pos', 'symlink_install': False, 'test_result_base': None}
+[3.638s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.646s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.648s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mp4d/ros_motors/DynamixelSDK/dynamixel_sdk_custom_interfaces' with build type 'ament_cmake'
+[3.649s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mp4d/ros_motors/DynamixelSDK/dynamixel_sdk_custom_interfaces'
+[3.668s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.670s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.671s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.711s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mp4d/ros_motors/DynamixelSDK/dynamixel_sdk' with build type 'ament_cmake'
+[3.713s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mp4d/ros_motors/DynamixelSDK/dynamixel_sdk'
+[3.717s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.718s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.783s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mp4d/ros_motors/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk_examples:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk_custom_interfaces:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk:/opt/ros/foxy:/home/mp4d/ros_camera/install/usb_cam:/home/mp4d/ros_camera/install/cam_sub /usr/bin/cmake /home/mp4d/ros_motors/DynamixelSDK/dynamixel_sdk_custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces
+[3.836s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mp4d/ros_motors/build/dynamixel_sdk': CMAKE_PREFIX_PATH=/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk_examples:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk_custom_interfaces:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk:/opt/ros/foxy:/home/mp4d/ros_camera/install/usb_cam:/home/mp4d/ros_camera/install/cam_sub /usr/bin/cmake /home/mp4d/ros_motors/DynamixelSDK/dynamixel_sdk -DCMAKE_INSTALL_PREFIX=/home/mp4d/ros_motors/install/dynamixel_sdk
+[10.530s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mp4d/ros_motors/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk_examples:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk_custom_interfaces:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk:/opt/ros/foxy:/home/mp4d/ros_camera/install/usb_cam:/home/mp4d/ros_camera/install/cam_sub /usr/bin/cmake /home/mp4d/ros_motors/DynamixelSDK/dynamixel_sdk -DCMAKE_INSTALL_PREFIX=/home/mp4d/ros_motors/install/dynamixel_sdk
+[10.555s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mp4d/ros_motors/build/dynamixel_sdk': CMAKE_PREFIX_PATH=/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk_examples:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk_custom_interfaces:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk:/opt/ros/foxy:/home/mp4d/ros_camera/install/usb_cam:/home/mp4d/ros_camera/install/cam_sub /usr/bin/cmake --build /home/mp4d/ros_motors/build/dynamixel_sdk -- -j4 -l4
+[20.024s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mp4d/ros_motors/build/dynamixel_sdk_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk_examples:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk_custom_interfaces:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk:/opt/ros/foxy:/home/mp4d/ros_camera/install/usb_cam:/home/mp4d/ros_camera/install/cam_sub /usr/bin/cmake /home/mp4d/ros_motors/DynamixelSDK/dynamixel_sdk_custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces
+[20.030s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mp4d/ros_motors/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk_examples:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk_custom_interfaces:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk:/opt/ros/foxy:/home/mp4d/ros_camera/install/usb_cam:/home/mp4d/ros_camera/install/cam_sub /usr/bin/cmake --build /home/mp4d/ros_motors/build/dynamixel_sdk_custom_interfaces -- -j4 -l4
+[21.917s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mp4d/ros_motors/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk_examples:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk_custom_interfaces:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk:/opt/ros/foxy:/home/mp4d/ros_camera/install/usb_cam:/home/mp4d/ros_camera/install/cam_sub /usr/bin/cmake --build /home/mp4d/ros_motors/build/dynamixel_sdk -- -j4 -l4
+[22.277s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mp4d/ros_motors/build/dynamixel_sdk': CMAKE_PREFIX_PATH=/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk_examples:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk_custom_interfaces:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk:/opt/ros/foxy:/home/mp4d/ros_camera/install/usb_cam:/home/mp4d/ros_camera/install/cam_sub /usr/bin/cmake --install /home/mp4d/ros_motors/build/dynamixel_sdk
+[22.414s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk)
+[22.420s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mp4d/ros_motors/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk_examples:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk_custom_interfaces:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk:/opt/ros/foxy:/home/mp4d/ros_camera/install/usb_cam:/home/mp4d/ros_camera/install/cam_sub /usr/bin/cmake --install /home/mp4d/ros_motors/build/dynamixel_sdk
+[22.443s] Level 1:colcon.colcon_core.environment:checking '/home/mp4d/ros_motors/install/dynamixel_sdk' for CMake module files
+[22.448s] Level 1:colcon.colcon_core.environment:checking '/home/mp4d/ros_motors/install/dynamixel_sdk' for CMake config files
+[22.450s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk', 'cmake_prefix_path')
+[22.454s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mp4d/ros_motors/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.ps1'
+[22.462s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mp4d/ros_motors/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.dsv'
+[22.467s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mp4d/ros_motors/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.sh'
+[22.478s] Level 1:colcon.colcon_core.environment:checking '/home/mp4d/ros_motors/install/dynamixel_sdk/lib'
+[22.480s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk', 'ld_library_path_lib')
+[22.483s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mp4d/ros_motors/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.ps1'
+[22.490s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mp4d/ros_motors/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.dsv'
+[22.496s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mp4d/ros_motors/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.sh'
+[22.500s] Level 1:colcon.colcon_core.environment:checking '/home/mp4d/ros_motors/install/dynamixel_sdk/bin'
+[22.501s] Level 1:colcon.colcon_core.environment:checking '/home/mp4d/ros_motors/install/dynamixel_sdk/lib/pkgconfig/dynamixel_sdk.pc'
+[22.503s] Level 1:colcon.colcon_core.environment:checking '/home/mp4d/ros_motors/install/dynamixel_sdk/lib/python3.8/site-packages'
+[22.504s] Level 1:colcon.colcon_core.environment:checking '/home/mp4d/ros_motors/install/dynamixel_sdk/bin'
+[22.507s] INFO:colcon.colcon_core.shell:Creating package script '/home/mp4d/ros_motors/install/dynamixel_sdk/share/dynamixel_sdk/package.ps1'
+[22.516s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mp4d/ros_motors/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv'
+[22.521s] INFO:colcon.colcon_core.shell:Creating package script '/home/mp4d/ros_motors/install/dynamixel_sdk/share/dynamixel_sdk/package.sh'
+[22.528s] INFO:colcon.colcon_core.shell:Creating package script '/home/mp4d/ros_motors/install/dynamixel_sdk/share/dynamixel_sdk/package.bash'
+[22.536s] INFO:colcon.colcon_core.shell:Creating package script '/home/mp4d/ros_motors/install/dynamixel_sdk/share/dynamixel_sdk/package.zsh'
+[22.544s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mp4d/ros_motors/install/dynamixel_sdk/share/colcon-core/packages/dynamixel_sdk)
+[22.809s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk)
+[22.812s] Level 1:colcon.colcon_core.environment:checking '/home/mp4d/ros_motors/install/dynamixel_sdk' for CMake module files
+[22.817s] Level 1:colcon.colcon_core.environment:checking '/home/mp4d/ros_motors/install/dynamixel_sdk' for CMake config files
+[22.820s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk', 'cmake_prefix_path')
+[22.823s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mp4d/ros_motors/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.ps1'
+[22.830s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mp4d/ros_motors/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.dsv'
+[22.836s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mp4d/ros_motors/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.sh'
+[22.844s] Level 1:colcon.colcon_core.environment:checking '/home/mp4d/ros_motors/install/dynamixel_sdk/lib'
+[22.845s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk', 'ld_library_path_lib')
+[22.848s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mp4d/ros_motors/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.ps1'
+[22.854s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mp4d/ros_motors/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.dsv'
+[22.860s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mp4d/ros_motors/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.sh'
+[22.868s] Level 1:colcon.colcon_core.environment:checking '/home/mp4d/ros_motors/install/dynamixel_sdk/bin'
+[22.869s] Level 1:colcon.colcon_core.environment:checking '/home/mp4d/ros_motors/install/dynamixel_sdk/lib/pkgconfig/dynamixel_sdk.pc'
+[22.871s] Level 1:colcon.colcon_core.environment:checking '/home/mp4d/ros_motors/install/dynamixel_sdk/lib/python3.8/site-packages'
+[22.874s] Level 1:colcon.colcon_core.environment:checking '/home/mp4d/ros_motors/install/dynamixel_sdk/bin'
+[22.878s] INFO:colcon.colcon_core.shell:Creating package script '/home/mp4d/ros_motors/install/dynamixel_sdk/share/dynamixel_sdk/package.ps1'
+[22.886s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mp4d/ros_motors/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv'
+[22.894s] INFO:colcon.colcon_core.shell:Creating package script '/home/mp4d/ros_motors/install/dynamixel_sdk/share/dynamixel_sdk/package.sh'
+[22.905s] INFO:colcon.colcon_core.shell:Creating package script '/home/mp4d/ros_motors/install/dynamixel_sdk/share/dynamixel_sdk/package.bash'
+[22.912s] INFO:colcon.colcon_core.shell:Creating package script '/home/mp4d/ros_motors/install/dynamixel_sdk/share/dynamixel_sdk/package.zsh'
+[22.918s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mp4d/ros_motors/install/dynamixel_sdk/share/colcon-core/packages/dynamixel_sdk)
+[53.812s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mp4d/ros_motors/build/dynamixel_sdk_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk_examples:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk_custom_interfaces:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk:/opt/ros/foxy:/home/mp4d/ros_camera/install/usb_cam:/home/mp4d/ros_camera/install/cam_sub /usr/bin/cmake --build /home/mp4d/ros_motors/build/dynamixel_sdk_custom_interfaces -- -j4 -l4
+[54.140s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mp4d/ros_motors/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk_examples:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk_custom_interfaces:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk:/opt/ros/foxy:/home/mp4d/ros_camera/install/usb_cam:/home/mp4d/ros_camera/install/cam_sub /usr/bin/cmake --install /home/mp4d/ros_motors/build/dynamixel_sdk_custom_interfaces
+[54.625s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk_custom_interfaces)
+[54.628s] Level 1:colcon.colcon_core.environment:checking '/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces' for CMake module files
+[54.632s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mp4d/ros_motors/build/dynamixel_sdk_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk_examples:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk_custom_interfaces:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk:/opt/ros/foxy:/home/mp4d/ros_camera/install/usb_cam:/home/mp4d/ros_camera/install/cam_sub /usr/bin/cmake --install /home/mp4d/ros_motors/build/dynamixel_sdk_custom_interfaces
+[54.636s] Level 1:colcon.colcon_core.environment:checking '/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces' for CMake config files
+[54.639s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_custom_interfaces', 'cmake_prefix_path')
+[54.641s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.ps1'
+[54.645s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.dsv'
+[54.648s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.sh'
+[54.654s] Level 1:colcon.colcon_core.environment:checking '/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/lib'
+[54.655s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_custom_interfaces', 'ld_library_path_lib')
+[54.657s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.ps1'
+[54.661s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.dsv'
+[54.663s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.sh'
+[54.666s] Level 1:colcon.colcon_core.environment:checking '/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/bin'
+[54.666s] Level 1:colcon.colcon_core.environment:checking '/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/lib/pkgconfig/dynamixel_sdk_custom_interfaces.pc'
+[54.668s] Level 1:colcon.colcon_core.environment:checking '/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages'
+[54.668s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_custom_interfaces', 'pythonpath')
+[54.671s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/pythonpath.ps1'
+[54.674s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/pythonpath.dsv'
+[54.676s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/pythonpath.sh'
+[54.680s] Level 1:colcon.colcon_core.environment:checking '/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/bin'
+[54.683s] INFO:colcon.colcon_core.shell:Creating package script '/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.ps1'
+[54.688s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.dsv'
+[54.692s] INFO:colcon.colcon_core.shell:Creating package script '/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.sh'
+[54.695s] INFO:colcon.colcon_core.shell:Creating package script '/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.bash'
+[54.698s] INFO:colcon.colcon_core.shell:Creating package script '/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.zsh'
+[54.701s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/share/colcon-core/packages/dynamixel_sdk_custom_interfaces)
+[54.990s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk_custom_interfaces)
+[54.993s] Level 1:colcon.colcon_core.environment:checking '/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces' for CMake module files
+[54.998s] Level 1:colcon.colcon_core.environment:checking '/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces' for CMake config files
+[55.001s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_custom_interfaces', 'cmake_prefix_path')
+[55.003s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.ps1'
+[55.007s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.dsv'
+[55.010s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.sh'
+[55.014s] Level 1:colcon.colcon_core.environment:checking '/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/lib'
+[55.015s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_custom_interfaces', 'ld_library_path_lib')
+[55.017s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.ps1'
+[55.021s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.dsv'
+[55.025s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.sh'
+[55.028s] Level 1:colcon.colcon_core.environment:checking '/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/bin'
+[55.029s] Level 1:colcon.colcon_core.environment:checking '/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/lib/pkgconfig/dynamixel_sdk_custom_interfaces.pc'
+[55.031s] Level 1:colcon.colcon_core.environment:checking '/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages'
+[55.031s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_custom_interfaces', 'pythonpath')
+[55.033s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/pythonpath.ps1'
+[55.039s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/pythonpath.dsv'
+[55.042s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/pythonpath.sh'
+[55.046s] Level 1:colcon.colcon_core.environment:checking '/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/bin'
+[55.050s] INFO:colcon.colcon_core.shell:Creating package script '/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.ps1'
+[55.055s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.dsv'
+[55.061s] INFO:colcon.colcon_core.shell:Creating package script '/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.sh'
+[55.066s] INFO:colcon.colcon_core.shell:Creating package script '/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.bash'
+[55.071s] INFO:colcon.colcon_core.shell:Creating package script '/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.zsh'
+[55.075s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/share/colcon-core/packages/dynamixel_sdk_custom_interfaces)
+[55.079s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mp4d/ros_motors/DynamixelSDK/dynamixel_sdk_examples' with build type 'ament_cmake'
+[55.080s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mp4d/ros_motors/DynamixelSDK/dynamixel_sdk_examples'
+[55.082s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[55.083s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[55.127s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mp4d/ros_motors/MyCode/path2pos' with build type 'ament_cmake'
+[55.129s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mp4d/ros_motors/MyCode/path2pos'
+[55.133s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[55.134s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[55.214s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mp4d/ros_motors/build/dynamixel_sdk_examples': AMENT_PREFIX_PATH=/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces:/home/mp4d/ros_motors/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces:/home/mp4d/ros_motors/install/dynamixel_sdk:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk_examples:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk_custom_interfaces:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk:/opt/ros/foxy:/home/mp4d/ros_camera/install/usb_cam:/home/mp4d/ros_camera/install/cam_sub LD_LIBRARY_PATH=/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/lib:/home/mp4d/ros_motors/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/mp4d/ros_motors/DynamixelSDK/dynamixel_sdk_examples -DCMAKE_INSTALL_PREFIX=/home/mp4d/ros_motors/install/dynamixel_sdk_examples
+[55.252s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mp4d/ros_motors/build/path2pos': AMENT_PREFIX_PATH=/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk_examples:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk_custom_interfaces:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk:/opt/ros/foxy:/home/mp4d/ros_camera/install/usb_cam:/home/mp4d/ros_camera/install/cam_sub LD_LIBRARY_PATH=/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/mp4d/ros_motors/MyCode/path2pos -DCMAKE_INSTALL_PREFIX=/home/mp4d/ros_motors/install/path2pos
+[68.064s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mp4d/ros_motors/build/dynamixel_sdk_examples' returned '0': AMENT_PREFIX_PATH=/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces:/home/mp4d/ros_motors/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces:/home/mp4d/ros_motors/install/dynamixel_sdk:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk_examples:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk_custom_interfaces:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk:/opt/ros/foxy:/home/mp4d/ros_camera/install/usb_cam:/home/mp4d/ros_camera/install/cam_sub LD_LIBRARY_PATH=/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/lib:/home/mp4d/ros_motors/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/mp4d/ros_motors/DynamixelSDK/dynamixel_sdk_examples -DCMAKE_INSTALL_PREFIX=/home/mp4d/ros_motors/install/dynamixel_sdk_examples
+[68.089s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mp4d/ros_motors/build/dynamixel_sdk_examples': AMENT_PREFIX_PATH=/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces:/home/mp4d/ros_motors/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces:/home/mp4d/ros_motors/install/dynamixel_sdk:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk_examples:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk_custom_interfaces:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk:/opt/ros/foxy:/home/mp4d/ros_camera/install/usb_cam:/home/mp4d/ros_camera/install/cam_sub LD_LIBRARY_PATH=/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/lib:/home/mp4d/ros_motors/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mp4d/ros_motors/build/dynamixel_sdk_examples -- -j4 -l4
+[68.435s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mp4d/ros_motors/build/path2pos' returned '0': AMENT_PREFIX_PATH=/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk_examples:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk_custom_interfaces:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk:/opt/ros/foxy:/home/mp4d/ros_camera/install/usb_cam:/home/mp4d/ros_camera/install/cam_sub LD_LIBRARY_PATH=/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/mp4d/ros_motors/MyCode/path2pos -DCMAKE_INSTALL_PREFIX=/home/mp4d/ros_motors/install/path2pos
+[68.454s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mp4d/ros_motors/build/path2pos': AMENT_PREFIX_PATH=/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk_examples:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk_custom_interfaces:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk:/opt/ros/foxy:/home/mp4d/ros_camera/install/usb_cam:/home/mp4d/ros_camera/install/cam_sub LD_LIBRARY_PATH=/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mp4d/ros_motors/build/path2pos -- -j4 -l4
+[98.045s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mp4d/ros_motors/build/path2pos' returned '2': AMENT_PREFIX_PATH=/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk_examples:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk_custom_interfaces:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk:/opt/ros/foxy:/home/mp4d/ros_camera/install/usb_cam:/home/mp4d/ros_camera/install/cam_sub LD_LIBRARY_PATH=/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mp4d/ros_motors/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mp4d/ros_motors/build/path2pos -- -j4 -l4
+[98.392s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(path2pos)
+[98.395s] Level 1:colcon.colcon_core.environment:checking '/home/mp4d/ros_motors/install/path2pos' for CMake module files
+[98.398s] Level 1:colcon.colcon_core.environment:checking '/home/mp4d/ros_motors/install/path2pos' for CMake config files
+[98.401s] Level 1:colcon.colcon_core.environment:checking '/home/mp4d/ros_motors/install/path2pos/bin'
+[98.403s] Level 1:colcon.colcon_core.environment:checking '/home/mp4d/ros_motors/install/path2pos/lib/pkgconfig/path2pos.pc'
+[98.406s] Level 1:colcon.colcon_core.environment:checking '/home/mp4d/ros_motors/install/path2pos/lib/python3.8/site-packages'
+[98.409s] Level 1:colcon.colcon_core.environment:checking '/home/mp4d/ros_motors/install/path2pos/bin'
+[98.415s] INFO:colcon.colcon_core.shell:Creating package script '/home/mp4d/ros_motors/install/path2pos/share/path2pos/package.ps1'
+[98.435s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mp4d/ros_motors/install/path2pos/share/path2pos/package.dsv'
+[98.454s] INFO:colcon.colcon_core.shell:Creating package script '/home/mp4d/ros_motors/install/path2pos/share/path2pos/package.sh'
+[98.460s] INFO:colcon.colcon_core.shell:Creating package script '/home/mp4d/ros_motors/install/path2pos/share/path2pos/package.bash'
+[98.474s] INFO:colcon.colcon_core.shell:Creating package script '/home/mp4d/ros_motors/install/path2pos/share/path2pos/package.zsh'
+[98.481s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mp4d/ros_motors/install/path2pos/share/colcon-core/packages/path2pos)
+[121.003s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[121.005s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[121.006s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[121.007s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[121.130s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[121.132s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[121.133s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[121.133s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[121.146s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[121.147s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[121.150s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mp4d/ros_motors/install/local_setup.ps1'
+[121.163s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mp4d/ros_motors/install/_local_setup_util_ps1.py'
+[121.177s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mp4d/ros_motors/install/setup.ps1'
+[121.197s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mp4d/ros_motors/install/local_setup.sh'
+[121.207s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mp4d/ros_motors/install/_local_setup_util_sh.py'
+[121.213s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mp4d/ros_motors/install/setup.sh'
+[121.230s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mp4d/ros_motors/install/local_setup.bash'
+[121.238s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mp4d/ros_motors/install/setup.bash'
+[121.256s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mp4d/ros_motors/install/local_setup.zsh'
+[121.265s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mp4d/ros_motors/install/setup.zsh'

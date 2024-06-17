@@ -1,0 +1,165 @@
+[0.000000] (-) TimerEvent: {}
+[0.000382] (path2pos) JobQueued: {'identifier': 'path2pos', 'dependencies': OrderedDict()}
+[0.001111] (path2pos) JobStarted: {'identifier': 'path2pos'}
+[0.030841] (path2pos) JobProgress: {'identifier': 'path2pos', 'progress': 'cmake'}
+[0.056122] (path2pos) JobProgress: {'identifier': 'path2pos', 'progress': 'build'}
+[0.057361] (path2pos) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/build/path2pos', '--', '-j4', '-l4'], 'cwd': '/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/build/path2pos', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'vincent'), ('LC_TIME', 'de_DE.UTF-8'), ('GIO_MODULE_DIR', '/home/vincent/snap/code/common/.cache/gio-modules'), ('SSH_AGENT_PID', '1369'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/176/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vincent/Embedded-System/ros_motor_system/DynamixelSDK/install/dynamixel_sdk_custom_interfaces/lib:/home/vincent/Embedded-System/ros_motor_system/DynamixelSDK/install/dynamixel_sdk/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/vincent'), ('CHROME_DESKTOP', 'code.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.95.3'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/176/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/vincent/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/176/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'de_DE.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/176/usr/share/code/code'), ('MANAGERPID', '1224'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2406'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/vincent/Embedded-System/ros_motor_system/DynamixelSDK/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'vincent'), ('JOURNAL_STREAM', '8:37683'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'vincent'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/vincent-ThinkPad-T430:@/tmp/.ICE-unix/1406,unix/vincent-ThinkPad-T430:/tmp/.ICE-unix/1406'), ('GTK_EXE_PREFIX', '/snap/code/176/usr'), ('INVOCATION_ID', '0f68af6b2565473aa68d3a2fbe30b9df'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/176/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XDG_DATA_HOME', '/home/vincent/snap/code/176/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-c3580fd1f9.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/vincent/snap/code/176/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/vincent/Embedded-System/ros_motor_system/DynamixelSDK/install/dynamixel_sdk_examples:/home/vincent/Embedded-System/ros_motor_system/DynamixelSDK/install/dynamixel_sdk_custom_interfaces:/home/vincent/Embedded-System/ros_motor_system/DynamixelSDK/install/dynamixel_sdk:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/build/path2pos'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/vincent/snap/code/176/.local/share:/home/vincent/snap/code/176:/snap/code/176/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vincent/Embedded-System/ros_motor_system/DynamixelSDK/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/vincent/Embedded-System/ros_motor_system/DynamixelSDK/install/dynamixel_sdk_examples:/home/vincent/Embedded-System/ros_motor_system/DynamixelSDK/install/dynamixel_sdk_custom_interfaces:/home/vincent/Embedded-System/ros_motor_system/DynamixelSDK/install/dynamixel_sdk:/opt/ros/foxy')]), 'shell': False}
+[0.099569] (-) TimerEvent: {}
+[0.200087] (-) TimerEvent: {}
+[0.300571] (-) TimerEvent: {}
+[0.401072] (-) TimerEvent: {}
+[0.501643] (-) TimerEvent: {}
+[0.602245] (-) TimerEvent: {}
+[0.633540] (path2pos) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.702414] (-) TimerEvent: {}
+[0.750400] (path2pos) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.802561] (-) TimerEvent: {}
+[0.902984] (-) TimerEvent: {}
+[1.003371] (-) TimerEvent: {}
+[1.103872] (-) TimerEvent: {}
+[1.115679] (path2pos) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[1.204004] (-) TimerEvent: {}
+[1.300244] (path2pos) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.304164] (-) TimerEvent: {}
+[1.321436] (path2pos) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.404318] (-) TimerEvent: {}
+[1.504828] (-) TimerEvent: {}
+[1.605259] (-) TimerEvent: {}
+[1.649146] (path2pos) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.705492] (-) TimerEvent: {}
+[1.805965] (-) TimerEvent: {}
+[1.856267] (path2pos) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.880757] (path2pos) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.906162] (-) TimerEvent: {}
+[2.006842] (-) TimerEvent: {}
+[2.107333] (-) TimerEvent: {}
+[2.207820] (-) TimerEvent: {}
+[2.293867] (path2pos) StdoutLine: {'line': b'-- Found dynamixel_sdk_custom_interfaces: 3.7.40 (/home/vincent/Embedded-System/ros_motor_system/DynamixelSDK/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake)\n'}
+[2.307930] (-) TimerEvent: {}
+[2.368445] (path2pos) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[2.408116] (-) TimerEvent: {}
+[2.508556] (-) TimerEvent: {}
+[2.530738] (path2pos) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.556616] (path2pos) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.557033] (path2pos) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/include>\n'}
+[2.557237] (path2pos) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.578566] (path2pos) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.578921] (path2pos) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.582025] (path2pos) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.587600] (path2pos) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.591480] (path2pos) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[2.608686] (-) TimerEvent: {}
+[2.611677] (path2pos) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.612034] (path2pos) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.615783] (path2pos) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.621625] (path2pos) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.668886] (path2pos) StdoutLine: {'line': b'-- Generating done\n'}
+[2.671491] (path2pos) StdoutLine: {'line': b'-- Build files have been written to: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/build/path2pos\n'}
+[2.708814] (-) TimerEvent: {}
+[2.739767] (path2pos) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target pos_writer\x1b[0m\n'}
+[2.808946] (-) TimerEvent: {}
+[2.909648] (-) TimerEvent: {}
+[3.010395] (-) TimerEvent: {}
+[3.111180] (-) TimerEvent: {}
+[3.213893] (-) TimerEvent: {}
+[3.222628] (path2pos) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pos_writer.dir/src/pos_writer.cpp.o\x1b[0m\n'}
+[3.314043] (-) TimerEvent: {}
+[3.414532] (-) TimerEvent: {}
+[3.515045] (-) TimerEvent: {}
+[3.615520] (-) TimerEvent: {}
+[3.715940] (-) TimerEvent: {}
+[3.816513] (-) TimerEvent: {}
+[3.916930] (-) TimerEvent: {}
+[4.017452] (-) TimerEvent: {}
+[4.118036] (-) TimerEvent: {}
+[4.218509] (-) TimerEvent: {}
+[4.318908] (-) TimerEvent: {}
+[4.419271] (-) TimerEvent: {}
+[4.519686] (-) TimerEvent: {}
+[4.620205] (-) TimerEvent: {}
+[4.720572] (-) TimerEvent: {}
+[4.820946] (-) TimerEvent: {}
+[4.921315] (-) TimerEvent: {}
+[5.021695] (-) TimerEvent: {}
+[5.122126] (-) TimerEvent: {}
+[5.222534] (-) TimerEvent: {}
+[5.323058] (-) TimerEvent: {}
+[5.423678] (-) TimerEvent: {}
+[5.524238] (-) TimerEvent: {}
+[5.624900] (-) TimerEvent: {}
+[5.725747] (-) TimerEvent: {}
+[5.826185] (-) TimerEvent: {}
+[5.926655] (-) TimerEvent: {}
+[6.027094] (-) TimerEvent: {}
+[6.127528] (-) TimerEvent: {}
+[6.228012] (-) TimerEvent: {}
+[6.328601] (-) TimerEvent: {}
+[6.429053] (-) TimerEvent: {}
+[6.529511] (-) TimerEvent: {}
+[6.629939] (-) TimerEvent: {}
+[6.730364] (-) TimerEvent: {}
+[6.830784] (-) TimerEvent: {}
+[6.931218] (-) TimerEvent: {}
+[7.031658] (-) TimerEvent: {}
+[7.132126] (-) TimerEvent: {}
+[7.232620] (-) TimerEvent: {}
+[7.333056] (-) TimerEvent: {}
+[7.433478] (-) TimerEvent: {}
+[7.534002] (-) TimerEvent: {}
+[7.634460] (-) TimerEvent: {}
+[7.734850] (-) TimerEvent: {}
+[7.835273] (-) TimerEvent: {}
+[7.935695] (-) TimerEvent: {}
+[8.036116] (-) TimerEvent: {}
+[8.136533] (-) TimerEvent: {}
+[8.236951] (-) TimerEvent: {}
+[8.337368] (-) TimerEvent: {}
+[8.437870] (-) TimerEvent: {}
+[8.538339] (-) TimerEvent: {}
+[8.638991] (-) TimerEvent: {}
+[8.739659] (-) TimerEvent: {}
+[8.840329] (-) TimerEvent: {}
+[8.940949] (-) TimerEvent: {}
+[9.041445] (-) TimerEvent: {}
+[9.116990] (path2pos) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable pos_writer\x1b[0m\n'}
+[9.141619] (-) TimerEvent: {}
+[9.242193] (-) TimerEvent: {}
+[9.342746] (-) TimerEvent: {}
+[9.443192] (-) TimerEvent: {}
+[9.543715] (-) TimerEvent: {}
+[9.644266] (-) TimerEvent: {}
+[9.744716] (-) TimerEvent: {}
+[9.845162] (-) TimerEvent: {}
+[9.945658] (-) TimerEvent: {}
+[10.046215] (-) TimerEvent: {}
+[10.146715] (-) TimerEvent: {}
+[10.247194] (-) TimerEvent: {}
+[10.347601] (-) TimerEvent: {}
+[10.349134] (path2pos) StdoutLine: {'line': b'[100%] Built target pos_writer\n'}
+[10.370273] (path2pos) CommandEnded: {'returncode': 0}
+[10.409955] (path2pos) JobProgress: {'identifier': 'path2pos', 'progress': 'install'}
+[10.428318] (path2pos) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/build/path2pos'], 'cwd': '/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/build/path2pos', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'vincent'), ('LC_TIME', 'de_DE.UTF-8'), ('GIO_MODULE_DIR', '/home/vincent/snap/code/common/.cache/gio-modules'), ('SSH_AGENT_PID', '1369'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/176/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vincent/Embedded-System/ros_motor_system/DynamixelSDK/install/dynamixel_sdk_custom_interfaces/lib:/home/vincent/Embedded-System/ros_motor_system/DynamixelSDK/install/dynamixel_sdk/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/vincent'), ('CHROME_DESKTOP', 'code.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.95.3'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/176/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/vincent/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/176/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'de_DE.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/176/usr/share/code/code'), ('MANAGERPID', '1224'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2406'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/vincent/Embedded-System/ros_motor_system/DynamixelSDK/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'vincent'), ('JOURNAL_STREAM', '8:37683'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'vincent'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/vincent-ThinkPad-T430:@/tmp/.ICE-unix/1406,unix/vincent-ThinkPad-T430:/tmp/.ICE-unix/1406'), ('GTK_EXE_PREFIX', '/snap/code/176/usr'), ('INVOCATION_ID', '0f68af6b2565473aa68d3a2fbe30b9df'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/176/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XDG_DATA_HOME', '/home/vincent/snap/code/176/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-c3580fd1f9.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/vincent/snap/code/176/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/vincent/Embedded-System/ros_motor_system/DynamixelSDK/install/dynamixel_sdk_examples:/home/vincent/Embedded-System/ros_motor_system/DynamixelSDK/install/dynamixel_sdk_custom_interfaces:/home/vincent/Embedded-System/ros_motor_system/DynamixelSDK/install/dynamixel_sdk:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/build/path2pos'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/vincent/snap/code/176/.local/share:/home/vincent/snap/code/176:/snap/code/176/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vincent/Embedded-System/ros_motor_system/DynamixelSDK/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/vincent/Embedded-System/ros_motor_system/DynamixelSDK/install/dynamixel_sdk_examples:/home/vincent/Embedded-System/ros_motor_system/DynamixelSDK/install/dynamixel_sdk_custom_interfaces:/home/vincent/Embedded-System/ros_motor_system/DynamixelSDK/install/dynamixel_sdk:/opt/ros/foxy')]), 'shell': False}
+[10.443272] (path2pos) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.447732] (-) TimerEvent: {}
+[10.450457] (path2pos) StdoutLine: {'line': b'-- Installing: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/lib/path2pos/pos_writer\n'}
+[10.452914] (path2pos) StdoutLine: {'line': b'-- Set runtime path of "/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/lib/path2pos/pos_writer" to ""\n'}
+[10.457967] (path2pos) StdoutLine: {'line': b'-- Installing: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/share/ament_index/resource_index/package_run_dependencies/path2pos\n'}
+[10.458561] (path2pos) StdoutLine: {'line': b'-- Installing: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/share/ament_index/resource_index/parent_prefix_path/path2pos\n'}
+[10.459820] (path2pos) StdoutLine: {'line': b'-- Up-to-date: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/share/path2pos/environment/ament_prefix_path.sh\n'}
+[10.460250] (path2pos) StdoutLine: {'line': b'-- Installing: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/share/path2pos/environment/ament_prefix_path.dsv\n'}
+[10.460607] (path2pos) StdoutLine: {'line': b'-- Up-to-date: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/share/path2pos/environment/path.sh\n'}
+[10.460755] (path2pos) StdoutLine: {'line': b'-- Installing: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/share/path2pos/environment/path.dsv\n'}
+[10.460864] (path2pos) StdoutLine: {'line': b'-- Up-to-date: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/share/path2pos/local_setup.bash\n'}
+[10.460970] (path2pos) StdoutLine: {'line': b'-- Up-to-date: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/share/path2pos/local_setup.sh\n'}
+[10.461074] (path2pos) StdoutLine: {'line': b'-- Up-to-date: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/share/path2pos/local_setup.zsh\n'}
+[10.461175] (path2pos) StdoutLine: {'line': b'-- Installing: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/share/path2pos/local_setup.dsv\n'}
+[10.461277] (path2pos) StdoutLine: {'line': b'-- Installing: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/share/path2pos/package.dsv\n'}
+[10.461378] (path2pos) StdoutLine: {'line': b'-- Up-to-date: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/share/ament_index/resource_index/packages/path2pos\n'}
+[10.461481] (path2pos) StdoutLine: {'line': b'-- Up-to-date: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/share/path2pos/cmake/path2posConfig.cmake\n'}
+[10.461598] (path2pos) StdoutLine: {'line': b'-- Up-to-date: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/share/path2pos/cmake/path2posConfig-version.cmake\n'}
+[10.461698] (path2pos) StdoutLine: {'line': b'-- Installing: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/install/path2pos/share/path2pos/package.xml\n'}
+[10.461819] (path2pos) CommandEnded: {'returncode': 0}
+[10.547906] (-) TimerEvent: {}
+[10.648427] (-) TimerEvent: {}
+[10.672727] (path2pos) JobEnded: {'identifier': 'path2pos', 'rc': 0}
+[10.674011] (-) EventReactorShutdown: {}

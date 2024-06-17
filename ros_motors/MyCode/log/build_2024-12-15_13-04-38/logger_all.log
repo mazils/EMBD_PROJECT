@@ -1,0 +1,107 @@
+[1.456s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.457s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff83da3550>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff83da3550>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff83c45eb0>)
+[2.577s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.578s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.578s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.579s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.579s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.579s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.580s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mp4d/ros_motors/MyCode'
+[2.580s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.581s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.581s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.582s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.582s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.582s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.582s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.583s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.583s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.679s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.680s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.681s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.681s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.681s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.682s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.683s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.683s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.684s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.684s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.685s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.685s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.686s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.686s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.687s] Level 1:colcon.colcon_core.package_identification:_identify(path2pos) by extensions ['ignore', 'ignore_ament_install']
+[2.687s] Level 1:colcon.colcon_core.package_identification:_identify(path2pos) by extension 'ignore'
+[2.688s] Level 1:colcon.colcon_core.package_identification:_identify(path2pos) by extension 'ignore_ament_install'
+[2.688s] Level 1:colcon.colcon_core.package_identification:_identify(path2pos) by extensions ['colcon_pkg']
+[2.688s] Level 1:colcon.colcon_core.package_identification:_identify(path2pos) by extension 'colcon_pkg'
+[2.689s] Level 1:colcon.colcon_core.package_identification:_identify(path2pos) by extensions ['colcon_meta']
+[2.689s] Level 1:colcon.colcon_core.package_identification:_identify(path2pos) by extension 'colcon_meta'
+[2.689s] Level 1:colcon.colcon_core.package_identification:_identify(path2pos) by extensions ['ros']
+[2.689s] Level 1:colcon.colcon_core.package_identification:_identify(path2pos) by extension 'ros'
+[2.709s] DEBUG:colcon.colcon_core.package_identification:Package 'path2pos' with type 'ros.ament_cmake' and name 'path2pos'
+[2.710s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.710s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.711s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.711s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.711s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.865s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.866s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.880s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/mp4d/ros_motors/DynamixelSDK/install
+[2.884s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/mp4d/ros_camera/install
+[2.894s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 258 installed packages in /opt/ros/foxy
+[2.909s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.553s] Level 5:colcon.colcon_core.verb:set package 'path2pos' build argument 'cmake_args' from command line to 'None'
+[3.554s] Level 5:colcon.colcon_core.verb:set package 'path2pos' build argument 'cmake_target' from command line to 'None'
+[3.554s] Level 5:colcon.colcon_core.verb:set package 'path2pos' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.554s] Level 5:colcon.colcon_core.verb:set package 'path2pos' build argument 'cmake_clean_cache' from command line to 'False'
+[3.554s] Level 5:colcon.colcon_core.verb:set package 'path2pos' build argument 'cmake_clean_first' from command line to 'False'
+[3.555s] Level 5:colcon.colcon_core.verb:set package 'path2pos' build argument 'cmake_force_configure' from command line to 'False'
+[3.555s] Level 5:colcon.colcon_core.verb:set package 'path2pos' build argument 'ament_cmake_args' from command line to 'None'
+[3.555s] Level 5:colcon.colcon_core.verb:set package 'path2pos' build argument 'catkin_cmake_args' from command line to 'None'
+[3.555s] Level 5:colcon.colcon_core.verb:set package 'path2pos' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.555s] DEBUG:colcon.colcon_core.verb:Building package 'path2pos' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mp4d/ros_motors/MyCode/build/path2pos', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mp4d/ros_motors/MyCode/install/path2pos', 'merge_install': False, 'path': '/home/mp4d/ros_motors/MyCode/path2pos', 'symlink_install': False, 'test_result_base': None}
+[3.557s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.564s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.567s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mp4d/ros_motors/MyCode/path2pos' with build type 'ament_cmake'
+[3.568s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mp4d/ros_motors/MyCode/path2pos'
+[3.582s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.584s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.584s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.646s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mp4d/ros_motors/MyCode/build/path2pos': CMAKE_PREFIX_PATH=/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk_examples:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk_custom_interfaces:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk:/opt/ros/foxy:/home/mp4d/ros_camera/install/usb_cam:/home/mp4d/ros_camera/install/cam_sub /usr/bin/cmake /home/mp4d/ros_motors/MyCode/path2pos -DCMAKE_INSTALL_PREFIX=/home/mp4d/ros_motors/MyCode/install/path2pos
+[15.120s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mp4d/ros_motors/MyCode/build/path2pos' returned '0': CMAKE_PREFIX_PATH=/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk_examples:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk_custom_interfaces:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk:/opt/ros/foxy:/home/mp4d/ros_camera/install/usb_cam:/home/mp4d/ros_camera/install/cam_sub /usr/bin/cmake /home/mp4d/ros_motors/MyCode/path2pos -DCMAKE_INSTALL_PREFIX=/home/mp4d/ros_motors/MyCode/install/path2pos
+[15.142s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mp4d/ros_motors/MyCode/build/path2pos': CMAKE_PREFIX_PATH=/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk_examples:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk_custom_interfaces:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk:/opt/ros/foxy:/home/mp4d/ros_camera/install/usb_cam:/home/mp4d/ros_camera/install/cam_sub /usr/bin/cmake --build /home/mp4d/ros_motors/MyCode/build/path2pos -- -j4 -l4
+[40.426s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mp4d/ros_motors/MyCode/build/path2pos' returned '2': CMAKE_PREFIX_PATH=/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk_examples:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk_custom_interfaces:/home/mp4d/ros_motors/DynamixelSDK/install/dynamixel_sdk:/opt/ros/foxy:/home/mp4d/ros_camera/install/usb_cam:/home/mp4d/ros_camera/install/cam_sub /usr/bin/cmake --build /home/mp4d/ros_motors/MyCode/build/path2pos -- -j4 -l4
+[40.555s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(path2pos)
+[40.571s] Level 1:colcon.colcon_core.environment:checking '/home/mp4d/ros_motors/MyCode/install/path2pos' for CMake module files
+[40.574s] Level 1:colcon.colcon_core.environment:checking '/home/mp4d/ros_motors/MyCode/install/path2pos' for CMake config files
+[40.576s] Level 1:colcon.colcon_core.environment:checking '/home/mp4d/ros_motors/MyCode/install/path2pos/bin'
+[40.577s] Level 1:colcon.colcon_core.environment:checking '/home/mp4d/ros_motors/MyCode/install/path2pos/lib/pkgconfig/path2pos.pc'
+[40.579s] Level 1:colcon.colcon_core.environment:checking '/home/mp4d/ros_motors/MyCode/install/path2pos/lib/python3.8/site-packages'
+[40.580s] Level 1:colcon.colcon_core.environment:checking '/home/mp4d/ros_motors/MyCode/install/path2pos/bin'
+[40.583s] INFO:colcon.colcon_core.shell:Creating package script '/home/mp4d/ros_motors/MyCode/install/path2pos/share/path2pos/package.ps1'
+[40.591s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mp4d/ros_motors/MyCode/install/path2pos/share/path2pos/package.dsv'
+[40.596s] INFO:colcon.colcon_core.shell:Creating package script '/home/mp4d/ros_motors/MyCode/install/path2pos/share/path2pos/package.sh'
+[40.602s] INFO:colcon.colcon_core.shell:Creating package script '/home/mp4d/ros_motors/MyCode/install/path2pos/share/path2pos/package.bash'
+[40.609s] INFO:colcon.colcon_core.shell:Creating package script '/home/mp4d/ros_motors/MyCode/install/path2pos/share/path2pos/package.zsh'
+[40.616s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mp4d/ros_motors/MyCode/install/path2pos/share/colcon-core/packages/path2pos)
+[40.619s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[40.621s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[40.623s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[40.624s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[40.709s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[40.710s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[40.710s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[40.710s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[40.715s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[40.717s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[40.720s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mp4d/ros_motors/MyCode/install/local_setup.ps1'
+[40.729s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mp4d/ros_motors/MyCode/install/_local_setup_util_ps1.py'
+[40.744s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mp4d/ros_motors/MyCode/install/setup.ps1'
+[40.754s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mp4d/ros_motors/MyCode/install/local_setup.sh'
+[40.759s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mp4d/ros_motors/MyCode/install/_local_setup_util_sh.py'
+[40.763s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mp4d/ros_motors/MyCode/install/setup.sh'
+[40.773s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mp4d/ros_motors/MyCode/install/local_setup.bash'
+[40.779s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mp4d/ros_motors/MyCode/install/setup.bash'
+[40.788s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mp4d/ros_motors/MyCode/install/local_setup.zsh'
+[40.794s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mp4d/ros_motors/MyCode/install/setup.zsh'

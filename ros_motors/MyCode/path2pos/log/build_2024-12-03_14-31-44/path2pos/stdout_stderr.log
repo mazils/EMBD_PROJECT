@@ -1,0 +1,12 @@
+[35m[1mScanning dependencies of target pos_writer[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/pos_writer.dir/src/pos_writer.cpp.o[0m
+[01m[K/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/src/pos_writer.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[01m[K/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/src/pos_writer.cpp:31:42:[m[K [01;31m[Kerror: [m[K‘[01m[KMinimalSubscriber[m[K’ has not been declared
+   31 |       "/set_draw_number", 10, std::bind(&[01;31m[KMinimalSubscriber[m[K::set_number_callback, this,,std::placeholders::_1));
+      |                                          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/src/pos_writer.cpp:31:87:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K,[m[K’ token
+   31 |       "/set_draw_number", 10, std::bind(&MinimalSubscriber::set_number_callback, this,[01;31m[K,[m[Kstd::placeholders::_1));
+      |                                                                                       [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/pos_writer.dir/build.make:63: CMakeFiles/pos_writer.dir/src/pos_writer.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/pos_writer.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

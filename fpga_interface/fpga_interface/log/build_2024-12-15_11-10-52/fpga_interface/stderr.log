@@ -1,0 +1,4 @@
+[01m[K/home/mp4d/fpga_interface/fpga_interface/src/interface_node.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::get_image_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/mp4d/fpga_interface/fpga_interface/src/interface_node.cpp:58:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KImageArray[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   58 |       uint8_t *[01;35m[KImageArray[m[K=msg->data.data();
+      |                [01;35m[K^~~~~~~~~~[m[K

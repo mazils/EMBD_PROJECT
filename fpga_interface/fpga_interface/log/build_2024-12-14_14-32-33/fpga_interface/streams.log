@@ -1,0 +1,41 @@
+[0.124s] Invoking command in '/home/vincent/Embedded-System/ros_interface_node/fpga_interface/build/fpga_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/vincent/Embedded-System/ros_interface_node/fpga_interface/build/fpga_interface -- -j4 -l4
+[0.656s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.740s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.150s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.366s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.378s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.710s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.896s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.903s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.305s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[2.598s] -- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)
+[2.647s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.846s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.876s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.876s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/vincent/Embedded-System/ros_interface_node/fpga_interface/include>
+[2.877s] -- Configured cppcheck exclude dirs and/or files: 
+[2.908s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.908s] -- Configured cpplint exclude dirs and/or files: 
+[2.915s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.937s] -- Added test 'lint_cmake' to check CMake code style
+[2.941s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[2.967s] -- Added test 'uncrustify' to check C / C++ code style
+[2.967s] -- Configured uncrustify additional arguments: 
+[2.973s] -- Added test 'xmllint' to check XML markup files
+[2.981s] -- Configuring done
+[2.996s] CMake Error at CMakeLists.txt:30 (add_executable):
+[2.996s]   Cannot find source file:
+[2.996s] 
+[2.996s]     src/xnn_inference_hw.c
+[2.997s] 
+[2.997s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+[2.997s]   .hpp .hxx .in .txx
+[2.997s] 
+[2.997s] 
+[2.998s] CMake Error at CMakeLists.txt:30 (add_executable):
+[2.999s]   No SOURCES given to target: interface_node
+[2.999s] 
+[2.999s] 
+[2.999s] CMake Generate step failed.  Build files cannot be regenerated correctly.
+[3.010s] make: *** [Makefile:266: cmake_check_build_system] Error 1
+[3.016s] Invoked command in '/home/vincent/Embedded-System/ros_interface_node/fpga_interface/build/fpga_interface' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/vincent/Embedded-System/ros_interface_node/fpga_interface/build/fpga_interface -- -j4 -l4

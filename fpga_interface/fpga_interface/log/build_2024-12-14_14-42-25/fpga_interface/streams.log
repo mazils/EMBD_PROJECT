@@ -1,0 +1,10 @@
+[0.025s] Invoking command in '/home/vincent/Embedded-System/ros_interface_node/fpga_interface/build/fpga_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/vincent/Embedded-System/ros_interface_node/fpga_interface/build/fpga_interface -- -j4 -l4
+[0.068s] CMake Error at CMakeLists.txt:32:
+[0.068s]   Parse error.  Function missing ending ")".  End of file reached.
+[0.068s] 
+[0.068s] 
+[0.068s] -- Configuring incomplete, errors occurred!
+[0.068s] See also "/home/vincent/Embedded-System/ros_interface_node/fpga_interface/build/fpga_interface/CMakeFiles/CMakeOutput.log".
+[0.069s] See also "/home/vincent/Embedded-System/ros_interface_node/fpga_interface/build/fpga_interface/CMakeFiles/CMakeError.log".
+[0.070s] make: *** [Makefile:356: cmake_check_build_system] Error 1
+[0.073s] Invoked command in '/home/vincent/Embedded-System/ros_interface_node/fpga_interface/build/fpga_interface' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/vincent/Embedded-System/ros_interface_node/fpga_interface/build/fpga_interface -- -j4 -l4

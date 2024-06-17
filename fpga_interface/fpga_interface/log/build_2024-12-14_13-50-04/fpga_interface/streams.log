@@ -1,0 +1,30 @@
+[0.020s] Invoking command in '/home/vincent/Embedded-System/ros_interface_node/fpga_interface/build/fpga_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/vincent/Embedded-System/ros_interface_node/fpga_interface/build/fpga_interface -- -j4 -l4
+[0.102s] [35m[1mScanning dependencies of target interface_node[0m
+[0.186s] [ 50%] [32mBuilding CXX object CMakeFiles/interface_node.dir/src/interface_node.cpp.o[0m
+[2.413s] [01m[K/home/vincent/Embedded-System/ros_interface_node/fpga_interface/src/interface_node.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::get_image_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.413s] [01m[K/home/vincent/Embedded-System/ros_interface_node/fpga_interface/src/interface_node.cpp:34:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.413s]    34 |     void get_image_callback([01;35m[Kconst sensor_msgs::msg::Image::SharedPtr msg[m[K)
+[2.414s]       |                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[8.046s] [100%] [32m[1mLinking CXX executable interface_node[0m
+[9.008s] [100%] Built target interface_node
+[9.028s] Invoked command in '/home/vincent/Embedded-System/ros_interface_node/fpga_interface/build/fpga_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/vincent/Embedded-System/ros_interface_node/fpga_interface/build/fpga_interface -- -j4 -l4
+[9.082s] Invoking command in '/home/vincent/Embedded-System/ros_interface_node/fpga_interface/build/fpga_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/vincent/Embedded-System/ros_interface_node/fpga_interface/build/fpga_interface
+[9.095s] -- Install configuration: ""
+[9.103s] -- Installing: /home/vincent/Embedded-System/ros_interface_node/fpga_interface/install/fpga_interface/lib/fpga_interface/interface_node
+[9.108s] -- Set runtime path of "/home/vincent/Embedded-System/ros_interface_node/fpga_interface/install/fpga_interface/lib/fpga_interface/interface_node" to ""
+[9.109s] -- Installing: /home/vincent/Embedded-System/ros_interface_node/fpga_interface/install/fpga_interface/share/ament_index/resource_index/package_run_dependencies/fpga_interface
+[9.109s] -- Installing: /home/vincent/Embedded-System/ros_interface_node/fpga_interface/install/fpga_interface/share/ament_index/resource_index/parent_prefix_path/fpga_interface
+[9.109s] -- Up-to-date: /home/vincent/Embedded-System/ros_interface_node/fpga_interface/install/fpga_interface/share/fpga_interface/environment/ament_prefix_path.sh
+[9.109s] -- Installing: /home/vincent/Embedded-System/ros_interface_node/fpga_interface/install/fpga_interface/share/fpga_interface/environment/ament_prefix_path.dsv
+[9.109s] -- Up-to-date: /home/vincent/Embedded-System/ros_interface_node/fpga_interface/install/fpga_interface/share/fpga_interface/environment/path.sh
+[9.109s] -- Installing: /home/vincent/Embedded-System/ros_interface_node/fpga_interface/install/fpga_interface/share/fpga_interface/environment/path.dsv
+[9.109s] -- Up-to-date: /home/vincent/Embedded-System/ros_interface_node/fpga_interface/install/fpga_interface/share/fpga_interface/local_setup.bash
+[9.110s] -- Up-to-date: /home/vincent/Embedded-System/ros_interface_node/fpga_interface/install/fpga_interface/share/fpga_interface/local_setup.sh
+[9.110s] -- Up-to-date: /home/vincent/Embedded-System/ros_interface_node/fpga_interface/install/fpga_interface/share/fpga_interface/local_setup.zsh
+[9.110s] -- Installing: /home/vincent/Embedded-System/ros_interface_node/fpga_interface/install/fpga_interface/share/fpga_interface/local_setup.dsv
+[9.110s] -- Installing: /home/vincent/Embedded-System/ros_interface_node/fpga_interface/install/fpga_interface/share/fpga_interface/package.dsv
+[9.110s] -- Up-to-date: /home/vincent/Embedded-System/ros_interface_node/fpga_interface/install/fpga_interface/share/ament_index/resource_index/packages/fpga_interface
+[9.110s] -- Up-to-date: /home/vincent/Embedded-System/ros_interface_node/fpga_interface/install/fpga_interface/share/fpga_interface/cmake/fpga_interfaceConfig.cmake
+[9.110s] -- Up-to-date: /home/vincent/Embedded-System/ros_interface_node/fpga_interface/install/fpga_interface/share/fpga_interface/cmake/fpga_interfaceConfig-version.cmake
+[9.110s] -- Installing: /home/vincent/Embedded-System/ros_interface_node/fpga_interface/install/fpga_interface/share/fpga_interface/package.xml
+[9.114s] Invoked command in '/home/vincent/Embedded-System/ros_interface_node/fpga_interface/build/fpga_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/vincent/Embedded-System/ros_interface_node/fpga_interface/build/fpga_interface

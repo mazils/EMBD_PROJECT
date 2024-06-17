@@ -1,0 +1,107 @@
+[0.294s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.294s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f8eccb72070>>, merge_install=False, metas=['./colcon.meta'], mixin=None, mixin_files=None, mixin_verb=('build',), packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f8eccb72070>, verb_name='build', verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f8eccabe0d0>)
+[0.510s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.511s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.511s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.511s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.511s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.512s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.512s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/vincent/Embedded-System/ros_motor_system/MyCode'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(path2pos) by extensions ['ignore', 'ignore_ament_install']
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(path2pos) by extension 'ignore'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(path2pos) by extension 'ignore_ament_install'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(path2pos) by extensions ['colcon_pkg']
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(path2pos) by extension 'colcon_pkg'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(path2pos) by extensions ['colcon_meta']
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(path2pos) by extension 'colcon_meta'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(path2pos) by extensions ['ros']
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(path2pos) by extension 'ros'
+[0.546s] DEBUG:colcon.colcon_core.package_identification:Package 'path2pos' with type 'ros.ament_cmake' and name 'path2pos'
+[0.546s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.547s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.547s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.547s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.547s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.568s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.568s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.571s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/vincent/Embedded-System/ros_motor_system/MyCode/install
+[0.572s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 257 installed packages in /opt/ros/foxy
+[0.575s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.682s] Level 5:colcon.colcon_core.verb:set package 'path2pos' build argument 'cmake_args' from command line to 'None'
+[0.682s] Level 5:colcon.colcon_core.verb:set package 'path2pos' build argument 'cmake_target' from command line to 'None'
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'path2pos' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'path2pos' build argument 'cmake_clean_cache' from command line to 'False'
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'path2pos' build argument 'cmake_clean_first' from command line to 'False'
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'path2pos' build argument 'cmake_force_configure' from command line to 'False'
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'path2pos' build argument 'ament_cmake_args' from command line to 'None'
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'path2pos' build argument 'catkin_cmake_args' from command line to 'None'
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'path2pos' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.683s] DEBUG:colcon.colcon_core.verb:Building package 'path2pos' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vincent/Embedded-System/ros_motor_system/MyCode/build/path2pos', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vincent/Embedded-System/ros_motor_system/MyCode/install/path2pos', 'merge_install': False, 'path': '/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos', 'symlink_install': False, 'test_result_base': None}
+[0.683s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.685s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.685s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos' with build type 'ament_cmake'
+[0.686s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos'
+[0.691s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.691s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.691s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.713s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vincent/Embedded-System/ros_motor_system/MyCode/build/path2pos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/vincent/Embedded-System/ros_motor_system/MyCode/build/path2pos -- -j4 -l4
+[1.726s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vincent/Embedded-System/ros_motor_system/MyCode/build/path2pos' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/vincent/Embedded-System/ros_motor_system/MyCode/build/path2pos -- -j4 -l4
+[1.757s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(path2pos)
+[1.761s] Level 1:colcon.colcon_core.environment:checking '/home/vincent/Embedded-System/ros_motor_system/MyCode/install/path2pos' for CMake module files
+[1.762s] Level 1:colcon.colcon_core.environment:checking '/home/vincent/Embedded-System/ros_motor_system/MyCode/install/path2pos' for CMake config files
+[1.762s] Level 1:colcon.colcon_core.shell:create_environment_hook('path2pos', 'cmake_prefix_path')
+[1.762s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vincent/Embedded-System/ros_motor_system/MyCode/install/path2pos/share/path2pos/hook/cmake_prefix_path.ps1'
+[1.763s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vincent/Embedded-System/ros_motor_system/MyCode/install/path2pos/share/path2pos/hook/cmake_prefix_path.dsv'
+[1.764s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vincent/Embedded-System/ros_motor_system/MyCode/install/path2pos/share/path2pos/hook/cmake_prefix_path.sh'
+[1.765s] Level 1:colcon.colcon_core.environment:checking '/home/vincent/Embedded-System/ros_motor_system/MyCode/install/path2pos/lib'
+[1.766s] Level 1:colcon.colcon_core.environment:checking '/home/vincent/Embedded-System/ros_motor_system/MyCode/install/path2pos/bin'
+[1.766s] Level 1:colcon.colcon_core.environment:checking '/home/vincent/Embedded-System/ros_motor_system/MyCode/install/path2pos/lib/pkgconfig/path2pos.pc'
+[1.766s] Level 1:colcon.colcon_core.environment:checking '/home/vincent/Embedded-System/ros_motor_system/MyCode/install/path2pos/lib/python3.8/site-packages'
+[1.766s] Level 1:colcon.colcon_core.environment:checking '/home/vincent/Embedded-System/ros_motor_system/MyCode/install/path2pos/bin'
+[1.767s] INFO:colcon.colcon_core.shell:Creating package script '/home/vincent/Embedded-System/ros_motor_system/MyCode/install/path2pos/share/path2pos/package.ps1'
+[1.768s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vincent/Embedded-System/ros_motor_system/MyCode/install/path2pos/share/path2pos/package.dsv'
+[1.768s] INFO:colcon.colcon_core.shell:Creating package script '/home/vincent/Embedded-System/ros_motor_system/MyCode/install/path2pos/share/path2pos/package.sh'
+[1.769s] INFO:colcon.colcon_core.shell:Creating package script '/home/vincent/Embedded-System/ros_motor_system/MyCode/install/path2pos/share/path2pos/package.bash'
+[1.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/vincent/Embedded-System/ros_motor_system/MyCode/install/path2pos/share/path2pos/package.zsh'
+[1.771s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vincent/Embedded-System/ros_motor_system/MyCode/install/path2pos/share/colcon-core/packages/path2pos)
+[1.782s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.782s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.782s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[1.783s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.796s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.796s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.796s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.817s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.817s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vincent/Embedded-System/ros_motor_system/MyCode/install/local_setup.ps1'
+[1.819s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vincent/Embedded-System/ros_motor_system/MyCode/install/_local_setup_util_ps1.py'
+[1.823s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vincent/Embedded-System/ros_motor_system/MyCode/install/setup.ps1'
+[1.825s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vincent/Embedded-System/ros_motor_system/MyCode/install/local_setup.sh'
+[1.826s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vincent/Embedded-System/ros_motor_system/MyCode/install/_local_setup_util_sh.py'
+[1.827s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vincent/Embedded-System/ros_motor_system/MyCode/install/setup.sh'
+[1.828s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vincent/Embedded-System/ros_motor_system/MyCode/install/local_setup.bash'
+[1.829s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vincent/Embedded-System/ros_motor_system/MyCode/install/setup.bash'
+[1.830s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vincent/Embedded-System/ros_motor_system/MyCode/install/local_setup.zsh'
+[1.831s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vincent/Embedded-System/ros_motor_system/MyCode/install/setup.zsh'

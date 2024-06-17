@@ -1,0 +1,4 @@
+[01m[K/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/src/pos_writer.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::set_number_callback(std_msgs::msg::Int32_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/src/pos_writer.cpp:139:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpos1[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  139 |           int [01;35m[Kpos1[m[K=(angle1+60)*1023/300;
+      |               [01;35m[K^~~~[m[K

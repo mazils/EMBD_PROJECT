@@ -1,0 +1,45 @@
+[0.020s] Invoking command in '/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/build/path2pos': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/build/path2pos -- -j4 -l4
+[0.064s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.099s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.439s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.632s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.648s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.939s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.988s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.153s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.365s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.370s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.387s] -- Looking for pthread.h
+[1.789s] -- Looking for pthread.h - found
+[1.789s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.937s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.937s] -- Looking for pthread_create in pthreads
+[2.042s] -- Looking for pthread_create in pthreads - not found
+[2.042s] -- Looking for pthread_create in pthread
+[2.156s] -- Looking for pthread_create in pthread - found
+[2.159s] -- Found Threads: TRUE  
+[2.564s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.671s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.690s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.691s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/include>
+[2.692s] -- Configured cppcheck exclude dirs and/or files: 
+[2.709s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.709s] -- Configured cpplint exclude dirs and/or files: 
+[2.713s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.719s] -- Added test 'lint_cmake' to check CMake code style
+[2.721s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[2.742s] -- Added test 'uncrustify' to check C / C++ code style
+[2.742s] -- Configured uncrustify additional arguments: 
+[2.745s] -- Added test 'xmllint' to check XML markup files
+[2.749s] -- Configuring done
+[2.757s] -- Generating done
+[2.761s] -- Build files have been written to: /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/build/path2pos
+[2.822s] [ 50%] [32mBuilding CXX object CMakeFiles/pos_writer.dir/src/pos_writer.cpp.o[0m
+[2.890s] [01m[K/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/src/pos_writer.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[2.890s]     6 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+[2.890s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.891s] compilation terminated.
+[2.893s] make[2]: *** [CMakeFiles/pos_writer.dir/build.make:63: CMakeFiles/pos_writer.dir/src/pos_writer.cpp.o] Error 1
+[2.893s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/pos_writer.dir/all] Error 2
+[2.893s] make: *** [Makefile:141: all] Error 2
+[2.897s] Invoked command in '/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/build/path2pos' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/build/path2pos -- -j4 -l4

@@ -1,0 +1,14 @@
+[0.406s] Invoking command in '/home/mp4d/fpga_interface/fpga_interface/build/fpga_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mp4d/fpga_interface/fpga_interface/build/fpga_interface -- -j4 -l4
+[1.299s] [35m[1mScanning dependencies of target interface_node[0m
+[1.768s] [ 25%] [32mBuilding CXX object CMakeFiles/interface_node.dir/src/interface_node.cpp.o[0m
+[41.275s] [01m[K/home/mp4d/fpga_interface/fpga_interface/src/interface_node.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[41.277s] [01m[K/home/mp4d/fpga_interface/fpga_interface/src/interface_node.cpp:42:16:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[41.292s]    42 |         exit(0)
+[41.303s]       |                [01;31m[K^[m[K
+[41.305s]       |                [32m[K;[m[K
+[41.325s]    43 |       [32m[K}[m[K
+[41.327s]       |       [32m[K~[m[K         
+[73.452s] make[2]: *** [CMakeFiles/interface_node.dir/build.make:63: CMakeFiles/interface_node.dir/src/interface_node.cpp.o] Error 1
+[73.453s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/interface_node.dir/all] Error 2
+[73.458s] make: *** [Makefile:141: all] Error 2
+[73.505s] Invoked command in '/home/mp4d/fpga_interface/fpga_interface/build/fpga_interface' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mp4d/fpga_interface/fpga_interface/build/fpga_interface -- -j4 -l4

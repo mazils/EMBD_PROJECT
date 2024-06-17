@@ -1,0 +1,23 @@
+[35m[1mScanning dependencies of target pos_writer[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/pos_writer.dir/src/pos_writer.cpp.o[0m
+[01m[K/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/src/pos_writer.cpp:82:35:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’
+   82 |     void set_number_callback[34m[K([m[Kconst[01;31m[K [m[K[32m[Kstd_msgs[m[K::msg::int::SharedPtr msg) const
+      |                             [34m[K~[m[K     [01;31m[K^[m[K[32m[K~~~~~~~~[m[K
+      |                                   [32m[K)[m[K
+[01m[K/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/src/pos_writer.cpp:82:30:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   82 |     void set_number_callback([01;31m[Kconst[m[K std_msgs::msg::int::SharedPtr msg) const
+      |                              [01;31m[K^~~~~[m[K
+      |                                   [32m[K;[m[K
+[01m[K/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/src/pos_writer.cpp:82:51:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kint[m[K’
+   82 |     void set_number_callback(const std_msgs::msg::[01;31m[Kint[m[K::SharedPtr msg) const
+      |                                                   [01;31m[K^~~[m[K
+[01m[K/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/src/pos_writer.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[01m[K/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/src/pos_writer.cpp:31:29:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   31 |       subscription_ = this->[01;31m[Kcreate_subscription<std_msgs::msg::int>[m[K(
+      |                             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/vincent/Embedded-System/ros_motor_system/MyCode/path2pos/src/pos_writer.cpp:32:42:[m[K [01;31m[Kerror: [m[K‘[01m[KMinimalSubscriber[m[K’ has not been declared
+   32 |       "/set_draw_number", 10, std::bind(&[01;31m[KMinimalSubscriber[m[K::set_number_callback, this, _1));
+      |                                          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/pos_writer.dir/build.make:63: CMakeFiles/pos_writer.dir/src/pos_writer.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/pos_writer.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
